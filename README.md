@@ -2,42 +2,36 @@
 
 围绕博世（Bosch）汽车客户业务方向的**业务侧刷题平台**，帮助系统掌握数据合规、自动驾驶、地图、具身智能、座舱及博世业务代码（XC / CR / BUD / RBCN / RBCC / BEG / AAE）的知识框架。
 
+> 本项目基于 [tccp-practice](https://github.com/supernc/tccp-practice)（TCCP 刷题平台）的完整架构与代码改造，仅替换题目内容与领域定义，保留了全部原有功能。
+
 ## 题库
 
 共 **420 题**，7 个领域各 60 题：
 
-| 领域 | 题目文件 | 内容侧重 |
-|------|---------|---------|
-| 数据合规 | questions-compliance.js | 合规云 vs 公有云、360 环视/哨兵、脱敏、出境评估 |
-| 自动驾驶 | questions-autonomous.js | SAE 分级、感知-决策-执行、端到端、数据闭环 |
-| 地图 | questions-map.js | 高精/导航地图、测绘资质、去图化、车图云 |
-| 具身智能 | questions-embodied.js | VLA、数据采集、仿真、腾讯云具身方案 |
-| 座舱 | questions-cockpit.js | 域控制器、舱驾一体、芯片、车手互联 |
-| XC 跨域计算 | questions-xc.js | 博世 XC 事业部、高低阶智驾、域控 |
-| 博世代码模块 | questions-bosch-code.js | CR/BUD/RBCN/RBCC/BEG/AAE 定位 |
+| 领域 | 内容侧重 |
+|------|---------|
+| 数据合规 | 合规云 vs 公有云、360 环视/哨兵、脱敏、出境评估 |
+| 自动驾驶 | SAE 分级、感知-决策-执行、端到端、数据闭环 |
+| 地图 | 高精/导航地图、测绘资质、去图化、车图云 |
+| 具身智能 | VLA、数据采集、仿真、腾讯云具身方案 |
+| 座舱 | 域控制器、舱驾一体、芯片、车手互联 |
+| XC 跨域计算 | 博世 XC 事业部、高低阶智驾、域控 |
+| 博世代码模块 | CR/BUD/RBCN/RBCC/BEG/AAE 定位 |
 
 ## 功能
 
-- 领域练习 / 随机自测（可选 10/20/30/50 题）
-- 收藏、错题本、做题统计（近 7 天趋势 + 按领域正确率）
-- CSV 导出（含领域列，Excel 可直接打开）
-- 本地持久化（localStorage，刷新不丢）
+完整继承 TCCP 刷题平台的能力：
+
+- 模拟考试（随机自测）、章节/领域练习、随机练习、实操模拟题
+- 错题本、收藏夹、数据看板（趋势图/热力图/雷达图）、连续打卡
+- 数据导出/导入（JSON 跨设备迁移）、密码门禁
 
 ## 技术栈
 
-纯原生 JavaScript（ES Modules），无构建、无依赖。题目数据按领域拆分到 `questions-*.js`，`questions.js` 为入口汇总。
-
-## 本地运行
-
-```bash
-python3 -m http.server 4180
-# 浏览器打开 http://localhost:4180/
-```
-
-> 因使用 ES Modules，需通过 HTTP 打开，不能直接双击 index.html。
+React 18 + TypeScript + Vite + TailwindCSS + Recharts（与 tccp-practice 一致）。
 
 ## 更新题目
 
-只需编辑对应领域的 `questions-*.js`（题目结构：`id / chapter / type / question / options / answer / explanation`），推送到 `main` 分支后 GitHub Actions 自动部署。
+题目按领域存放于 `src/data/questions/chapter1-7.json`，领域定义在 `src/data/chapters.ts`。改完提交 `main` 分支，GitHub Actions 自动构建部署。
 
-> 内容基于公司内部知识库与公开法规整理，仅供内部学习参考。
+> 内容基于公司内部知识库与公开法规整理，仅供内部学习参考。访问密码：`bosch2026`。

@@ -1,0 +1,1988 @@
+[
+  {
+    "id": "201",
+    "stem": "按 SAE 分级，驾驶员仍需全程监控、随时接管，系统只提供横向或纵向单一控制的级别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "L0"
+      },
+      {
+        "label": "B",
+        "text": "L1"
+      },
+      {
+        "label": "C",
+        "text": "L3"
+      },
+      {
+        "label": "D",
+        "text": "L5"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "L1 是驾驶辅助，系统只提供横向（车道保持）或纵向（ACC）单一控制，驾驶员仍需全程监控并随时接管。L3 起才是系统主导。",
+    "difficulty": 1
+  },
+  {
+    "id": "202",
+    "stem": "「驾驶责任从人到车转移」的分水岭是哪个级别？",
+    "options": [
+      {
+        "label": "A",
+        "text": "L2"
+      },
+      {
+        "label": "B",
+        "text": "L3"
+      },
+      {
+        "label": "C",
+        "text": "L4"
+      },
+      {
+        "label": "D",
+        "text": "L5"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "L3（有条件自动驾驶）是责任转移分水岭：系统负责驾驶，但要求驾驶员在系统请求时接管。L2 仍由人主导。",
+    "difficulty": 1
+  },
+  {
+    "id": "203",
+    "stem": "自动驾驶「感知-决策-执行」三层架构中，激光雷达、摄像头、毫米波雷达属于哪一层？",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知层"
+      },
+      {
+        "label": "B",
+        "text": "决策层"
+      },
+      {
+        "label": "C",
+        "text": "执行层"
+      },
+      {
+        "label": "D",
+        "text": "云平台层"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "摄像头、激光雷达、毫米波雷达、超声波等传感器构成感知层，负责理解车辆周围环境。",
+    "difficulty": 1
+  },
+  {
+    "id": "204",
+    "stem": "线控底盘、转向、制动属于自动驾驶架构的哪一层？",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知层"
+      },
+      {
+        "label": "B",
+        "text": "决策层"
+      },
+      {
+        "label": "C",
+        "text": "执行层"
+      },
+      {
+        "label": "D",
+        "text": "通信层"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "执行层负责把决策指令转化为车辆动作，包括线控底盘、转向、制动等执行机构。",
+    "difficulty": 1
+  },
+  {
+    "id": "205",
+    "stem": "「端到端」智驾方案的核心特征是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "传感器、芯片、算法分别外包"
+      },
+      {
+        "label": "B",
+        "text": "用单一神经网络从传感器输入直接输出驾驶动作"
+      },
+      {
+        "label": "C",
+        "text": "必须依赖高精地图"
+      },
+      {
+        "label": "D",
+        "text": "不需要任何数据"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "端到端指用一个神经网络从传感器输入直接映射到驾驶动作，取代传统模块化流水线，是近两年高阶智驾的突破方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "206",
+    "stem": "相比「端到端」，「模块化」智驾方案的特点是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知、定位、规划、控制逐级流水线，可解释性强但模块间误差会累积"
+      },
+      {
+        "label": "B",
+        "text": "只有一个神经网络"
+      },
+      {
+        "label": "C",
+        "text": "完全不需要传感器"
+      },
+      {
+        "label": "D",
+        "text": "只能用于 L4"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "模块化按感知→定位→规划→控制逐级处理，可解释性强、便于调试，但模块间误差会累积，近年被端到端冲击。",
+    "difficulty": 1
+  },
+  {
+    "id": "207",
+    "stem": "AEB（自动紧急制动）属于哪种级别的智驾功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶智驾"
+      },
+      {
+        "label": "B",
+        "text": "L1-L2 基础 ADAS"
+      },
+      {
+        "label": "C",
+        "text": "L4 自动驾驶"
+      },
+      {
+        "label": "D",
+        "text": "纯娱乐功能"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "AEB 是最基础也最关键的安全功能，属于 L1-L2 基础 ADAS，靠传感器融合实现碰撞预警与自动刹车。",
+    "difficulty": 1
+  },
+  {
+    "id": "208",
+    "stem": "AEB 通常需要「摄像头+毫米波雷达」冗余的原因是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "为了更省电"
+      },
+      {
+        "label": "B",
+        "text": "单一传感器有盲区，多源融合才能可靠感知碰撞风险"
+      },
+      {
+        "label": "C",
+        "text": "为了好看"
+      },
+      {
+        "label": "D",
+        "text": "摄像头比雷达便宜"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "AEB 是安全关键功能，单一传感器在夜间、逆光等场景有盲区，雷达+摄像头多源融合才能保证安全冗余。",
+    "difficulty": 1
+  },
+  {
+    "id": "209",
+    "stem": "城市 NOA（导航辅助驾驶）属于哪种智驾能力？",
+    "options": [
+      {
+        "label": "A",
+        "text": "低阶基础辅助"
+      },
+      {
+        "label": "B",
+        "text": "高阶智驾"
+      },
+      {
+        "label": "C",
+        "text": "完全不需要地图"
+      },
+      {
+        "label": "D",
+        "text": "纯硬件功能"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "城市 NOA 是导航辅助驾驶在城市复杂路况下的高阶能力，是 2025-2026 年高阶智驾的竞争焦点。",
+    "difficulty": 1
+  },
+  {
+    "id": "210",
+    "stem": "「记忆泊车」功能的典型场景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "记住常停车位，自动完成泊车"
+      },
+      {
+        "label": "B",
+        "text": "只在高速行驶"
+      },
+      {
+        "label": "C",
+        "text": "只用于卡车"
+      },
+      {
+        "label": "D",
+        "text": "与泊车无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "记忆泊车让车辆记住用户常停的车位和路线，再次进入时可自动泊入，属于高阶智驾的典型功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "211",
+    "stem": "自动驾驶「数据闭环」的正确流程是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "训练→采集→标注→仿真→回灌"
+      },
+      {
+        "label": "B",
+        "text": "采集→脱敏→标注→训练→仿真→OTA回灌"
+      },
+      {
+        "label": "C",
+        "text": "标注→采集→回灌→训练"
+      },
+      {
+        "label": "D",
+        "text": "仿真→训练→采集→标注"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "数据闭环是「采集→回传→脱敏→标注→训练→仿真评测→OTA 回灌→再采集」的循环，脱敏是合规前提。",
+    "difficulty": 1
+  },
+  {
+    "id": "212",
+    "stem": "为什么高阶智驾高度依赖「数据闭环」？",
+    "options": [
+      {
+        "label": "A",
+        "text": "谁的实车数据多、闭环快，谁的智驾能力就强"
+      },
+      {
+        "label": "B",
+        "text": "数据闭环只是噱头"
+      },
+      {
+        "label": "C",
+        "text": "与算法无关"
+      },
+      {
+        "label": "D",
+        "text": "数据越少越好"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "高阶智驾的胜负手是数据：实车数据越多、闭环越快，模型能力越强，数据是核心壁垒。",
+    "difficulty": 1
+  },
+  {
+    "id": "213",
+    "stem": "车载「域控制器」在自动驾驶中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车载中央算力平台，运行感知、规划、控制算法"
+      },
+      {
+        "label": "B",
+        "text": "只是收音机"
+      },
+      {
+        "label": "C",
+        "text": "只负责导航地图"
+      },
+      {
+        "label": "D",
+        "text": "与智驾无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "域控制器是车载中央算力平台，集中运行感知、决策规划等算法，是智驾系统的「大脑」。",
+    "difficulty": 1
+  },
+  {
+    "id": "214",
+    "stem": "博世 XC 正在研发的下一代域控制器，目标支持的传感器接入规模是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "10-15 个雷达、10-15 个摄像头、2-4 个激光雷达"
+      },
+      {
+        "label": "B",
+        "text": "只支持 1 个摄像头"
+      },
+      {
+        "label": "C",
+        "text": "只支持超声波"
+      },
+      {
+        "label": "D",
+        "text": "不接传感器"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "博世 XC 下一代域控制器目标支持 10-15 个雷达、10-15 个摄像头、2-4 个激光雷达，覆盖 L2-L3 功能开发。",
+    "difficulty": 1
+  },
+  {
+    "id": "215",
+    "stem": "L3 自动驾驶量产落地的关键瓶颈是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政策法规与责任认定逐步明确"
+      },
+      {
+        "label": "B",
+        "text": "传感器太贵买不起"
+      },
+      {
+        "label": "C",
+        "text": "芯片功耗太高"
+      },
+      {
+        "label": "D",
+        "text": "完全不需要任何条件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "L3 的量产瓶颈主要在政策法规和责任认定，随着试点放开才逐步落地，技术上 L2++ 已具备基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "216",
+    "stem": "博世高阶智驾的「双线布局」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶（L3/L4 研发）+ 低阶（L2+ 量产）组合"
+      },
+      {
+        "label": "B",
+        "text": "只做高速场景"
+      },
+      {
+        "label": "C",
+        "text": "只做城市场景"
+      },
+      {
+        "label": "D",
+        "text": "只做泊车"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "博世用「高阶（L3/L4 研发）+ 低阶（L2+ 量产）」双线布局，覆盖不同价位车型，最大化研发效率。",
+    "difficulty": 1
+  },
+  {
+    "id": "217",
+    "stem": "博世高阶智驾的技术演进路线是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "从高速脱手驾驶到城市脱手驾驶"
+      },
+      {
+        "label": "B",
+        "text": "从城市到高速"
+      },
+      {
+        "label": "C",
+        "text": "只做高速"
+      },
+      {
+        "label": "D",
+        "text": "只做城市"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "博世遵循从高速脱手驾驶到城市场景脱手驾驶的路线迭代，最终实现城市任意工况脱手驾驶。",
+    "difficulty": 1
+  },
+  {
+    "id": "218",
+    "stem": "腾讯云×博世高阶智驾合作的标志性成果是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶智驾方案 18 个月从定点到量产"
+      },
+      {
+        "label": "B",
+        "text": "共同造车"
+      },
+      {
+        "label": "C",
+        "text": "共同研发芯片"
+      },
+      {
+        "label": "D",
+        "text": "只在存储上合作"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "腾讯云×博世中国合作的标志性成果是高阶智驾方案「18 个月从定点到量产」，数据与应用部署在腾讯智能汽车专有云。",
+    "difficulty": 1
+  },
+  {
+    "id": "219",
+    "stem": "腾讯云支撑自动驾驶研发的核心产品是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "TADP 自动驾驶开发平台"
+      },
+      {
+        "label": "B",
+        "text": "只有 CDN"
+      },
+      {
+        "label": "C",
+        "text": "只有邮箱"
+      },
+      {
+        "label": "D",
+        "text": "只有直播"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "腾讯云 TADP 自动驾驶开发平台覆盖数据回传、标注、训练、仿真全链路，是自动驾驶研发的核心工具链。",
+    "difficulty": 1
+  },
+  {
+    "id": "220",
+    "stem": "自动驾驶训练最依赖的云资源是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "GPU 算力集群"
+      },
+      {
+        "label": "B",
+        "text": "只有域名服务"
+      },
+      {
+        "label": "C",
+        "text": "只有短信服务"
+      },
+      {
+        "label": "D",
+        "text": "只有对象存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "端到端大模型训练需要大量 GPU 算力集群，弹性扩缩容是云的核心价值。",
+    "difficulty": 1
+  },
+  {
+    "id": "221",
+    "stem": "自动驾驶原始采集数据（含人脸车牌）进入训练前必须先做什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "脱敏（人脸模糊、车牌打码）"
+      },
+      {
+        "label": "B",
+        "text": "直接训练"
+      },
+      {
+        "label": "C",
+        "text": "公开发布"
+      },
+      {
+        "label": "D",
+        "text": "直接卖给第三方"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "原始数据含人脸车牌，属重要数据，必须脱敏后才能用于训练、仿真或共享。",
+    "difficulty": 1
+  },
+  {
+    "id": "222",
+    "stem": "「高精地图」在 L3+ 智驾中的传统角色是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "提供车道级先验知识，辅助定位与规划"
+      },
+      {
+        "label": "B",
+        "text": "只做导航提示"
+      },
+      {
+        "label": "C",
+        "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只用于娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "高精地图提供车道级、厘米级的先验知识，辅助定位与规划，是传统 L3+ 智驾的重要依赖，近年正向轻地图演进。",
+    "difficulty": 1
+  },
+  {
+    "id": "223",
+    "stem": "「轻地图/去图化」趋势对自动驾驶意味着？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用 BEV+Transformer 实时感知降低对高精地图依赖"
+      },
+      {
+        "label": "B",
+        "text": "完全不需要地图"
+      },
+      {
+        "label": "C",
+        "text": "地图精度要求更高"
+      },
+      {
+        "label": "D",
+        "text": "与感知无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "去图化用 BEV+Transformer 实时感知替代静态高精地图，解决高精地图成本高、更新慢的痛点。",
+    "difficulty": 1
+  },
+  {
+    "id": "224",
+    "stem": "自动驾驶「仿真评测」的主要价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在虚拟环境低成本、大规模验证算法，加速迭代"
+      },
+      {
+        "label": "B",
+        "text": "只做展示"
+      },
+      {
+        "label": "C",
+        "text": "与实际测试无关"
+      },
+      {
+        "label": "D",
+        "text": "比实车测试更慢"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "仿真能在虚拟环境低成本、大规模、可复现地验证算法，覆盖实车难以测试的极端场景，加速迭代。",
+    "difficulty": 1
+  },
+  {
+    "id": "225",
+    "stem": "「OTA 回灌」在数据闭环中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把训练好的新模型远程下发到车端，形成闭环"
+      },
+      {
+        "label": "B",
+        "text": "只是更新导航地图"
+      },
+      {
+        "label": "C",
+        "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只更新音乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "OTA 回灌把训练好的新模型、新算法远程下发到车端，完成数据闭环的最后一环，实现持续进化。",
+    "difficulty": 1
+  },
+  {
+    "id": "226",
+    "stem": "自动驾驶中「传感器融合」的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多源信息互补，弥补单一传感器盲区，提升可靠性"
+      },
+      {
+        "label": "B",
+        "text": "只是为了省成本"
+      },
+      {
+        "label": "C",
+        "text": "减少传感器数量"
+      },
+      {
+        "label": "D",
+        "text": "与感知无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "传感器融合让摄像头、雷达、激光雷达等多源信息互补，弥补单一传感器盲区，提升感知可靠性和安全性。",
+    "difficulty": 1
+  },
+  {
+    "id": "227",
+    "stem": "L4 自动驾驶的典型落地场景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Robotaxi（自动驾驶出租车）示范运营"
+      },
+      {
+        "label": "B",
+        "text": "普通私家车"
+      },
+      {
+        "label": "C",
+        "text": "只能在实验室"
+      },
+      {
+        "label": "D",
+        "text": "完全不能落地"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "L4 目前主要在 Robotaxi、园区摆渡等限定场景示范运营，离私家车大规模普及还有距离。",
+    "difficulty": 1
+  },
+  {
+    "id": "228",
+    "stem": "「ODD」（运行设计域）指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动驾驶系统被设计可安全运行的特定条件范围"
+      },
+      {
+        "label": "B",
+        "text": "车辆的油耗"
+      },
+      {
+        "label": "C",
+        "text": "车辆的售价"
+      },
+      {
+        "label": "D",
+        "text": "与智驾无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "ODD（Operational Design Domain）是自动驾驶系统被设计可安全运行的条件范围，如天气、道路类型、速度等。",
+    "difficulty": 1
+  },
+  {
+    "id": "229",
+    "stem": "智驾「高低阶」成本差异的核心来源是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶贵在传感器+算力+数据，低阶靠规模化摊薄"
+      },
+      {
+        "label": "B",
+        "text": "两者成本一样"
+      },
+      {
+        "label": "C",
+        "text": "低阶更贵"
+      },
+      {
+        "label": "D",
+        "text": "与硬件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "高阶方案贵在激光雷达、大算力域控和海量数据，低阶方案靠传感器精简+规模化摊薄成本。",
+    "difficulty": 1
+  },
+  {
+    "id": "230",
+    "stem": "博世 2023 年全球售出雷达和视频传感器的数量是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1700 万个"
+      },
+      {
+        "label": "B",
+        "text": "170 万个"
+      },
+      {
+        "label": "C",
+        "text": "17 万个"
+      },
+      {
+        "label": "D",
+        "text": "1.7 万个"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "博世 2023 年全球售出 1700 万个雷达和视频传感器，是低阶 ADAS 的全球龙头。",
+    "difficulty": 1
+  },
+  {
+    "id": "231",
+    "stem": "自动驾驶「感知层」常用的传感器包括哪些？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "摄像头"
+      },
+      {
+        "label": "B",
+        "text": "毫米波雷达"
+      },
+      {
+        "label": "C",
+        "text": "激光雷达"
+      },
+      {
+        "label": "D",
+        "text": "超声波传感器"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "感知层传感器包括摄像头（视觉）、毫米波雷达（测距测速）、激光雷达（3D 点云）、超声波（近距），各有优劣，常融合使用。",
+    "difficulty": 1
+  },
+  {
+    "id": "232",
+    "stem": "激光雷达相比摄像头的核心优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "提供精确 3D 点云，不受光照影响，测距精准"
+      },
+      {
+        "label": "B",
+        "text": "更便宜"
+      },
+      {
+        "label": "C",
+        "text": "更省电"
+      },
+      {
+        "label": "D",
+        "text": "体积更小"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "激光雷达提供精确 3D 点云、测距精准、不受光照影响，但成本高，是 L3+ 的重要传感器。",
+    "difficulty": 1
+  },
+  {
+    "id": "233",
+    "stem": "毫米波雷达的核心优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "测距测速精准，恶劣天气穿透力强"
+      },
+      {
+        "label": "B",
+        "text": "能看到颜色"
+      },
+      {
+        "label": "C",
+        "text": "分辨率最高"
+      },
+      {
+        "label": "D",
+        "text": "最便宜"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "毫米波雷达测距测速精准、恶劣天气（雨雾）穿透力强，但分辨率低，常与摄像头融合用于 AEB/ACC。",
+    "difficulty": 1
+  },
+  {
+    "id": "234",
+    "stem": "摄像头的核心优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "丰富的语义信息（颜色、车道线、标识），成本低"
+      },
+      {
+        "label": "B",
+        "text": "不受光照影响"
+      },
+      {
+        "label": "C",
+        "text": "测距最精准"
+      },
+      {
+        "label": "D",
+        "text": "不需要算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "摄像头提供丰富的语义信息（车道线、交通标识、行人），成本低，但受光照、天气影响大，需融合其他传感器。",
+    "difficulty": 1
+  },
+  {
+    "id": "235",
+    "stem": "「端到端大模型」相比模块化方案的主要优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "减少模块间误差累积，上限更高、泛化更强"
+      },
+      {
+        "label": "B",
+        "text": "完全不需要数据"
+      },
+      {
+        "label": "C",
+        "text": "可解释性更强"
+      },
+      {
+        "label": "D",
+        "text": "成本更高"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "端到端大模型减少模块间误差累积，上限更高、泛化更强，但可解释性弱、依赖海量数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "236",
+    "stem": "「端到端大模型」的主要挑战是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可解释性弱、依赖海量高质量数据、安全性验证难"
+      },
+      {
+        "label": "B",
+        "text": "完全无挑战"
+      },
+      {
+        "label": "C",
+        "text": "成本更低"
+      },
+      {
+        "label": "D",
+        "text": "不需要算力"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "端到端模型可解释性弱、依赖海量高质量数据、安全性验证困难，是落地的主要挑战。",
+    "difficulty": 1
+  },
+  {
+    "id": "237",
+    "stem": "自动驾驶「影子模式」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "系统在后台运行但不控车，对比人类驾驶行为收集数据"
+      },
+      {
+        "label": "B",
+        "text": "夜间模式"
+      },
+      {
+        "label": "C",
+        "text": "省电模式"
+      },
+      {
+        "label": "D",
+        "text": "与数据无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "影子模式让智驾系统在后台运行但不实际控车，对比人类驾驶行为收集差异数据，用于训练迭代。",
+    "difficulty": 1
+  },
+  {
+    "id": "238",
+    "stem": "自动驾驶研发中「数据标注」的对象通常是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对采集图像/点云标注物体、车道线等供模型学习"
+      },
+      {
+        "label": "B",
+        "text": "给车贴标签"
+      },
+      {
+        "label": "C",
+        "text": "与训练无关"
+      },
+      {
+        "label": "D",
+        "text": "只标注文字"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "数据标注对采集的图像、点云标注物体、车道线、行人等，是监督学习训练的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "239",
+    "stem": "腾讯云「数据万象」在自动驾驶中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "基于视觉-语言大模型做多模态检索，加速找数据"
+      },
+      {
+        "label": "B",
+        "text": "只存图片"
+      },
+      {
+        "label": "C",
+        "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只做压缩"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "数据万象基于视觉-语言大模型实现多模态检索，帮助快速找到相似场景样本，加速数据闭环。",
+    "difficulty": 1
+  },
+  {
+    "id": "240",
+    "stem": "向量数据库在智驾数据闭环中的典型应用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "图像相似检索，快速找到相似场景样本"
+      },
+      {
+        "label": "B",
+        "text": "只存文本"
+      },
+      {
+        "label": "C",
+        "text": "与检索无关"
+      },
+      {
+        "label": "D",
+        "text": "只做关系查询"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "向量数据库用于图像相似检索，从海量采集数据中快速找到相似场景样本，博世高阶智驾数据闭环即采用此方案。",
+    "difficulty": 1
+  },
+  {
+    "id": "241",
+    "stem": "「车云一体」的核心含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车端、云端、手机端打通，数据驱动持续迭代"
+      },
+      {
+        "label": "B",
+        "text": "车和云物理合一"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只做车联网"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "车云一体打通车端、云端、手机端，实现数据闭环与持续迭代，是腾讯汽车云的核心战略。",
+    "difficulty": 1
+  },
+  {
+    "id": "242",
+    "stem": "自动驾驶「年数据量 100PB」意味着对云存储的首要需求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "海量、低成本、高吞吐的对象存储"
+      },
+      {
+        "label": "B",
+        "text": "只要小容量"
+      },
+      {
+        "label": "C",
+        "text": "与存储无关"
+      },
+      {
+        "label": "D",
+        "text": "只存文本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "自动驾驶年数据量可达 100PB，需要海量、低成本、高吞吐的对象存储（如 COS）承载。",
+    "difficulty": 1
+  },
+  {
+    "id": "243",
+    "stem": "自动驾驶研发的「TCO 优化」主要靠？",
+    "options": [
+      {
+        "label": "A",
+        "text": "弹性算力按需扩缩容 + 存储分层"
+      },
+      {
+        "label": "B",
+        "text": "无限购买硬件"
+      },
+      {
+        "label": "C",
+        "text": "与云无关"
+      },
+      {
+        "label": "D",
+        "text": "只用最贵的"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "通过弹性算力按需扩缩容、存储分层（热冷数据分储）等手段，降低自动驾驶研发的总体拥有成本 TCO。",
+    "difficulty": 1
+  },
+  {
+    "id": "244",
+    "stem": "L2 级智驾的典型功能组合是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自适应巡航（ACC）+ 车道保持（LKA）"
+      },
+      {
+        "label": "B",
+        "text": "完全无人驾驶"
+      },
+      {
+        "label": "C",
+        "text": "只有 AEB"
+      },
+      {
+        "label": "D",
+        "text": "只有泊车"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "L2 是组合驾驶辅助，典型是 ACC（纵向）+ LKA（横向）同时工作，但驾驶员仍需全程监控。",
+    "difficulty": 1
+  },
+  {
+    "id": "245",
+    "stem": "「高速 NOA」与「城市 NOA」的区别在于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "城市场景更复杂（行人、路口、非机动车），技术难度更高"
+      },
+      {
+        "label": "B",
+        "text": "两者完全一样"
+      },
+      {
+        "label": "C",
+        "text": "高速更难"
+      },
+      {
+        "label": "D",
+        "text": "与场景无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "城市 NOA 面对行人、路口、非机动车等复杂场景，技术难度远高于高速 NOA，是当前竞争焦点。",
+    "difficulty": 1
+  },
+  {
+    "id": "246",
+    "stem": "自动驾驶「长尾问题」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "极端少见但种类繁多的 corner case，难以穷尽"
+      },
+      {
+        "label": "B",
+        "text": "只是尾部传感器"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只有高速有"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "长尾问题是极端少见但种类繁多的 corner case，难以穷尽覆盖，是自动驾驶安全落地的核心难题。",
+    "difficulty": 1
+  },
+  {
+    "id": "247",
+    "stem": "解决「长尾问题」的主要手段是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "海量数据采集 + 仿真穷举极端场景"
+      },
+      {
+        "label": "B",
+        "text": "只靠人工"
+      },
+      {
+        "label": "C",
+        "text": "减少测试"
+      },
+      {
+        "label": "D",
+        "text": "忽略即可"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "通过海量数据采集和仿真穷举极端场景，尽可能覆盖长尾 corner case，是解决长尾问题的主要手段。",
+    "difficulty": 1
+  },
+  {
+    "id": "248",
+    "stem": "「预瞄式魔毯底盘」属于自动驾驶还是底盘技术？",
+    "options": [
+      {
+        "label": "A",
+        "text": "底盘技术，用激光雷达扫描路面主动调节悬架"
+      },
+      {
+        "label": "B",
+        "text": "纯智驾功能"
+      },
+      {
+        "label": "C",
+        "text": "与智驾底盘都无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "预瞄式魔毯底盘用激光雷达扫描路面，结合空气悬架毫秒级主动调节，是底盘与智驾感知融合的技术。",
+    "difficulty": 1
+  },
+  {
+    "id": "249",
+    "stem": "自动驾驶「功能安全」与「预期功能安全（SOTIF）」的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "功能安全应对系统故障，SOTIF 应对系统无故障但功能不足导致的风险"
+      },
+      {
+        "label": "B",
+        "text": "两者完全一样"
+      },
+      {
+        "label": "C",
+        "text": "SOTIF 应对硬件故障"
+      },
+      {
+        "label": "D",
+        "text": "与安全无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "功能安全（ISO 26262）应对系统故障；预期功能安全 SOTIF（ISO 21448）应对系统无故障但功能/性能不足导致的风险。",
+    "difficulty": 1
+  },
+  {
+    "id": "250",
+    "stem": "车企做自动驾驶「全栈自研」vs「采购方案」的权衡核心是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自研掌握数据与迭代能力但投入大，采购快但难差异化"
+      },
+      {
+        "label": "B",
+        "text": "自研一定更差"
+      },
+      {
+        "label": "C",
+        "text": "采购一定更差"
+      },
+      {
+        "label": "D",
+        "text": "与决策无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "全栈自研能掌握数据与迭代能力、形成差异化，但投入巨大；采购方案快、省，但难形成差异化。",
+    "difficulty": 1
+  },
+  {
+    "id": "251",
+    "stem": "Tier1（如博世 XC）在智驾产业链中的传统角色是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "提供传感器+域控制器+基础软件"
+      },
+      {
+        "label": "B",
+        "text": "只做营销"
+      },
+      {
+        "label": "C",
+        "text": "只做售后"
+      },
+      {
+        "label": "D",
+        "text": "与智驾无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "Tier1 提供传感器、域控制器、基础软件等，是智驾产业链的硬件与集成主力，博世 XC 是典型代表。",
+    "difficulty": 1
+  },
+  {
+    "id": "252",
+    "stem": "方案商（如 Momenta）在智驾产业链中的角色是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "提供算法与智驾方案（如城市 NOA）"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "只做地图"
+      },
+      {
+        "label": "D",
+        "text": "与智驾无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "方案商提供算法与智驾方案（如 Momenta 的城市 NOA 强化学习大模型），与主机厂、Tier1 协作。",
+    "difficulty": 1
+  },
+  {
+    "id": "253",
+    "stem": "「软硬分离」对自动驾驶产业的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "软硬件解耦，软件可跨硬件复用，加速迭代"
+      },
+      {
+        "label": "B",
+        "text": "软硬件必须绑定"
+      },
+      {
+        "label": "C",
+        "text": "与架构无关"
+      },
+      {
+        "label": "D",
+        "text": "增加成本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "软硬分离让软件与硬件解耦，软件可跨平台复用，加速迭代，是软件定义汽车的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "254",
+    "stem": "自动驾驶数据「境内存储」的合规要求源于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "《汽车数据安全管理若干规定》要求重要数据境内存储"
+      },
+      {
+        "label": "B",
+        "text": "没有任何要求"
+      },
+      {
+        "label": "C",
+        "text": "只有境外才要"
+      },
+      {
+        "label": "D",
+        "text": "与法规无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "《汽车数据安全管理若干规定》明确重要数据应当依法在境内存储，出境需安全评估。",
+    "difficulty": 1
+  },
+  {
+    "id": "255",
+    "stem": "自动驾驶「数据合规」与「迭代效率」的正确关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "脱敏合规是数据可用的前提，需兼顾"
+      },
+      {
+        "label": "B",
+        "text": "合规一定拖慢效率"
+      },
+      {
+        "label": "C",
+        "text": "两者无关"
+      },
+      {
+        "label": "D",
+        "text": "效率优先可跳过合规"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "脱敏合规是数据可用的前提，自动驾驶需在合规前提下追求迭代效率，二者兼顾而非对立。",
+    "difficulty": 1
+  },
+  {
+    "id": "256",
+    "stem": "博世 XC 事业部在自动驾驶领域的四块业务布局不包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动驾驶/智能驾驶"
+      },
+      {
+        "label": "B",
+        "text": "智能座舱域控制器"
+      },
+      {
+        "label": "C",
+        "text": "车路协同/智能网联"
+      },
+      {
+        "label": "D",
+        "text": "整车总装制造"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "XC 四块布局是自动驾驶、智能座舱域控制器、车路协同/智能网联、车身智控（网关/ECU），不做整车总装制造（XC 无生产）。",
+    "difficulty": 1
+  },
+  {
+    "id": "257",
+    "stem": "「智能网联」在博世 XC 语境下主要指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车路协同 V2X 相关研究与跨域打通"
+      },
+      {
+        "label": "B",
+        "text": "车载 Wi-Fi"
+      },
+      {
+        "label": "C",
+        "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只做车机导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "智能网联在 XC 语境下指车路协同 V2X 研究与跨域解决方案打通，是面向中国市场的前瞻布局。",
+    "difficulty": 1
+  },
+  {
+    "id": "258",
+    "stem": "腾讯云「智能驾驶双专区」的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "专属隔离云平台 + 等保三级，保障智驾数据合规"
+      },
+      {
+        "label": "B",
+        "text": "只是多开几个机房"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "只做加速"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "智能驾驶双专区提供专属隔离云平台并通过等保三级，保障智驾数据合规，是自动驾驶合规底座。",
+    "difficulty": 1
+  },
+  {
+    "id": "259",
+    "stem": "自动驾驶研发中「数据发现时间缩短 90%」主要靠？",
+    "options": [
+      {
+        "label": "A",
+        "text": "统一数据目录 + 多模态检索"
+      },
+      {
+        "label": "B",
+        "text": "纯人工翻找"
+      },
+      {
+        "label": "C",
+        "text": "与工具无关"
+      },
+      {
+        "label": "D",
+        "text": "减少数据量"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "统一数据目录（TCCatalog）+ 多模态检索（数据万象）大幅缩短数据发现时间，是腾讯云车云一体方案的价值点。",
+    "difficulty": 1
+  },
+  {
+    "id": "260",
+    "stem": "高阶智驾「城市 NOA」落地需要的关键能力包括？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "端到端/大模型算法"
+      },
+      {
+        "label": "B",
+        "text": "海量数据闭环"
+      },
+      {
+        "label": "C",
+        "text": "高算力域控制器"
+      },
+      {
+        "label": "D",
+        "text": "数据脱敏合规"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 2,
+    "subChapter": "ch2-autonomous",
+    "tags": [
+      "自动驾驶"
+    ],
+    "analysis": "城市 NOA 落地需要端到端算法、海量数据闭环、高算力域控，以及数据脱敏合规底座，缺一不可。",
+    "difficulty": 1
+  }
+]

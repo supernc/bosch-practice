@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "401",
+    "stem": "「具身智能（Embodied AI）」的核心定义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "让 AI 拥有物理身体，通过感知-决策-执行与环境交互"
+      },
+      {
+        "label": "B",
+        "text": "只做语音助手"
+      },
+      {
+        "label": "C",
+        "text": "纯软件 AI"
+      },
+      {
+        "label": "D",
+        "text": "与机器人无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能让 AI 拥有物理身体，通过感知-决策-执行与环境交互，如人形机器人。",
+    "difficulty": 1
+  },
+  {
+    "id": "402",
+    "stem": "具身智能的三大核心系统是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知、决策（大脑）、执行（本体）"
+      },
+      {
+        "label": "B",
+        "text": "采集、存储、展示"
+      },
+      {
+        "label": "C",
+        "text": "芯片、算法、市场"
+      },
+      {
+        "label": "D",
+        "text": "训练、推理、部署"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能由感知（传感器）、决策（VLA 大模型「大脑」）、执行（本体/机械结构）三大系统构成。",
+    "difficulty": 1
+  },
+  {
+    "id": "403",
+    "stem": "「VLA」大模型中的 VLA 指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "视觉-语言-动作（Vision-Language-Action）"
+      },
+      {
+        "label": "B",
+        "text": "Very Large AI"
+      },
+      {
+        "label": "C",
+        "text": "Variable Logic Array"
+      },
+      {
+        "label": "D",
+        "text": "Vehicle Location API"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "VLA = Vision-Language-Action，视觉-语言-动作大模型，是具身智能的核心模型范式。",
+    "difficulty": 1
+  },
+  {
+    "id": "404",
+    "stem": "VLA 模型的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把视觉、语言指令映射为机器人的动作序列"
+      },
+      {
+        "label": "B",
+        "text": "只做图像分类"
+      },
+      {
+        "label": "C",
+        "text": "只做语音识别"
+      },
+      {
+        "label": "D",
+        "text": "与动作无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "VLA 模型输入视觉+语言指令，输出动作序列，让机器人「看得懂、听得懂、做得到」。",
+    "difficulty": 1
+  },
+  {
+    "id": "405",
+    "stem": "当前具身智能产业突破的核心瓶颈是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高质量真机数据稀缺（数据荒）"
+      },
+      {
+        "label": "B",
+        "text": "芯片算力不足"
+      },
+      {
+        "label": "C",
+        "text": "电池续航"
+      },
+      {
+        "label": "D",
+        "text": "机械结构设计"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "算法与算力已高度收敛，数据成为决定能力上限的关键变量，行业普遍面临「数据荒」。",
+    "difficulty": 1
+  },
+  {
+    "id": "406",
+    "stem": "「数据荒」在具身智能中的具体表现是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高质量真机数据稀缺，无法规模化供给"
+      },
+      {
+        "label": "B",
+        "text": "数据太多"
+      },
+      {
+        "label": "C",
+        "text": "数据太贵没人买"
+      },
+      {
+        "label": "D",
+        "text": "与数据无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "数据荒指高质量真机数据稀缺，如何构建规模化、高质量的数据供给是产业突破的核心命题。",
+    "difficulty": 1
+  },
+  {
+    "id": "407",
+    "stem": "「遥操作」数据采集的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "人工远程操控机器人采集真机数据"
+      },
+      {
+        "label": "B",
+        "text": "机器人全自动采集"
+      },
+      {
+        "label": "C",
+        "text": "只采集图片"
+      },
+      {
+        "label": "D",
+        "text": "与数据无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "遥操作由人工远程操控机器人完成动作，采集真机数据，是当前高质量数据的主要来源。",
+    "difficulty": 1
+  },
+  {
+    "id": "408",
+    "stem": "腾讯云「EGO 数采方案」解决的核心问题是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "基于遥操作的真机数据采集，缓解数据荒"
+      },
+      {
+        "label": "B",
+        "text": "只做存储"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只做仿真"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "EGO 数采方案基于遥操作采集真机数据，规模化构建高质量数据供给，缓解数据荒。",
+    "difficulty": 1
+  },
+  {
+    "id": "409",
+    "stem": "具身智能的「数据闭环」流程是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据采集→训练→仿真评测→真机部署→再采集"
+      },
+      {
+        "label": "B",
+        "text": "训练→采集→部署"
+      },
+      {
+        "label": "C",
+        "text": "只做一次采集"
+      },
+      {
+        "label": "D",
+        "text": "与闭环无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据闭环是「采集→训练→仿真评测→真机部署→再采集」的循环，与传统智驾数据闭环同构。",
+    "difficulty": 1
+  },
+  {
+    "id": "410",
+    "stem": "「仿真」在具身智能中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在虚拟环境低成本训练/评测机器人，降低真机成本"
+      },
+      {
+        "label": "B",
+        "text": "只做展示"
+      },
+      {
+        "label": "C",
+        "text": "与训练无关"
+      },
+      {
+        "label": "D",
+        "text": "比真机更贵"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "仿真在虚拟环境低成本、可复现地训练和评测机器人，降低真机成本、加速迭代。",
+    "difficulty": 1
+  },
+  {
+    "id": "411",
+    "stem": "具身智能三大系统的硬件占比特点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知、执行占大部分硬件，决策在硬件层面占比极小"
+      },
+      {
+        "label": "B",
+        "text": "决策占大部分硬件"
+      },
+      {
+        "label": "C",
+        "text": "三者平均"
+      },
+      {
+        "label": "D",
+        "text": "与硬件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "硬件结构上大部分是感知、执行部分，决策（大脑）在硬件层面占比极小，挑战主要在模型和数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "412",
+    "stem": "具身智能的「算法、算力、数据」三要素现状是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "算法与算力已收敛，数据成为决定能力上限的变量"
+      },
+      {
+        "label": "B",
+        "text": "三者都未成熟"
+      },
+      {
+        "label": "C",
+        "text": "数据已饱和"
+      },
+      {
+        "label": "D",
+        "text": "算力是瓶颈"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "模型三要素中算法与算力已高度收敛，数据成为决定能力上限的关键变量，数据荒是核心矛盾。",
+    "difficulty": 1
+  },
+  {
+    "id": "413",
+    "stem": "人形机器人属于具身智能的哪类载体？",
+    "options": [
+      {
+        "label": "A",
+        "text": "通用具身智能载体，适配人类环境"
+      },
+      {
+        "label": "B",
+        "text": "只做工业机械臂"
+      },
+      {
+        "label": "C",
+        "text": "与具身无关"
+      },
+      {
+        "label": "D",
+        "text": "只做轮式机器人"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "人形机器人是通用具身智能载体，身体形态适配人类环境，是具身智能的典型形态。",
+    "difficulty": 1
+  },
+  {
+    "id": "414",
+    "stem": "「灵巧操作」在具身智能中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械手完成精细、灵活的操作任务"
+      },
+      {
+        "label": "B",
+        "text": "只做行走"
+      },
+      {
+        "label": "C",
+        "text": "只做视觉"
+      },
+      {
+        "label": "D",
+        "text": "与操作无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "灵巧操作指机械手完成精细、灵活的操作任务（如抓取、装配），是具身智能的核心难点。",
+    "difficulty": 1
+  },
+  {
+    "id": "415",
+    "stem": "「灵敏运动」在具身智能中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机器人灵活、稳定的运动控制（行走、避障）"
+      },
+      {
+        "label": "B",
+        "text": "只做静止"
+      },
+      {
+        "label": "C",
+        "text": "与运动无关"
+      },
+      {
+        "label": "D",
+        "text": "只做语音"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "灵敏运动指机器人灵活、稳定的运动控制（行走、避障、平衡），是具身智能的基础能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "416",
+    "stem": "腾讯云具身智能全栈方案的三大环节是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据集采集管理、大模型训练推理、仿真评测"
+      },
+      {
+        "label": "B",
+        "text": "只做存储"
+      },
+      {
+        "label": "C",
+        "text": "只做训练"
+      },
+      {
+        "label": "D",
+        "text": "只做仿真"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "腾讯云具身智能全栈方案覆盖数据集采集管理、大模型训练与推理、仿真评测系统三大环节。",
+    "difficulty": 1
+  },
+  {
+    "id": "417",
+    "stem": "腾讯云「COS 数据交付」在具身智能中的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "海量训练/采集数据的存储与跨云/IDC 交付"
+      },
+      {
+        "label": "B",
+        "text": "只做图片"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只做备份"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "COS 数据交付支撑海量训练/采集数据的存储与跨云/IDC 交付，实现数据变现与流转。",
+    "difficulty": 1
+  },
+  {
+    "id": "418",
+    "stem": "具身智能「数据交付」的商业逻辑是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把采集的高质量数据作为资产交付/变现给购买方"
+      },
+      {
+        "label": "B",
+        "text": "数据无价值"
+      },
+      {
+        "label": "C",
+        "text": "与商业无关"
+      },
+      {
+        "label": "D",
+        "text": "数据不可交易"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据是核心资产，数据交付方案支撑把采集数据交付给购买方（云厂商/IDC），实现变现。",
+    "difficulty": 1
+  },
+  {
+    "id": "419",
+    "stem": "具身智能训练最依赖的云资源是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "GPU 算力集群"
+      },
+      {
+        "label": "B",
+        "text": "只有域名"
+      },
+      {
+        "label": "C",
+        "text": "只有短信"
+      },
+      {
+        "label": "D",
+        "text": "只有存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "VLA 大模型训练需要大量 GPU 算力集群，弹性扩缩容是云的核心价值。",
+    "difficulty": 1
+  },
+  {
+    "id": "420",
+    "stem": "具身智能初创公司的典型画像（如一动力、苏州智蜂创元）是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "聚焦具身智能的初创企业，数据/算力是刚需"
+      },
+      {
+        "label": "B",
+        "text": "大型整车厂"
+      },
+      {
+        "label": "C",
+        "text": "与具身无关"
+      },
+      {
+        "label": "D",
+        "text": "只做软件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能初创企业聚焦机器人本体、VLA 模型等，数据和算力是刚需，是腾讯云的明确客户群。",
+    "difficulty": 1
+  },
+  {
+    "id": "421",
+    "stem": "中国具身智能融资热度（2025 年前 7 月）的表现是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "融资 271 亿元（108 起），行业快速起量"
+      },
+      {
+        "label": "B",
+        "text": "融资遇冷"
+      },
+      {
+        "label": "C",
+        "text": "与热度无关"
+      },
+      {
+        "label": "D",
+        "text": "无融资"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "中国 2025 年前 7 月具身智能融资 271 亿元（108 起），全球融资爆发式增长，行业快速起量。",
+    "difficulty": 1
+  },
+  {
+    "id": "422",
+    "stem": "具身智能与自动驾驶数据闭环的相似之处是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "都是「采集-训练-评测-部署」闭环，都需要脱敏合规"
+      },
+      {
+        "label": "B",
+        "text": "完全无关"
+      },
+      {
+        "label": "C",
+        "text": "只有存储相同"
+      },
+      {
+        "label": "D",
+        "text": "只有算力相同"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能与自动驾驶数据闭环高度同构，都是采集-训练-评测-部署循环，且都需数据脱敏合规。",
+    "difficulty": 1
+  },
+  {
+    "id": "423",
+    "stem": "具身智能「世界模型」的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "让机器人理解物理世界规律，提升泛化与规划能力"
+      },
+      {
+        "label": "B",
+        "text": "只做图像生成"
+      },
+      {
+        "label": "C",
+        "text": "与规划无关"
+      },
+      {
+        "label": "D",
+        "text": "只做文本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "世界模型让机器人理解物理世界规律，提升泛化与规划能力，是具身智能的前沿方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "424",
+    "stem": "「真机数据」与「仿真数据」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "真机数据真实但稀缺，仿真数据易得但有域差，二者互补"
+      },
+      {
+        "label": "B",
+        "text": "完全一样"
+      },
+      {
+        "label": "C",
+        "text": "真机数据没用"
+      },
+      {
+        "label": "D",
+        "text": "仿真数据没用"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "真机数据真实但稀缺昂贵，仿真数据易得但存在 sim-to-real 域差，二者互补使用。",
+    "difficulty": 1
+  },
+  {
+    "id": "425",
+    "stem": "「sim-to-real 域差」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仿真训练模型迁移到真机时性能下降的问题"
+      },
+      {
+        "label": "B",
+        "text": "仿真比真机好"
+      },
+      {
+        "label": "C",
+        "text": "与迁移无关"
+      },
+      {
+        "label": "D",
+        "text": "真机比仿真差"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "sim-to-real 域差是仿真训练模型迁移到真机时性能下降的问题，是具身智能落地的难点。",
+    "difficulty": 1
+  },
+  {
+    "id": "426",
+    "stem": "解决「sim-to-real 域差」的常用手段是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "域随机化、真机数据微调"
+      },
+      {
+        "label": "B",
+        "text": "只用仿真"
+      },
+      {
+        "label": "C",
+        "text": "只用真机"
+      },
+      {
+        "label": "D",
+        "text": "忽略域差"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "通过域随机化、真机数据微调等手段缩小仿真与真机差距，是解决 sim-to-real 的常用方法。",
+    "difficulty": 1
+  },
+  {
+    "id": "427",
+    "stem": "「Tairons 开放平台」在具身智能中的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "腾讯云具身智能开放平台，布局机器人应用/云/本体开发"
+      },
+      {
+        "label": "B",
+        "text": "只做电商"
+      },
+      {
+        "label": "C",
+        "text": "与具身无关"
+      },
+      {
+        "label": "D",
+        "text": "只做社交"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "Tairons 是腾讯云具身智能开放平台，布局机器人应用开发、云服务、本体开发等。",
+    "difficulty": 1
+  },
+  {
+    "id": "428",
+    "stem": "具身智能「数据标注」的特殊之处是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "需标注动作序列、力反馈等，比图像标注更复杂"
+      },
+      {
+        "label": "B",
+        "text": "只标图片"
+      },
+      {
+        "label": "C",
+        "text": "与动作无关"
+      },
+      {
+        "label": "D",
+        "text": "无需标注"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据需标注动作序列、力反馈等多模态信息，比单纯图像标注更复杂。",
+    "difficulty": 1
+  },
+  {
+    "id": "429",
+    "stem": "「分层决策」与「端到端」具身智能的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "分层决策分感知/规划/控制，端到端用单一模型直接输出动作"
+      },
+      {
+        "label": "B",
+        "text": "两者完全一样"
+      },
+      {
+        "label": "C",
+        "text": "端到端更可解释"
+      },
+      {
+        "label": "D",
+        "text": "分层更依赖数据"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "分层决策分感知、规划、控制多级；端到端用单一模型从感知直接输出动作，是具身智能的两大路线。",
+    "difficulty": 1
+  },
+  {
+    "id": "430",
+    "stem": "「AIRSPEED 开源数据平台」的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "开源具身智能数据生产平台，突破数据瓶颈"
+      },
+      {
+        "label": "B",
+        "text": "只做云存储"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只做仿真"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "AIRSPEED 是开源具身智能数据生产平台，通过开源方式突破数据瓶颈。",
+    "difficulty": 1
+  },
+  {
+    "id": "431",
+    "stem": "具身智能「数据闭环」中，云平台的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储、算力、仿真、数据管理的一站式底座"
+      },
+      {
+        "label": "B",
+        "text": "只做备份"
+      },
+      {
+        "label": "C",
+        "text": "与闭环无关"
+      },
+      {
+        "label": "D",
+        "text": "只做监控"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "云平台提供存储、算力、仿真、数据管理的一站式底座，是具身智能数据闭环的基础设施。",
+    "difficulty": 1
+  },
+  {
+    "id": "432",
+    "stem": "具身智能「年数据量」量级是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可达 100PB，多模态数据超 10 种"
+      },
+      {
+        "label": "B",
+        "text": "只有几 GB"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只有文本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能年数据量可达 100PB，数据模态超 10 种，数据管理极复杂。",
+    "difficulty": 1
+  },
+  {
+    "id": "433",
+    "stem": "具身智能「数据处理占 50% 人力」说明的问题是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多模态数据管理复杂，亟需自动化平台"
+      },
+      {
+        "label": "B",
+        "text": "人力充足"
+      },
+      {
+        "label": "C",
+        "text": "与平台无关"
+      },
+      {
+        "label": "D",
+        "text": "数据处理简单"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "数据处理占 50% 人力说明多模态数据管理复杂，亟需腾讯云智能数据平台等自动化方案。",
+    "difficulty": 1
+  },
+  {
+    "id": "434",
+    "stem": "腾讯云「TCCatalog 统一数据目录」的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整合多模态数据目录，实现数据对齐与发现"
+      },
+      {
+        "label": "B",
+        "text": "只做文件列表"
+      },
+      {
+        "label": "C",
+        "text": "与数据无关"
+      },
+      {
+        "label": "D",
+        "text": "只做备份"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "TCCatalog 整合统一数据目录，实现多模态数据对齐与智能发现，缩短数据发现时间。",
+    "difficulty": 1
+  },
+  {
+    "id": "435",
+    "stem": "腾讯云「TCRay 分布式调度」的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能异构计算调度，提升训练效率"
+      },
+      {
+        "label": "B",
+        "text": "只做定时任务"
+      },
+      {
+        "label": "C",
+        "text": "与训练无关"
+      },
+      {
+        "label": "D",
+        "text": "只做存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "TCRay 分布式调度框架实现智能异构计算调度，提升训练效率。",
+    "difficulty": 1
+  },
+  {
+    "id": "436",
+    "stem": "具身智能「数据变现」的关键前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据合规（脱敏、授权）"
+      },
+      {
+        "label": "B",
+        "text": "数据越多越好"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "无需授权"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据变现的前提是合规（脱敏、授权），含个人信息的数据需处理后方可交易。",
+    "difficulty": 1
+  },
+  {
+    "id": "437",
+    "stem": "「人机协作服务机器人」的三个关键能力是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "灵敏运动、灵巧操作、具身智能"
+      },
+      {
+        "label": "B",
+        "text": "只做语音"
+      },
+      {
+        "label": "C",
+        "text": "只做视觉"
+      },
+      {
+        "label": "D",
+        "text": "与能力无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "腾讯研究「面向未来的人机协作服务机器人」，主攻灵敏运动、灵巧操作、具身智能三个关键能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "438",
+    "stem": "具身智能「真机部署」后的持续迭代靠？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据回传 + 再训练，形成闭环"
+      },
+      {
+        "label": "B",
+        "text": "一次部署不变"
+      },
+      {
+        "label": "C",
+        "text": "与迭代无关"
+      },
+      {
+        "label": "D",
+        "text": "只靠人工"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "真机部署后通过数据回传、再训练形成闭环，实现机器人能力持续迭代。",
+    "difficulty": 1
+  },
+  {
+    "id": "439",
+    "stem": "具身智能「端云一体化」的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "端侧实时推理 + 云端训练与协同，各司其职"
+      },
+      {
+        "label": "B",
+        "text": "只在云端"
+      },
+      {
+        "label": "C",
+        "text": "只在端侧"
+      },
+      {
+        "label": "D",
+        "text": "与协同无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "端云一体化让端侧做实时低延迟推理，云端做训练与协同，是具身智能的部署范式。",
+    "difficulty": 1
+  },
+  {
+    "id": "440",
+    "stem": "「智能导盲犬」案例验证了？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车云一体方案在具身智能复杂场景的可靠性"
+      },
+      {
+        "label": "B",
+        "text": "只做娱乐"
+      },
+      {
+        "label": "C",
+        "text": "与具身无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "端云一体化智能导盲犬整合多模态感知与云端算法，验证了车云一体方案在复杂场景的可靠性。",
+    "difficulty": 1
+  },
+  {
+    "id": "441",
+    "stem": "具身智能「数据荒」的破局思路是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "规模化数采（遥操作/EGO）+ 仿真数据补充"
+      },
+      {
+        "label": "B",
+        "text": "减少数据需求"
+      },
+      {
+        "label": "C",
+        "text": "只用仿真"
+      },
+      {
+        "label": "D",
+        "text": "忽略数据"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "通过规模化数采（遥操作、EGO）+ 仿真数据补充，构建高质量数据供给，破解数据荒。",
+    "difficulty": 1
+  },
+  {
+    "id": "442",
+    "stem": "「Wan2.2-5B」在具身智能中的用途是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "世界建模先验能力，用于 VLA 训练"
+      },
+      {
+        "label": "B",
+        "text": "只做翻译"
+      },
+      {
+        "label": "C",
+        "text": "与具身无关"
+      },
+      {
+        "label": "D",
+        "text": "只做聊天"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "Wan2.2-5B 文生视频模型因强大的世界建模先验，被广泛用于具身智能 VLA 训练。",
+    "difficulty": 1
+  },
+  {
+    "id": "443",
+    "stem": "「国产卡 VLA 专项」说明的趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "具身智能训练对国产算力的适配需求"
+      },
+      {
+        "label": "B",
+        "text": "只用进口卡"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "不用 GPU"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "国产卡 VLA 专项反映了具身智能训练对国产算力适配的需求，兼顾自主可控。",
+    "difficulty": 1
+  },
+  {
+    "id": "444",
+    "stem": "具身智能「数据存储」的典型挑战是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多模态、海量、高吞吐，存储重复率高"
+      },
+      {
+        "label": "B",
+        "text": "数据太少"
+      },
+      {
+        "label": "C",
+        "text": "与存储无关"
+      },
+      {
+        "label": "D",
+        "text": "只存文本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据多模态、海量、高吞吐，存储重复率超 30%，是存储管理的典型挑战。",
+    "difficulty": 1
+  },
+  {
+    "id": "445",
+    "stem": "腾讯云方案对具身智能「存储成本」的优化效果是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储成本降低 50%，计算成本降低 75%"
+      },
+      {
+        "label": "B",
+        "text": "成本翻倍"
+      },
+      {
+        "label": "C",
+        "text": "无优化"
+      },
+      {
+        "label": "D",
+        "text": "只优化网络"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "腾讯云车云一体方案使客户存储成本降低 50%、计算成本降低 75%、数据发现时间缩短 90%。",
+    "difficulty": 1
+  },
+  {
+    "id": "446",
+    "stem": "具身智能「向量数据库」的应用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多模态数据相似检索，性能较行业平均提升 1.5 倍"
+      },
+      {
+        "label": "B",
+        "text": "只存文本"
+      },
+      {
+        "label": "C",
+        "text": "与检索无关"
+      },
+      {
+        "label": "D",
+        "text": "只做关系查询"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "向量数据库用于多模态数据相似检索，腾讯云性能较行业平均提升 1.5 倍，检索效率提高 10 倍。",
+    "difficulty": 1
+  },
+  {
+    "id": "447",
+    "stem": "具身智能「数据准召率」的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "检索/标注的准确率与召回率，直接影响数据质量"
+      },
+      {
+        "label": "B",
+        "text": "只做展示"
+      },
+      {
+        "label": "C",
+        "text": "与质量无关"
+      },
+      {
+        "label": "D",
+        "text": "只影响速度"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "数据准召率（准确率+召回率）直接影响数据质量，腾讯云数据万象多模态检索准召率达 95%。",
+    "difficulty": 1
+  },
+  {
+    "id": "448",
+    "stem": "具身智能「研发周期」的现状是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "平均研发周期超 3 年，需整合 100+ 关键组件"
+      },
+      {
+        "label": "B",
+        "text": "一周完成"
+      },
+      {
+        "label": "C",
+        "text": "与周期无关"
+      },
+      {
+        "label": "D",
+        "text": "只需 1 个组件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能研发需整合 100+ 关键组件，平均研发周期超 3 年，是产业提速的痛点。",
+    "difficulty": 1
+  },
+  {
+    "id": "449",
+    "stem": "具身智能「数据闭环」与传统智驾「数据闭环」最本质的共同点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "都以数据为引擎，靠闭环持续进化能力"
+      },
+      {
+        "label": "B",
+        "text": "都用摄像头"
+      },
+      {
+        "label": "C",
+        "text": "都用激光雷达"
+      },
+      {
+        "label": "D",
+        "text": "都做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "两者最本质的共同点是以数据为引擎，靠「采集-训练-评测-部署」闭环持续进化能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "450",
+    "stem": "具身智能「数据合规」的侧重点与自动驾驶相比？",
+    "options": [
+      {
+        "label": "A",
+        "text": "同样关注人脸、位置等个人信息与数据出境"
+      },
+      {
+        "label": "B",
+        "text": "完全不同"
+      },
+      {
+        "label": "C",
+        "text": "具身无合规要求"
+      },
+      {
+        "label": "D",
+        "text": "只关注算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能机器人同样采集人脸、位置等信息，数据合规侧重与自动驾驶类似（脱敏、出境等）。",
+    "difficulty": 1
+  },
+  {
+    "id": "451",
+    "stem": "「端到端 VLA」相比「分层决策」的优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "减少模块间误差，泛化与上限更高"
+      },
+      {
+        "label": "B",
+        "text": "更可解释"
+      },
+      {
+        "label": "C",
+        "text": "数据需求更少"
+      },
+      {
+        "label": "D",
+        "text": "成本更低"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "端到端 VLA 减少模块间误差累积，泛化与能力上限更高，但可解释性弱、依赖海量数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "452",
+    "stem": "具身智能「灵巧手」的核心难点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多自由度精细控制与力反馈"
+      },
+      {
+        "label": "B",
+        "text": "只做抓取"
+      },
+      {
+        "label": "C",
+        "text": "与手无关"
+      },
+      {
+        "label": "D",
+        "text": "只做外观"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "灵巧手的核心难点是多自由度精细控制与力反馈，是具身智能操作能力的关键。",
+    "difficulty": 1
+  },
+  {
+    "id": "453",
+    "stem": "「触觉感知」在具身智能中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "让机器人感知接触力、材质，提升操作精度"
+      },
+      {
+        "label": "B",
+        "text": "只做视觉"
+      },
+      {
+        "label": "C",
+        "text": "与操作无关"
+      },
+      {
+        "label": "D",
+        "text": "只做听觉"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "触觉感知让机器人感知接触力、材质等信息，提升操作精度与安全性，是灵巧操作的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "454",
+    "stem": "具身智能「机电一体化」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械、电子、控制一体化设计机器人本体"
+      },
+      {
+        "label": "B",
+        "text": "只做机械"
+      },
+      {
+        "label": "C",
+        "text": "只做电子"
+      },
+      {
+        "label": "D",
+        "text": "与本体无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "机电一体化是机械、电子、控制的一体化设计，是机器人本体的基础工程能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "455",
+    "stem": "「精密控制」在具身智能中的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现高精度、高稳定的运动与操作控制"
+      },
+      {
+        "label": "B",
+        "text": "只做粗放控制"
+      },
+      {
+        "label": "C",
+        "text": "与控制无关"
+      },
+      {
+        "label": "D",
+        "text": "只做开关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "精密控制实现高精度、高稳定的运动与操作控制，是具身智能执行层的关键。",
+    "difficulty": 1
+  },
+  {
+    "id": "456",
+    "stem": "具身智能「数据资产化」的趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据成为可交易、可变现的核心资产"
+      },
+      {
+        "label": "B",
+        "text": "数据无价值"
+      },
+      {
+        "label": "C",
+        "text": "与资产无关"
+      },
+      {
+        "label": "D",
+        "text": "数据不可交易"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能数据成为可交易、可变现的核心资产，数据交付、开放共享是趋势。",
+    "difficulty": 1
+  },
+  {
+    "id": "457",
+    "stem": "「帕西尼亿级数据引擎」说明的趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "规模化数据供给驱动具身智能进化"
+      },
+      {
+        "label": "B",
+        "text": "数据无用"
+      },
+      {
+        "label": "C",
+        "text": "与供给无关"
+      },
+      {
+        "label": "D",
+        "text": "只做算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "帕西尼年产近 2 亿条数据并开放，说明规模化数据供给是驱动具身智能进化的命脉。",
+    "difficulty": 1
+  },
+  {
+    "id": "458",
+    "stem": "具身智能对云厂商的「算力」需求特点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "训练需求弹性大，需要 GPU 弹性扩缩容"
+      },
+      {
+        "label": "B",
+        "text": "只用 CPU"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "算力需求恒定"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "具身智能训练算力需求弹性大（训练高峰 vs 平时），需要 GPU 弹性扩缩容降本。",
+    "difficulty": 1
+  },
+  {
+    "id": "459",
+    "stem": "具身智能「商业边界」与「技术发展」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "技术拓展商业边界，商业推动技术发展"
+      },
+      {
+        "label": "B",
+        "text": "两者无关"
+      },
+      {
+        "label": "C",
+        "text": "商业限制技术"
+      },
+      {
+        "label": "D",
+        "text": "技术限制商业"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "技术拓展商业边界，商业反哺技术发展，是具身智能产业的正循环。",
+    "difficulty": 1
+  },
+  {
+    "id": "460",
+    "stem": "腾讯云具身智能全栈方案覆盖的环节包括？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据集采集和管理"
+      },
+      {
+        "label": "B",
+        "text": "具身大模型训练和推理"
+      },
+      {
+        "label": "C",
+        "text": "仿真评测系统"
+      },
+      {
+        "label": "D",
+        "text": "数据交付与变现"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 4,
+    "subChapter": "ch4-embodied",
+    "tags": [
+      "具身智能"
+    ],
+    "analysis": "腾讯云具身智能全栈方案覆盖数据集采集管理、大模型训练推理、仿真评测、数据交付等完整环节。",
+    "difficulty": 1
+  }
+]

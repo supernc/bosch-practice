@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "601",
+    "stem": "博世 XC 事业部的全称是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cross-Domain Computing Solutions（跨域计算解决方案）"
+      },
+      {
+        "label": "B",
+        "text": "Chassis Control Solutions"
+      },
+      {
+        "label": "C",
+        "text": "Cross Connection Systems"
+      },
+      {
+        "label": "D",
+        "text": "Computing Center Solutions"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC = Cross-Domain Computing Solutions（跨域计算解决方案），中国称「智能驾驶与控制」事业部。",
+    "difficulty": 1
+  },
+  {
+    "id": "602",
+    "stem": "博世 XC 事业部成立于哪一年？",
+    "options": [
+      {
+        "label": "A",
+        "text": "2021 年（年初重组）"
+      },
+      {
+        "label": "B",
+        "text": "2015 年"
+      },
+      {
+        "label": "C",
+        "text": "2018 年"
+      },
+      {
+        "label": "D",
+        "text": "2023 年"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "博世 2021 年初重组成立 XC 事业部，整合软件与电子专长，全球约 17000 人。",
+    "difficulty": 1
+  },
+  {
+    "id": "603",
+    "stem": "博世成立 XC 事业部的战略目的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整合软件与电子专长，降低汽车电子复杂度，加速功能上车"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件制造"
+      },
+      {
+        "label": "C",
+        "text": "只做传统底盘"
+      },
+      {
+        "label": "D",
+        "text": "退出汽车业务"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 通过跨域软件与电子方案降低复杂度，加速新功能上车，应对软件定义汽车趋势。",
+    "difficulty": 1
+  },
+  {
+    "id": "604",
+    "stem": "XC 事业部整合了哪些原有事业部的软件/电子资源？",
+    "options": [
+      {
+        "label": "A",
+        "text": "底盘控制、汽车电子、汽车多媒体"
+      },
+      {
+        "label": "B",
+        "text": "只有家电"
+      },
+      {
+        "label": "C",
+        "text": "只有工业"
+      },
+      {
+        "label": "D",
+        "text": "只有消费品"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 整合了底盘控制系统、汽车电子、汽车多媒体的软件与电子工程师，集中到新事业部。",
+    "difficulty": 1
+  },
+  {
+    "id": "605",
+    "stem": "博世 XC 全球的员工规模约是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "17000 人"
+      },
+      {
+        "label": "B",
+        "text": "1700 人"
+      },
+      {
+        "label": "C",
+        "text": "170 人"
+      },
+      {
+        "label": "D",
+        "text": "17 人"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 全球约 17000 人，分布 20 多个国家 40 多个地点。",
+    "difficulty": 1
+  },
+  {
+    "id": "606",
+    "stem": "博世 XC 中国区的员工规模约是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1100 人"
+      },
+      {
+        "label": "B",
+        "text": "110 人"
+      },
+      {
+        "label": "C",
+        "text": "11000 人"
+      },
+      {
+        "label": "D",
+        "text": "11 人"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 中国区约 1100 人，研发主要分布苏州和上海。",
+    "difficulty": 1
+  },
+  {
+    "id": "607",
+    "stem": "博世 XC 中国区总部所在地是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "苏州"
+      },
+      {
+        "label": "B",
+        "text": "北京"
+      },
+      {
+        "label": "C",
+        "text": "广州"
+      },
+      {
+        "label": "D",
+        "text": "深圳"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 中国区总部在苏州，主管研发和市场销售，另在上海虹桥、张江设点。",
+    "difficulty": 1
+  },
+  {
+    "id": "608",
+    "stem": "XC 是博世唯一「没有生产」的事业部，这说明了什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "XC 本质是软件公司，生产委托兄弟事业部"
+      },
+      {
+        "label": "B",
+        "text": "博世不生产了"
+      },
+      {
+        "label": "C",
+        "text": "与业务无关"
+      },
+      {
+        "label": "D",
+        "text": "只做贸易"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 是唯一没有生产的事业部，生产委托汽车电子事业部，本质是软件/研发公司。",
+    "difficulty": 1
+  },
+  {
+    "id": "609",
+    "stem": "XC 事业部研发工程师占员工比例是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "超 80%"
+      },
+      {
+        "label": "B",
+        "text": "约 30%"
+      },
+      {
+        "label": "C",
+        "text": "约 50%"
+      },
+      {
+        "label": "D",
+        "text": "约 10%"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 超 80% 员工是研发工程师，其中超 95% 是汽车工程软件方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "610",
+    "stem": "XC 四块业务布局不包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动驾驶/智能驾驶"
+      },
+      {
+        "label": "B",
+        "text": "智能座舱域控制器"
+      },
+      {
+        "label": "C",
+        "text": "车路协同/智能网联"
+      },
+      {
+        "label": "D",
+        "text": "整车总装"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 布局自动驾驶、智能座舱、车路协同/智能网联、车身智控四块，不做整车总装（无生产）。",
+    "difficulty": 1
+  },
+  {
+    "id": "611",
+    "stem": "XC 在「智能座舱」的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "做座舱域控制器赋能，不做座舱应用"
+      },
+      {
+        "label": "B",
+        "text": "做座舱应用"
+      },
+      {
+        "label": "C",
+        "text": "做手机系统"
+      },
+      {
+        "label": "D",
+        "text": "不涉足"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 明确不做座舱应用，专注做座舱域控制器赋能，提供算力平台。",
+    "difficulty": 1
+  },
+  {
+    "id": "612",
+    "stem": "XC 的「车身智控」业务（网关/ECU）由谁运营？",
+    "options": [
+      {
+        "label": "A",
+        "text": "与联合电子 UAES 合资运营"
+      },
+      {
+        "label": "B",
+        "text": "独立运营"
+      },
+      {
+        "label": "C",
+        "text": "与腾讯合资"
+      },
+      {
+        "label": "D",
+        "text": "不运营"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "车身智控（网关、ECU 研发）由博世中国合资企业联合电子（UAES）运营。",
+    "difficulty": 1
+  },
+  {
+    "id": "613",
+    "stem": "XC 在「底层软件/中间件」的技术基础是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "基于 AUTOSAR 的工程团队"
+      },
+      {
+        "label": "B",
+        "text": "只做应用"
+      },
+      {
+        "label": "C",
+        "text": "与中间件无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 整合了基于 AUTOSAR 的底层软件和中间件工程团队，作为软件与服务单元的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "614",
+    "stem": "「AUTOSAR」在汽车软件中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汽车电子软件标准架构，实现软硬件解耦与复用"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "与软件无关"
+      },
+      {
+        "label": "D",
+        "text": "只做通信"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "AUTOSAR 是汽车电子软件标准架构，实现软硬件解耦、模块复用，是汽车软件基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "615",
+    "stem": "「域控制器」相比「分布式 ECU」架构的优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "集中算力、减少 ECU 数量、支持软件升级"
+      },
+      {
+        "label": "B",
+        "text": "更分散"
+      },
+      {
+        "label": "C",
+        "text": "成本更高"
+      },
+      {
+        "label": "D",
+        "text": "更落后"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "域控制器集中算力、减少 ECU 数量、支持软件升级，是电子电气架构演进方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "616",
+    "stem": "传统分布式架构中，豪华车 ECU 数量可达？",
+    "options": [
+      {
+        "label": "A",
+        "text": "100 个以上"
+      },
+      {
+        "label": "B",
+        "text": "10 个"
+      },
+      {
+        "label": "C",
+        "text": "1 个"
+      },
+      {
+        "label": "D",
+        "text": "0 个"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "传统豪华车有 100 多个独立 ECU，紧凑型车也有 30-50 个，域控可大幅减少数量。",
+    "difficulty": 1
+  },
+  {
+    "id": "617",
+    "stem": "XC 高阶智驾的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "城市 NOA、端到端大模型、L2++ 乃至 L3"
+      },
+      {
+        "label": "B",
+        "text": "只有 AEB"
+      },
+      {
+        "label": "C",
+        "text": "只有 ACC"
+      },
+      {
+        "label": "D",
+        "text": "只做泊车"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 高阶智驾覆盖城市 NOA、记忆泊车、端到端大模型、L2++ 乃至 L3。",
+    "difficulty": 1
+  },
+  {
+    "id": "618",
+    "stem": "XC 低阶智驾的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "AEB、ACC、车道保持等 L1-L2 基础 ADAS"
+      },
+      {
+        "label": "B",
+        "text": "城市 NOA"
+      },
+      {
+        "label": "C",
+        "text": "L4 无人驾驶"
+      },
+      {
+        "label": "D",
+        "text": "记忆泊车"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 低阶智驾是 AEB、ACC、车道保持等 L1-L2 基础 ADAS，靠规模化摊薄成本。",
+    "difficulty": 1
+  },
+  {
+    "id": "619",
+    "stem": "博世高阶智驾的「双线布局」策略是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶（L3/L4 研发）+ 低阶（L2+ 量产）组合"
+      },
+      {
+        "label": "B",
+        "text": "只做高阶"
+      },
+      {
+        "label": "C",
+        "text": "只做低阶"
+      },
+      {
+        "label": "D",
+        "text": "只做海外"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "博世用高阶（L3/L4 研发）+ 低阶（L2+ 量产）双线布局，覆盖不同价位车型。",
+    "difficulty": 1
+  },
+  {
+    "id": "620",
+    "stem": "XC 下一代域控制器目标支持的传感器规模是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "10-15 雷达、10-15 摄像头、2-4 激光雷达"
+      },
+      {
+        "label": "B",
+        "text": "1 个摄像头"
+      },
+      {
+        "label": "C",
+        "text": "只超声波"
+      },
+      {
+        "label": "D",
+        "text": "不接传感器"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 下一代域控目标支持 10-15 雷达、10-15 摄像头、2-4 激光雷达，覆盖 L2-L3。",
+    "difficulty": 1
+  },
+  {
+    "id": "621",
+    "stem": "XC 高阶智驾的技术演进路线是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "从高速脱手驾驶到城市脱手驾驶"
+      },
+      {
+        "label": "B",
+        "text": "从城市到高速"
+      },
+      {
+        "label": "C",
+        "text": "只做高速"
+      },
+      {
+        "label": "D",
+        "text": "只做城市"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 遵循从高速脱手到城市脱手驾驶的路线迭代，最终实现城市任意工况脱手。",
+    "difficulty": 1
+  },
+  {
+    "id": "622",
+    "stem": "腾讯云×博世 XC 高阶智驾合作的成果是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "18 个月从定点到量产"
+      },
+      {
+        "label": "B",
+        "text": "共同造车"
+      },
+      {
+        "label": "C",
+        "text": "共同研发芯片"
+      },
+      {
+        "label": "D",
+        "text": "只做存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "腾讯云×博世中国高阶智驾方案「18 个月从定点到量产」，数据部署在智能汽车专有云。",
+    "difficulty": 1
+  },
+  {
+    "id": "623",
+    "stem": "博世高阶智驾「数据闭环」用腾讯云的哪个能力加速？",
+    "options": [
+      {
+        "label": "A",
+        "text": "向量数据库图像检索"
+      },
+      {
+        "label": "B",
+        "text": "只做 CDN"
+      },
+      {
+        "label": "C",
+        "text": "只做邮件"
+      },
+      {
+        "label": "D",
+        "text": "只做直播"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "博世高阶智驾数据闭环用腾讯云向量数据库做图像检索，加速找相似场景样本。",
+    "difficulty": 1
+  },
+  {
+    "id": "624",
+    "stem": "「软硬分离」对 XC 的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "软件可跨硬件复用，加速迭代，面向集中化架构"
+      },
+      {
+        "label": "B",
+        "text": "软硬必须绑定"
+      },
+      {
+        "label": "C",
+        "text": "与架构无关"
+      },
+      {
+        "label": "D",
+        "text": "增加成本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "软硬分离让软件跨硬件复用，打通各控制器数据流通，是 XC 面向集中化架构的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "625",
+    "stem": "XC 应对「车辆集中化」趋势的策略是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把车载计算单元与软件工程能力集中，做一站式方案"
+      },
+      {
+        "label": "B",
+        "text": "继续分散"
+      },
+      {
+        "label": "C",
+        "text": "不做集中"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 把车载计算单元与软件开发能力集中，为客户提供一站式解决方案。",
+    "difficulty": 1
+  },
+  {
+    "id": "626",
+    "stem": "「电子电气架构（E/E 架构）」演进的总体方向是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "从分布式 ECU 到域集中、再到中央计算"
+      },
+      {
+        "label": "B",
+        "text": "越来越分散"
+      },
+      {
+        "label": "C",
+        "text": "与演进无关"
+      },
+      {
+        "label": "D",
+        "text": "只做机械"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "E/E 架构从分布式 ECU 演进到域集中、再到中央计算，是智能汽车趋势。",
+    "difficulty": 1
+  },
+  {
+    "id": "627",
+    "stem": "XC 的「软件与服务」单元的基础是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "AUTOSAR 底层软件与中间件团队"
+      },
+      {
+        "label": "B",
+        "text": "只做应用"
+      },
+      {
+        "label": "C",
+        "text": "与软件无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 软件与服务单元基于 AUTOSAR 底层软件和中间件工程团队，是软件定义汽车的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "628",
+    "stem": "「车路协同 V2X」在 XC 的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "面向中国市场的智能网联前瞻研究"
+      },
+      {
+        "label": "B",
+        "text": "只做海外"
+      },
+      {
+        "label": "C",
+        "text": "与协同无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "车路协同 V2X 是 XC 面向中国智能网联市场的前瞻研发，探索跨域打通。",
+    "difficulty": 1
+  },
+  {
+    "id": "629",
+    "stem": "XC 苏州/上海研发中心的分工特点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "苏州为总部（研发+销售），上海虹桥/张江协同"
+      },
+      {
+        "label": "B",
+        "text": "只在苏州"
+      },
+      {
+        "label": "C",
+        "text": "只在上海"
+      },
+      {
+        "label": "D",
+        "text": "与分工无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "苏州为 XC 中国区总部（研发+销售），上海虹桥博世中国、张江未来驾舱中心协同。",
+    "difficulty": 1
+  },
+  {
+    "id": "630",
+    "stem": "博世无锡创新与软件开发中心与 XC 的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "人才共享和项目支持协同"
+      },
+      {
+        "label": "B",
+        "text": "无关系"
+      },
+      {
+        "label": "C",
+        "text": "竞争关系"
+      },
+      {
+        "label": "D",
+        "text": "已合并"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "博世无锡创新与软件开发中心在人才共享和项目支持上与 XC 形成协同。",
+    "difficulty": 1
+  },
+  {
+    "id": "631",
+    "stem": "「域控制器」的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "集中算力平台，整合多个控制单元，支持软件升级"
+      },
+      {
+        "label": "B",
+        "text": "只做收音机"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "只做开关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "域控制器是集中算力平台，整合多个控制单元任务，支持软件升级，是数字化基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "632",
+    "stem": "XC 高阶智驾「数据闭环」的关键环节是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "采集-标注-训练-仿真-回灌"
+      },
+      {
+        "label": "B",
+        "text": "只做采集"
+      },
+      {
+        "label": "C",
+        "text": "只做训练"
+      },
+      {
+        "label": "D",
+        "text": "与闭环无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 高阶智驾数据闭环是采集-标注-训练-仿真-回灌的循环，向量数据库加速检索。",
+    "difficulty": 1
+  },
+  {
+    "id": "633",
+    "stem": "博世从「硬件 Tier1」向「软件 Tier1」转型的旗舰方向是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "XC 事业部（软件与电子）"
+      },
+      {
+        "label": "B",
+        "text": "底盘事业部"
+      },
+      {
+        "label": "C",
+        "text": "售后事业部"
+      },
+      {
+        "label": "D",
+        "text": "工业事业部"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 事业部（软件与电子）是博世从硬件 Tier1 向软件 Tier1 转型的旗舰方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "634",
+    "stem": "「整车软件代码量」的增长趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "从千万行级增长到数亿行级"
+      },
+      {
+        "label": "B",
+        "text": "越来越少"
+      },
+      {
+        "label": "C",
+        "text": "不变"
+      },
+      {
+        "label": "D",
+        "text": "与软件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "整车软件代码量从千万行级增长到自动驾驶车辆的数亿行级，软件价值持续提升。",
+    "difficulty": 1
+  },
+  {
+    "id": "635",
+    "stem": "XC 面向「软件定义汽车」的核心能力是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨域软件与电子整合能力"
+      },
+      {
+        "label": "B",
+        "text": "只做机械"
+      },
+      {
+        "label": "C",
+        "text": "只做销售"
+      },
+      {
+        "label": "D",
+        "text": "与软件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 的跨域软件与电子整合能力，是软件定义汽车时代的核心竞争力。",
+    "difficulty": 1
+  },
+  {
+    "id": "636",
+    "stem": "「智能驾驶与控制」是 XC 在哪个市场的称呼？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国市场"
+      },
+      {
+        "label": "B",
+        "text": "欧洲市场"
+      },
+      {
+        "label": "C",
+        "text": "美国市场"
+      },
+      {
+        "label": "D",
+        "text": "日本市场"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "「智能驾驶与控制」是 XC 在中国的称呼，强调智能驾驶与座舱域控。",
+    "difficulty": 1
+  },
+  {
+    "id": "637",
+    "stem": "XC 高阶智驾「L3 量产」的关键前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政策法规与责任认定明确"
+      },
+      {
+        "label": "B",
+        "text": "传感器降价"
+      },
+      {
+        "label": "C",
+        "text": "芯片降价"
+      },
+      {
+        "label": "D",
+        "text": "无前提"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "L3 量产关键前提是政策法规与责任认定明确，技术上 L2++ 已具备基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "638",
+    "stem": "「中央计算平台」与「域控制器」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中央计算是域控之后的进一步集中"
+      },
+      {
+        "label": "B",
+        "text": "域控更集中"
+      },
+      {
+        "label": "C",
+        "text": "两者无关"
+      },
+      {
+        "label": "D",
+        "text": "中央更分散"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "中央计算平台是域控制器之后的进一步集中，是 E/E 架构演进的终极方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "639",
+    "stem": "XC 的「软件与服务」商业模式的本质是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "从一次性硬件销售转向持续性软件服务"
+      },
+      {
+        "label": "B",
+        "text": "只卖硬件"
+      },
+      {
+        "label": "C",
+        "text": "只做一次性"
+      },
+      {
+        "label": "D",
+        "text": "与商业无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 的软件与服务模式是从一次性硬件销售转向持续性软件服务，是博世转型核心。",
+    "difficulty": 1
+  },
+  {
+    "id": "640",
+    "stem": "「OTA 升级」对 XC 软件能力的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "软件功能可远程持续更新，加速迭代"
+      },
+      {
+        "label": "B",
+        "text": "与升级无关"
+      },
+      {
+        "label": "C",
+        "text": "只更新地图"
+      },
+      {
+        "label": "D",
+        "text": "只能线下"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "OTA 让 XC 软件功能远程持续更新，加速功能迭代，是软件定义汽车的关键。",
+    "difficulty": 1
+  },
+  {
+    "id": "641",
+    "stem": "XC 高阶智驾「端到端大模型」的部署环境是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "腾讯智能汽车专有云 + GPU 算力"
+      },
+      {
+        "label": "B",
+        "text": "只做本地"
+      },
+      {
+        "label": "C",
+        "text": "不用云"
+      },
+      {
+        "label": "D",
+        "text": "只做边缘"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 高阶智驾端到端大模型部署在腾讯智能汽车专有云 + GPU 算力，弹性训练。",
+    "difficulty": 1
+  },
+  {
+    "id": "642",
+    "stem": "「智能汽车专有云」对博世 XC 的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "承载高阶智驾数据与应用的合规底座"
+      },
+      {
+        "label": "B",
+        "text": "只做加速"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "只做存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "智能汽车专有云承载 XC 高阶智驾的数据与应用，是合规底座。",
+    "difficulty": 1
+  },
+  {
+    "id": "643",
+    "stem": "XC 中国区「研发主导」的趋势说明？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国市场对博世 XC 的战略重要性上升"
+      },
+      {
+        "label": "B",
+        "text": "中国不重要"
+      },
+      {
+        "label": "C",
+        "text": "与研发无关"
+      },
+      {
+        "label": "D",
+        "text": "只做制造"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 中国区研发主导（苏州+上海 1100 人），说明中国市场战略重要性上升。",
+    "difficulty": 1
+  },
+  {
+    "id": "644",
+    "stem": "「跨域」在 XC 名称中的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨越驾驶辅助、座舱、动力、车身等多个域整合"
+      },
+      {
+        "label": "B",
+        "text": "只做单域"
+      },
+      {
+        "label": "C",
+        "text": "与跨域无关"
+      },
+      {
+        "label": "D",
+        "text": "只做底盘"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "「跨域」指跨越驾驶辅助、座舱、动力、车身等多域整合，提供一致架构。",
+    "difficulty": 1
+  },
+  {
+    "id": "645",
+    "stem": "XC 整合「底盘控制」软件资源的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把底盘软件能力并入跨域方案，实现整车协同"
+      },
+      {
+        "label": "B",
+        "text": "底盘退出"
+      },
+      {
+        "label": "C",
+        "text": "与底盘无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 整合底盘控制软件资源，把底盘能力并入跨域方案，实现整车协同。",
+    "difficulty": 1
+  },
+  {
+    "id": "646",
+    "stem": "「车载计算机」作为 E/E 架构核心的趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "强大车载计算机整合多域功能，减少 ECU"
+      },
+      {
+        "label": "B",
+        "text": "不用车载计算机"
+      },
+      {
+        "label": "C",
+        "text": "与架构无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "强大车载计算机整合多域功能、减少 ECU 数量，是数字化基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "647",
+    "stem": "XC 高阶智驾「数据合规」的处理是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据脱敏（人脸/车牌）+ 专有云存储"
+      },
+      {
+        "label": "B",
+        "text": "不做处理"
+      },
+      {
+        "label": "C",
+        "text": "直接公有云"
+      },
+      {
+        "label": "D",
+        "text": "与合规无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 高阶智驾数据需脱敏（人脸、车牌）+ 专有云存储，满足合规。",
+    "difficulty": 1
+  },
+  {
+    "id": "648",
+    "stem": "「L2+ 增强版」相比 L2 基础版的提升是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "结合中国路况优化，支持自动变道、智慧避让"
+      },
+      {
+        "label": "B",
+        "text": "无提升"
+      },
+      {
+        "label": "C",
+        "text": "更简单"
+      },
+      {
+        "label": "D",
+        "text": "只做高速"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "L2+ 增强版结合中国路况优化，支持自动变道、智慧避让等，体验提升。",
+    "difficulty": 1
+  },
+  {
+    "id": "649",
+    "stem": "博世 L4 高速场景自动驾驶研发的现状是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "正在中国开展高速场景 L4 研发"
+      },
+      {
+        "label": "B",
+        "text": "已完全量产"
+      },
+      {
+        "label": "C",
+        "text": "不做 L4"
+      },
+      {
+        "label": "D",
+        "text": "只做 L2"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "博世正在中国开展高速场景 L4 自动驾驶系统研发，采用双线布局。",
+    "difficulty": 1
+  },
+  {
+    "id": "650",
+    "stem": "「域控制器」支持「L2-L3」而非「L4-L5」的原因是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "不同等级对安全性、冗余要求不同，统一方案未必最优"
+      },
+      {
+        "label": "B",
+        "text": "不能做 L4"
+      },
+      {
+        "label": "C",
+        "text": "与等级无关"
+      },
+      {
+        "label": "D",
+        "text": "只做 L2"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "L1-L5 虽可统一，但不同等级安全性、冗余要求不同，博世认为统一方案未必最优。",
+    "difficulty": 1
+  },
+  {
+    "id": "651",
+    "stem": "XC「数字座舱」域控搭载的芯片平台是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高通骁龙第三代数字座舱平台"
+      },
+      {
+        "label": "B",
+        "text": "只做自研"
+      },
+      {
+        "label": "C",
+        "text": "不用芯片"
+      },
+      {
+        "label": "D",
+        "text": "只用 MCU"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 智能座舱域控搭载高通骁龙第三代数字座舱平台芯片，实现多系统集成。",
+    "difficulty": 1
+  },
+  {
+    "id": "652",
+    "stem": "XC 座舱域控支持的功能包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多屏、DMS/OMS、360 环视、人脸识别、主动降噪等"
+      },
+      {
+        "label": "B",
+        "text": "只做一块屏"
+      },
+      {
+        "label": "C",
+        "text": "只做音乐"
+      },
+      {
+        "label": "D",
+        "text": "与功能无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 座舱域控支持多屏、DMS/OMS、360 环视、人脸识别、主动降噪等功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "653",
+    "stem": "「软硬分离」在 XC 的落地是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "基础软件、中间件、架构数据流通打通"
+      },
+      {
+        "label": "B",
+        "text": "软硬绑定"
+      },
+      {
+        "label": "C",
+        "text": "不分离"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "软硬分离在 XC 落地为打通各控制器层面的基础软件、中间件、架构数据流通。",
+    "difficulty": 1
+  },
+  {
+    "id": "654",
+    "stem": "XC「一站式服务」面向的客户是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整车厂（提供跨域软硬件一站式方案）"
+      },
+      {
+        "label": "B",
+        "text": "只做个人"
+      },
+      {
+        "label": "C",
+        "text": "只做后市场"
+      },
+      {
+        "label": "D",
+        "text": "与客户无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 面向整车厂提供跨域软硬件一站式方案，是 Tier1 的升级形态。",
+    "difficulty": 1
+  },
+  {
+    "id": "655",
+    "stem": "「车辆集中化」趋势下，XC 的应对是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整合资源做车载计算单元与软件一站式服务"
+      },
+      {
+        "label": "B",
+        "text": "拒绝集中"
+      },
+      {
+        "label": "C",
+        "text": "只做分布"
+      },
+      {
+        "label": "D",
+        "text": "不做应对"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 针对车辆集中化趋势，整合车载计算单元与软件能力，做一站式服务。",
+    "difficulty": 1
+  },
+  {
+    "id": "656",
+    "stem": "XC 高阶智驾「数据闭环」中，腾讯云「专有云」的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "承载数据与训练的合规隔离环境"
+      },
+      {
+        "label": "B",
+        "text": "只做备份"
+      },
+      {
+        "label": "C",
+        "text": "与训练无关"
+      },
+      {
+        "label": "D",
+        "text": "只做加速"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "腾讯云专有云为 XC 高阶智驾提供数据与训练的合规隔离环境。",
+    "difficulty": 1
+  },
+  {
+    "id": "657",
+    "stem": "「博世 XC」在腾讯云合作中的典型数据场景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高阶智驾数据闭环（图像检索、训练、仿真）"
+      },
+      {
+        "label": "B",
+        "text": "只做邮件"
+      },
+      {
+        "label": "C",
+        "text": "只做网盘"
+      },
+      {
+        "label": "D",
+        "text": "与数据无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "腾讯云×博世 XC 合作聚焦高阶智驾数据闭环：图像检索、训练、仿真等。",
+    "difficulty": 1
+  },
+  {
+    "id": "658",
+    "stem": "「车规级」对 XC 软件/域控的基本要求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高可靠、高安全、长生命周期、功能安全认证"
+      },
+      {
+        "label": "B",
+        "text": "无要求"
+      },
+      {
+        "label": "C",
+        "text": "只做消费级"
+      },
+      {
+        "label": "D",
+        "text": "与安全无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "车规级要求高可靠、高安全、长生命周期、功能安全认证，是 XC 域控的基本门槛。",
+    "difficulty": 1
+  },
+  {
+    "id": "659",
+    "stem": "「中央网关」在 XC 车身智控中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整车通信枢纽，连接各域与 ECU"
+      },
+      {
+        "label": "B",
+        "text": "只做收音机"
+      },
+      {
+        "label": "C",
+        "text": "与通信无关"
+      },
+      {
+        "label": "D",
+        "text": "只做电源"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "中央网关是整车通信枢纽，连接各域与 ECU，是车身智控的核心部件。",
+    "difficulty": 1
+  },
+  {
+    "id": "660",
+    "stem": "博世 XC 事业部的核心特点包括？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨域计算解决方案"
+      },
+      {
+        "label": "B",
+        "text": "唯一无生产、以研发软件为主"
+      },
+      {
+        "label": "C",
+        "text": "覆盖高阶/低阶智驾与座舱域控"
+      },
+      {
+        "label": "D",
+        "text": "全球约 17000 人、中国约 1100 人"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 6,
+    "subChapter": "ch6-xc",
+    "tags": [
+      "XC 跨域计算"
+    ],
+    "analysis": "XC 是跨域计算解决方案，唯一无生产、以研发软件为主，覆盖高低阶智驾与座舱域控，全球 17000 人、中国 1100 人。",
+    "difficulty": 1
+  }
+]

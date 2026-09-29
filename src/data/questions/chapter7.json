@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "701",
+    "stem": "博世代码「CR」通常指哪个事业部？",
+    "options": [
+      {
+        "label": "A",
+        "text": "底盘控制系统事业部（Chassis Control）"
+      },
+      {
+        "label": "B",
+        "text": "业务发展部"
+      },
+      {
+        "label": "C",
+        "text": "汽车售后"
+      },
+      {
+        "label": "D",
+        "text": "跨域计算"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "CR 指底盘控制系统事业部（Chassis Systems Control），专注 ABS、ESP 等车辆动态控制。",
+    "difficulty": 1
+  },
+  {
+    "id": "702",
+    "stem": "博世底盘控制事业部（CR）的核心产品是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ABS、ESP 等车辆动态控制系统"
+      },
+      {
+        "label": "B",
+        "text": "只有座椅"
+      },
+      {
+        "label": "C",
+        "text": "只有灯具"
+      },
+      {
+        "label": "D",
+        "text": "只有音响"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "底盘控制系统事业部专注 ABS（防抱死）、ESP（车身稳定）等车辆动态控制系统。",
+    "difficulty": 1
+  },
+  {
+    "id": "703",
+    "stem": "ESP（车身电子稳定系统）的主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "防止车辆侧滑、失控，提升稳定性"
+      },
+      {
+        "label": "B",
+        "text": "只做导航"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "ESP 通过制动单个车轮等方式防止车辆侧滑、失控，是重要的主动安全功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "704",
+    "stem": "ABS（防抱死制动系统）的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "防止紧急制动时车轮抱死，保持转向能力"
+      },
+      {
+        "label": "B",
+        "text": "只做刹车灯"
+      },
+      {
+        "label": "C",
+        "text": "与制动无关"
+      },
+      {
+        "label": "D",
+        "text": "只做加速"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "ABS 防止紧急制动时车轮抱死，保持转向能力，是基础主动安全功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "705",
+    "stem": "「线控制动」相对传统液压制动的优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "响应快、可集成能量回收、支持自动驾驶"
+      },
+      {
+        "label": "B",
+        "text": "更慢"
+      },
+      {
+        "label": "C",
+        "text": "与制动无关"
+      },
+      {
+        "label": "D",
+        "text": "不能能量回收"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "线控制动响应快、可集成能量回收、支持自动驾驶冗余，是底盘智能化方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "706",
+    "stem": "「线控转向」的优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "取消机械连接，支持可变转向比与自动驾驶"
+      },
+      {
+        "label": "B",
+        "text": "只做机械"
+      },
+      {
+        "label": "C",
+        "text": "与转向无关"
+      },
+      {
+        "label": "D",
+        "text": "不能变比"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "线控转向取消机械连接，支持可变转向比与自动驾驶，是转向系统演进方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "707",
+    "stem": "底盘事业部在博世内部地位的描述正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "几乎是博世最大、业绩最好的事业部"
+      },
+      {
+        "label": "B",
+        "text": "最小的部门"
+      },
+      {
+        "label": "C",
+        "text": "不盈利"
+      },
+      {
+        "label": "D",
+        "text": "与业绩无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "底盘事业部几乎是博世最大的事业部，业绩非常好，是博世内部的独一块。",
+    "difficulty": 1
+  },
+  {
+    "id": "708",
+    "stem": "「iBooster」在底盘控制中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机电伺服制动助力器，支持能量回收"
+      },
+      {
+        "label": "B",
+        "text": "只做转向"
+      },
+      {
+        "label": "C",
+        "text": "与制动无关"
+      },
+      {
+        "label": "D",
+        "text": "只做减震"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "iBooster 是博世机电伺服制动助力器，支持制动能量回收，是线控底盘关键部件。",
+    "difficulty": 1
+  },
+  {
+    "id": "709",
+    "stem": "「车辆运动智控（Vehicle Motion）」事业部涵盖的技术是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "制动、转向、传感器、车辆动力学控制等"
+      },
+      {
+        "label": "B",
+        "text": "只做座椅"
+      },
+      {
+        "label": "C",
+        "text": "只做空调"
+      },
+      {
+        "label": "D",
+        "text": "与运动无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "Vehicle Motion 事业部涵盖制动、转向、传感器、车辆动力学控制等，底盘控制是其核心。",
+    "difficulty": 1
+  },
+  {
+    "id": "710",
+    "stem": "底盘控制与自动驾驶「执行层」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "线控底盘是自动驾驶执行层的核心"
+      },
+      {
+        "label": "B",
+        "text": "无关系"
+      },
+      {
+        "label": "C",
+        "text": "底盘不用线控"
+      },
+      {
+        "label": "D",
+        "text": "与执行无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "线控底盘（制动、转向）是自动驾驶执行层的核心，负责把决策转化为车辆动作。",
+    "difficulty": 1
+  },
+  {
+    "id": "711",
+    "stem": "「预瞄式魔毯底盘」的技术原理是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "激光雷达扫描路面，主动调节空气悬架"
+      },
+      {
+        "label": "B",
+        "text": "只做减震"
+      },
+      {
+        "label": "C",
+        "text": "与扫描无关"
+      },
+      {
+        "label": "D",
+        "text": "只做装饰"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "预瞄式魔毯底盘用激光雷达扫描路面，结合空气悬架毫秒级主动调节，是底盘与智驾融合。",
+    "difficulty": 1
+  },
+  {
+    "id": "712",
+    "stem": "底盘控制事业部的「软件化」趋势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车辆动力学控制软件化，支持 OTA 与跨域协同"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "与软件无关"
+      },
+      {
+        "label": "D",
+        "text": "不升级"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "底盘控制软件化，车辆动力学控制支持 OTA 与跨域协同，是软件定义汽车的一环。",
+    "difficulty": 1
+  },
+  {
+    "id": "713",
+    "stem": "博世代码「BUD」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "业务发展部（Business Development）"
+      },
+      {
+        "label": "B",
+        "text": "底盘控制"
+      },
+      {
+        "label": "C",
+        "text": "汽车售后"
+      },
+      {
+        "label": "D",
+        "text": "生产制造"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BUD 指 Business Development（业务发展部），如 RBCN/BUD 是博世中国战略规划与业务发展部。",
+    "difficulty": 1
+  },
+  {
+    "id": "714",
+    "stem": "博世「业务发展部（BUD）」的主要职责是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "市场研究、竞品分析、战略项目、政策跟踪"
+      },
+      {
+        "label": "B",
+        "text": "只做生产"
+      },
+      {
+        "label": "C",
+        "text": "只做售后"
+      },
+      {
+        "label": "D",
+        "text": "只做财务"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BUD 负责市场研究、竞品分析、战略项目支持、政策跟踪等战略规划工作。",
+    "difficulty": 1
+  },
+  {
+    "id": "715",
+    "stem": "RBCN/BUD 的完整含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世（中国）投资有限公司的战略规划与业务发展部"
+      },
+      {
+        "label": "B",
+        "text": "博世底盘事业部"
+      },
+      {
+        "label": "C",
+        "text": "博世售后"
+      },
+      {
+        "label": "D",
+        "text": "博世工厂"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN/BUD 指博世（中国）投资有限公司（RBCN）下的战略规划与业务发展部（BUD）。",
+    "difficulty": 1
+  },
+  {
+    "id": "716",
+    "stem": "业务发展部（BUD）跟踪政策的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "识别产业趋势与政府政策，支撑战略决策"
+      },
+      {
+        "label": "B",
+        "text": "无价值"
+      },
+      {
+        "label": "C",
+        "text": "与战略无关"
+      },
+      {
+        "label": "D",
+        "text": "只做行政"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BUD 跟踪产业趋势、政府政策、经济环境，为博世战略决策提供支撑。",
+    "difficulty": 1
+  },
+  {
+    "id": "717",
+    "stem": "对腾讯云而言，博世 BUD（业务发展部）是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对接战略合作、新业务机会的入口"
+      },
+      {
+        "label": "B",
+        "text": "只做售后"
+      },
+      {
+        "label": "C",
+        "text": "与云无关"
+      },
+      {
+        "label": "D",
+        "text": "只做采购"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BUD 是博世战略规划与业务发展入口，是腾讯云对接战略合作、新业务机会的关键。",
+    "difficulty": 1
+  },
+  {
+    "id": "718",
+    "stem": "「Business Development」在跨国企业中的典型职能是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "战略规划、市场洞察、新业务孵化"
+      },
+      {
+        "label": "B",
+        "text": "只做销售"
+      },
+      {
+        "label": "C",
+        "text": "只做客服"
+      },
+      {
+        "label": "D",
+        "text": "只做招聘"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BD 职能是战略规划、市场洞察、新业务孵化，与日常销售不同，更偏战略层。",
+    "difficulty": 1
+  },
+  {
+    "id": "719",
+    "stem": "博世代码「RBCN」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世（中国）投资有限公司"
+      },
+      {
+        "label": "B",
+        "text": "博世汽车部件长沙"
+      },
+      {
+        "label": "C",
+        "text": "博世工程"
+      },
+      {
+        "label": "D",
+        "text": "博世售后"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN = Robert Bosch (China) Investment Co., Ltd，即博世（中国）投资有限公司。",
+    "difficulty": 1
+  },
+  {
+    "id": "720",
+    "stem": "博世（中国）投资有限公司（RBCN）的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世在中国的投资主体，管理协调在华投资项目"
+      },
+      {
+        "label": "B",
+        "text": "只做生产"
+      },
+      {
+        "label": "C",
+        "text": "只做销售"
+      },
+      {
+        "label": "D",
+        "text": "与投资无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN 是博世在华投资主体，负责管理、发展、协调博世在中国大陆的投资项目和生产业务。",
+    "difficulty": 1
+  },
+  {
+    "id": "721",
+    "stem": "博世（中国）投资有限公司（RBCN）成立于哪一年？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1999 年"
+      },
+      {
+        "label": "B",
+        "text": "1886 年"
+      },
+      {
+        "label": "C",
+        "text": "2008 年"
+      },
+      {
+        "label": "D",
+        "text": "2015 年"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN 成立于 1999 年，总部在上海，是博世在华投资的核心主体。",
+    "difficulty": 1
+  },
+  {
+    "id": "722",
+    "stem": "博世（中国）投资有限公司（RBCN）总部位于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "上海"
+      },
+      {
+        "label": "B",
+        "text": "苏州"
+      },
+      {
+        "label": "C",
+        "text": "长沙"
+      },
+      {
+        "label": "D",
+        "text": "北京"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN 总部位于上海，在北京、武汉、重庆等设有分公司与办事处。",
+    "difficulty": 1
+  },
+  {
+    "id": "723",
+    "stem": "「RB」前缀在博世代码中的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Robert Bosch（博世集团）的法律实体前缀"
+      },
+      {
+        "label": "B",
+        "text": "随机编号"
+      },
+      {
+        "label": "C",
+        "text": "与博世无关"
+      },
+      {
+        "label": "D",
+        "text": "只做区域"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RB 前缀代表 Robert Bosch（博世集团），如 RBCN、RBCC 等都是博世法律实体代码。",
+    "difficulty": 1
+  },
+  {
+    "id": "724",
+    "stem": "博世中国法律实体代码（如 RBCN/RBCC）的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标识博世在中国的不同法律实体/公司"
+      },
+      {
+        "label": "B",
+        "text": "无作用"
+      },
+      {
+        "label": "C",
+        "text": "只做产品编号"
+      },
+      {
+        "label": "D",
+        "text": "与实体无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "这些代码标识博世在中国的不同法律实体（投资公司、工厂等），用于组织与合规管理。",
+    "difficulty": 1
+  },
+  {
+    "id": "725",
+    "stem": "对腾讯云而言，博世 RBCN（中国投资）的角色是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "集团级合作与合规签约主体"
+      },
+      {
+        "label": "B",
+        "text": "只做售后"
+      },
+      {
+        "label": "C",
+        "text": "与云无关"
+      },
+      {
+        "label": "D",
+        "text": "只做零售"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN 是博世中国集团级主体，是腾讯云集团级合作与合规签约的重要主体。",
+    "difficulty": 1
+  },
+  {
+    "id": "726",
+    "stem": "博世 2025 财年在中国的销售额约为？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1498 亿人民币"
+      },
+      {
+        "label": "B",
+        "text": "149 亿"
+      },
+      {
+        "label": "C",
+        "text": "1.5 万亿"
+      },
+      {
+        "label": "D",
+        "text": "无销售"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "博世 2025 财年在中国实现 1498 亿人民币销售额，同比增长 4.9%。",
+    "difficulty": 1
+  },
+  {
+    "id": "727",
+    "stem": "博世代码「RBCC」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世汽车部件（长沙）有限公司"
+      },
+      {
+        "label": "B",
+        "text": "博世中国投资"
+      },
+      {
+        "label": "C",
+        "text": "博世工程"
+      },
+      {
+        "label": "D",
+        "text": "博世售后"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCC = Bosch Automotive Products (Changsha) Co., Ltd，即博世汽车部件（长沙）有限公司。",
+    "difficulty": 1
+  },
+  {
+    "id": "728",
+    "stem": "博世汽车部件（长沙）有限公司（RBCC）的性质是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世在中国的汽车部件生产基地"
+      },
+      {
+        "label": "B",
+        "text": "投资公司"
+      },
+      {
+        "label": "C",
+        "text": "软件公司"
+      },
+      {
+        "label": "D",
+        "text": "售后网点"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCC 是博世在长沙的汽车部件生产基地，负责汽车部件的制造。",
+    "difficulty": 1
+  },
+  {
+    "id": "729",
+    "stem": "「RBCN」与「RBCC」的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "RBCN 是投资公司（上海），RBCC 是部件生产基地（长沙）"
+      },
+      {
+        "label": "B",
+        "text": "完全一样"
+      },
+      {
+        "label": "C",
+        "text": "都指投资公司"
+      },
+      {
+        "label": "D",
+        "text": "都指工厂"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN 是博世中国投资公司（上海），RBCC 是博世汽车部件长沙生产基地，是不同法律实体。",
+    "difficulty": 1
+  },
+  {
+    "id": "730",
+    "stem": "博世中国的法律实体代码体系体现了？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世在中国多地点、多实体的布局"
+      },
+      {
+        "label": "B",
+        "text": "只有一家公司"
+      },
+      {
+        "label": "C",
+        "text": "与布局无关"
+      },
+      {
+        "label": "D",
+        "text": "只做编号"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "博世中国的法律实体代码（RBAC/RBAG/RBCC/RBCN 等）体现其多地点、多实体布局。",
+    "difficulty": 1
+  },
+  {
+    "id": "731",
+    "stem": "博世汽车部件（苏州）有限公司的代码是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "RBAC"
+      },
+      {
+        "label": "B",
+        "text": "RBCC"
+      },
+      {
+        "label": "C",
+        "text": "RBCN"
+      },
+      {
+        "label": "D",
+        "text": "RBAG"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBAC = Bosch Automotive Products (Suzhou)，即博世汽车部件（苏州）有限公司。",
+    "difficulty": 1
+  },
+  {
+    "id": "732",
+    "stem": "理解博世「法律实体代码」对腾讯云售前的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "厘清签约主体、合规主体与业务归属"
+      },
+      {
+        "label": "B",
+        "text": "无价值"
+      },
+      {
+        "label": "C",
+        "text": "与销售无关"
+      },
+      {
+        "label": "D",
+        "text": "只做编号"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "理解博世法律实体代码，有助于厘清签约主体、合规主体与业务归属，是售前基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "733",
+    "stem": "博世代码「BEG」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世工程技术有限公司（Bosch Engineering）"
+      },
+      {
+        "label": "B",
+        "text": "博世底盘"
+      },
+      {
+        "label": "C",
+        "text": "博世售后"
+      },
+      {
+        "label": "D",
+        "text": "博世家电"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG = Bosch Engineering GmbH，即博世工程技术有限公司，博世的「工程特种部队」。",
+    "difficulty": 1
+  },
+  {
+    "id": "734",
+    "stem": "博世工程技术（BEG）的核心业务是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "为整车厂提供工程开发与测试服务（标定、功能开发、软件集成）"
+      },
+      {
+        "label": "B",
+        "text": "只做生产"
+      },
+      {
+        "label": "C",
+        "text": "只做售后"
+      },
+      {
+        "label": "D",
+        "text": "只做销售"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 为整车厂提供工程开发与测试服务，涵盖标定、功能开发、软件集成等。",
+    "difficulty": 1
+  },
+  {
+    "id": "735",
+    "stem": "「标定（Calibration）」在 BEG 业务中的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过调整控制参数，把控制逻辑转化为可量产的性能"
+      },
+      {
+        "label": "B",
+        "text": "只做测量"
+      },
+      {
+        "label": "C",
+        "text": "与性能无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "标定是调整数千个 Map 表参数，把控制逻辑转化为可量产的性能表现，是 BEG 的核心能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "736",
+    "stem": "BEG 的「工程特种部队」定位体现了？",
+    "options": [
+      {
+        "label": "A",
+        "text": "专注复杂控制逻辑到可量产性能的转化，不直接定义量产硬件"
+      },
+      {
+        "label": "B",
+        "text": "只做外包"
+      },
+      {
+        "label": "C",
+        "text": "与工程无关"
+      },
+      {
+        "label": "D",
+        "text": "只做技术支持"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 被称「工程特种部队」，专注把复杂控制逻辑转化为可量产性能，而非直接定义量产硬件。",
+    "difficulty": 1
+  },
+  {
+    "id": "737",
+    "stem": "BEG 内部分为 Diesel、Gasoline、EE、EV 四个小组，反映了？",
+    "options": [
+      {
+        "label": "A",
+        "text": "博世对汽车动力演进的布局（燃油遗产区 + 电动战场区）"
+      },
+      {
+        "label": "B",
+        "text": "无意义"
+      },
+      {
+        "label": "C",
+        "text": "只做燃油"
+      },
+      {
+        "label": "D",
+        "text": "只做电动"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 四个小组反映动力演进：Diesel/Gasoline 是燃油遗产区，EE/EV 是电动化战场区。",
+    "difficulty": 1
+  },
+  {
+    "id": "738",
+    "stem": "软件定义汽车（SDV）时代，BEG 的「标定」职能变化是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "权力重心从调参标定向系统架构设计与算法开发转移"
+      },
+      {
+        "label": "B",
+        "text": "标定更重要"
+      },
+      {
+        "label": "C",
+        "text": "无变化"
+      },
+      {
+        "label": "D",
+        "text": "标定消失"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "SDV 时代权力重心从标定调参转向系统架构设计与控制算法开发，BEG 的 EE/EV 组更受重视。",
+    "difficulty": 1
+  },
+  {
+    "id": "739",
+    "stem": "BEG 中国团队（BEG.China）的服务定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "面向中国客户的工程开发与测试服务"
+      },
+      {
+        "label": "B",
+        "text": "只做海外"
+      },
+      {
+        "label": "C",
+        "text": "与工程无关"
+      },
+      {
+        "label": "D",
+        "text": "只做行政"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG.China 面向中国客户提供工程开发与测试服务，是博世工程能力的本土化。",
+    "difficulty": 1
+  },
+  {
+    "id": "740",
+    "stem": "博世工程（BEG）涉及的工程服务不包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "整车总装制造"
+      },
+      {
+        "label": "B",
+        "text": "功能开发"
+      },
+      {
+        "label": "C",
+        "text": "标定"
+      },
+      {
+        "label": "D",
+        "text": "软件集成"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 提供功能开发、标定、软件集成等工程服务，不做整车总装制造。",
+    "difficulty": 1
+  },
+  {
+    "id": "741",
+    "stem": "BEG 对腾讯云的潜在合作点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "工程开发的算力、仿真、数据存储云化"
+      },
+      {
+        "label": "B",
+        "text": "无合作点"
+      },
+      {
+        "label": "C",
+        "text": "与云无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 的标定、仿真、软件集成等工程开发可上云，算力、仿真、存储是腾讯云合作点。",
+    "difficulty": 1
+  },
+  {
+    "id": "742",
+    "stem": "「功能开发（Function Development）」在 BEG 中的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "开发车辆控制功能软件并验证"
+      },
+      {
+        "label": "B",
+        "text": "只做测试"
+      },
+      {
+        "label": "C",
+        "text": "与功能无关"
+      },
+      {
+        "label": "D",
+        "text": "只做文档"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "功能开发指开发车辆控制功能软件并验证，是 BEG 工程服务的核心环节。",
+    "difficulty": 1
+  },
+  {
+    "id": "743",
+    "stem": "「软件集成」在 BEG 中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把各功能软件集成到控制器并验证"
+      },
+      {
+        "label": "B",
+        "text": "只做打包"
+      },
+      {
+        "label": "C",
+        "text": "与集成无关"
+      },
+      {
+        "label": "D",
+        "text": "只做安装"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "软件集成把各功能软件集成到控制器并验证，是嵌入式系统开发的关键环节。",
+    "difficulty": 1
+  },
+  {
+    "id": "744",
+    "stem": "BEG 总部所在地是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "阿布施塔特（Abstatt，德国）"
+      },
+      {
+        "label": "B",
+        "text": "上海"
+      },
+      {
+        "label": "C",
+        "text": "长沙"
+      },
+      {
+        "label": "D",
+        "text": "苏州"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 总部在德国阿布施塔特（Abstatt），与底盘系统控制事业部、XC 事业部同址布局。",
+    "difficulty": 1
+  },
+  {
+    "id": "745",
+    "stem": "博世代码「AAE」最可能指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汽车售后市场事业部（Automotive Aftermarket）"
+      },
+      {
+        "label": "B",
+        "text": "底盘控制"
+      },
+      {
+        "label": "C",
+        "text": "业务发展"
+      },
+      {
+        "label": "D",
+        "text": "跨域计算"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "AAE 对应汽车售后市场（Automotive Aftermarket），官方缩写常为 AA，为博世四大业务领域之一。",
+    "difficulty": 1
+  },
+  {
+    "id": "746",
+    "stem": "博世汽车售后市场事业部（AA）的核心业务是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "售后零部件、诊断设备、维修网络（Bosch Service）"
+      },
+      {
+        "label": "B",
+        "text": "只做新车"
+      },
+      {
+        "label": "C",
+        "text": "只做整车"
+      },
+      {
+        "label": "D",
+        "text": "与售后无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "汽车售后提供零部件、诊断设备、维修网络（Bosch Service 连锁），面向后市场。",
+    "difficulty": 1
+  },
+  {
+    "id": "747",
+    "stem": "「Bosch Service」维修连锁的规模约是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全球约 15000 家维修站"
+      },
+      {
+        "label": "B",
+        "text": "约 150 家"
+      },
+      {
+        "label": "C",
+        "text": "约 15 家"
+      },
+      {
+        "label": "D",
+        "text": "无连锁"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "Bosch Service 是全球最大独立维修连锁之一，约 15000 家维修站 + 1000 多家 AutoCrew。",
+    "difficulty": 1
+  },
+  {
+    "id": "748",
+    "stem": "汽车售后（AA）的员工规模约是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "约 13000-14000 人，覆盖 150 多个国家"
+      },
+      {
+        "label": "B",
+        "text": "约 1300 人"
+      },
+      {
+        "label": "C",
+        "text": "约 130 人"
+      },
+      {
+        "label": "D",
+        "text": "无员工"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "汽车售后事业部约 13000-14000 人，覆盖 150 多个国家，有全球物流网络。",
+    "difficulty": 1
+  },
+  {
+    "id": "749",
+    "stem": "汽车售后（AA）的产品线包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "备件、诊断设备、维修服务、软件"
+      },
+      {
+        "label": "B",
+        "text": "只做新车"
+      },
+      {
+        "label": "C",
+        "text": "只做整车"
+      },
+      {
+        "label": "D",
+        "text": "与备件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "汽车售后产品线包括备件、诊断设备、维修服务、诊断软件等。",
+    "difficulty": 1
+  },
+  {
+    "id": "750",
+    "stem": "汽车售后「诊断软件」对云的需求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "云端诊断数据、软件更新、远程支持"
+      },
+      {
+        "label": "B",
+        "text": "无需求"
+      },
+      {
+        "label": "C",
+        "text": "与云无关"
+      },
+      {
+        "label": "D",
+        "text": "只做本地"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "售后诊断软件可云端化（诊断数据、软件更新、远程支持），是腾讯云可切入点。",
+    "difficulty": 1
+  },
+  {
+    "id": "751",
+    "stem": "博世四大业务领域（智能出行/工业技术/消费品/能源建筑）中，「智能出行」占比约？",
+    "options": [
+      {
+        "label": "A",
+        "text": "约 61.84%（2024 财年）"
+      },
+      {
+        "label": "B",
+        "text": "约 10%"
+      },
+      {
+        "label": "C",
+        "text": "约 30%"
+      },
+      {
+        "label": "D",
+        "text": "无占比"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "博世智能出行业务占公司总销售额约 61.84%（2024 财年），是最大业务板块。",
+    "difficulty": 1
+  },
+  {
+    "id": "752",
+    "stem": "「智能出行（Mobility）」板块下的主要业务部门包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨域计算（XC）、车辆运动（VM）、动力（PS）、汽车电子等"
+      },
+      {
+        "label": "B",
+        "text": "只有家电"
+      },
+      {
+        "label": "C",
+        "text": "只有工业"
+      },
+      {
+        "label": "D",
+        "text": "只有消费品"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "智能出行板块含跨域计算（XC）、车辆运动（VM）、动力解决方案（PS）、汽车电子等业务部门。",
+    "difficulty": 1
+  },
+  {
+    "id": "753",
+    "stem": "「车辆运动（Vehicle Motion）」事业部涵盖？",
+    "options": [
+      {
+        "label": "A",
+        "text": "转向、制动、传感器、车辆动力学控制"
+      },
+      {
+        "label": "B",
+        "text": "只做座椅"
+      },
+      {
+        "label": "C",
+        "text": "只做空调"
+      },
+      {
+        "label": "D",
+        "text": "与运动无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "Vehicle Motion 事业部涵盖转向、制动、传感器、车辆动力学控制等，是底盘控制的现代化组织。",
+    "difficulty": 1
+  },
+  {
+    "id": "754",
+    "stem": "「动力解决方案（Power Solutions）」事业部的产品是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "喷油器、泵、变速箱、燃料电池等动力总成组件"
+      },
+      {
+        "label": "B",
+        "text": "只做座椅"
+      },
+      {
+        "label": "C",
+        "text": "只做灯具"
+      },
+      {
+        "label": "D",
+        "text": "与动力无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "Power Solutions 提供喷油器、泵、变速箱、燃料电池等动力总成组件，面向内燃机与氢能。",
+    "difficulty": 1
+  },
+  {
+    "id": "755",
+    "stem": "「汽车电子（Mobility Electronics）」事业部覆盖？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ASIC、MEMS 传感器、功率半导体、ECU"
+      },
+      {
+        "label": "B",
+        "text": "只做家电"
+      },
+      {
+        "label": "C",
+        "text": "与电子无关"
+      },
+      {
+        "label": "D",
+        "text": "只做机械"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "汽车电子事业部覆盖 ASIC、MEMS 传感器、碳化硅功率半导体、ECU 等电子部件。",
+    "difficulty": 1
+  },
+  {
+    "id": "756",
+    "stem": "「博世 eBike 系统」属于哪个业务？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电动自行车系统（驱动、电池、车载计算机）"
+      },
+      {
+        "label": "B",
+        "text": "只做汽车"
+      },
+      {
+        "label": "C",
+        "text": "与出行无关"
+      },
+      {
+        "label": "D",
+        "text": "只做家电"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "博世 eBike 系统提供电动自行车驱动、电池、车载计算机等，是智能出行的细分业务。",
+    "difficulty": 1
+  },
+  {
+    "id": "757",
+    "stem": "理解博世「事业部代码体系」对腾讯云售前的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "精准定位客户业务线，针对性提供方案"
+      },
+      {
+        "label": "B",
+        "text": "无价值"
+      },
+      {
+        "label": "C",
+        "text": "与售前无关"
+      },
+      {
+        "label": "D",
+        "text": "只做编号"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "理解博世事业部代码，能精准定位客户业务线（底盘/座舱/智驾/售后等），针对性提供方案。",
+    "difficulty": 1
+  },
+  {
+    "id": "758",
+    "stem": "博世「ETAS」子公司的主营业务是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汽车嵌入式系统、中间件与开发工具链"
+      },
+      {
+        "label": "B",
+        "text": "只做家电"
+      },
+      {
+        "label": "C",
+        "text": "与软件无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "ETAS 主营汽车嵌入式系统、中间件与开发工具链，是博世软件全资子公司。",
+    "difficulty": 1
+  },
+  {
+    "id": "759",
+    "stem": "博世「Bosch Engineering（BEG）」与「ETAS」的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "BEG 提供工程服务，ETAS 提供开发工具链"
+      },
+      {
+        "label": "B",
+        "text": "两者一样"
+      },
+      {
+        "label": "C",
+        "text": "都做家电"
+      },
+      {
+        "label": "D",
+        "text": "与软件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "BEG 提供工程开发与测试服务，ETAS 提供嵌入式开发工具链，定位不同。",
+    "difficulty": 1
+  },
+  {
+    "id": "760",
+    "stem": "博世中国相关的法律实体代码包括？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "RBCN（博世中国投资）"
+      },
+      {
+        "label": "B",
+        "text": "RBCC（博世汽车部件长沙）"
+      },
+      {
+        "label": "C",
+        "text": "RBAC（博世汽车部件苏州）"
+      },
+      {
+        "label": "D",
+        "text": "BEG（博世工程技术）"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 7,
+    "subChapter": "ch7-bosch-code",
+    "tags": [
+      "博世代码模块"
+    ],
+    "analysis": "RBCN、RBCC、RBAC 是博世中国法律实体代码，BEG 是博世工程技术子公司，都是博世在中国的布局。",
+    "difficulty": 1
+  }
+]

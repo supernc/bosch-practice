@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#0D1117"/>
+  <rect x="2" y="2" width="60" height="60" rx="10" stroke="#006EFF" stroke-width="2" fill="none"/>
+  <text x="32" y="26" text-anchor="middle" fill="#006EFF" font-family="Arial" font-weight="700" font-size="14">TCCP</text>
+  <text x="32" y="44" text-anchor="middle" fill="#00C4B3" font-family="Arial" font-weight="600" font-size="10">PRACTICE</text>
+</svg>

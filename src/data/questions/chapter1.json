@@ -1,0 +1,1994 @@
+[
+  {
+    "id": "101",
+    "stem": "根据《汽车数据安全管理若干规定（试行）》，下列哪项不属于「重要数据」？",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事管理区、县级以上党政机关等重要敏感区域的地理信息"
+      },
+      {
+        "label": "B",
+        "text": "汽车充电网的运行数据"
+      },
+      {
+        "label": "C",
+        "text": "已做匿名化处理、无法识别特定自然人的统计油耗数据"
+      },
+      {
+        "label": "D",
+        "text": "包含人脸信息、车牌信息的车外视频图像数据"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "重要数据列举了敏感区域地理信息、充电网运行数据、含人脸车牌的车外视频等。已匿名化、无法识别特定自然人的统计数据不属于重要数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "102",
+    "stem": "某车型的「360° 环视影像」记录了大量车外行人面孔和车牌，这些原始影像数据按法规应归类为？",
+    "options": [
+      {
+        "label": "A",
+        "text": "一般数据，可自由上公有云"
+      },
+      {
+        "label": "B",
+        "text": "重要数据（含人脸、车牌的车外视频图像）"
+      },
+      {
+        "label": "C",
+        "text": "非个人信息，无需任何处理"
+      },
+      {
+        "label": "D",
+        "text": "仅属于企业内部商业秘密"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "360 环视影像采集车外行人面孔、车牌，属于《规定》明确的「包含人脸信息、车牌信息的车外视频、图像数据」，即重要数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "103",
+    "stem": "「哨兵模式」（停车监控）录制的车外视频中含有人脸和车牌，若车企要把这些视频上传云端，最稳妥的做法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接上传到公有云，方便远程查看"
+      },
+      {
+        "label": "B",
+        "text": "先对人脸、车牌做脱敏（打码/轮廓化），再按合规要求存储"
+      },
+      {
+        "label": "C",
+        "text": "只要加密就可以直接上公有云"
+      },
+      {
+        "label": "D",
+        "text": "存到境外服务器，避免国内监管"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "哨兵视频含人脸车牌属重要数据，上传前应脱敏，且重要数据应境内存储。加密不等于匿名化，不能替代脱敏。",
+    "difficulty": 1
+  },
+  {
+    "id": "104",
+    "stem": "关于「合规云（专有云）vs 公有云」的数据放置，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车辆行踪轨迹、人脸模糊、车牌模糊等敏感数据只放专有云"
+      },
+      {
+        "label": "B",
+        "text": "所有汽车数据都应放公有云以节省成本"
+      },
+      {
+        "label": "C",
+        "text": "专有云和公有云没有区别，可以随意混放"
+      },
+      {
+        "label": "D",
+        "text": "敏感数据放公有云反而更安全"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "腾讯云在上海的智能汽车云专区是专有云，轨迹信息、人脸模糊、车牌模糊等敏感服务只放在专有云，实现物理隔离、专云专用。",
+    "difficulty": 1
+  },
+  {
+    "id": "105",
+    "stem": "下列哪种数据一般可以放在公有云处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "已脱敏的、不含个人信息的车辆能耗统计数据"
+      },
+      {
+        "label": "B",
+        "text": "含人脸的车外原始视频"
+      },
+      {
+        "label": "C",
+        "text": "车辆行踪轨迹数据"
+      },
+      {
+        "label": "D",
+        "text": "车主的生物识别特征（指纹、声纹）"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "已脱敏、不含个人信息的统计数据（如能耗、里程汇总）不属于敏感个人信息或重要数据，可上公有云；人脸视频、轨迹、生物识别都属敏感/重要数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "106",
+    "stem": "腾讯云「智能驾驶双专区」通过的国家网络安全等级保护认证是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "等保一级"
+      },
+      {
+        "label": "B",
+        "text": "等保二级"
+      },
+      {
+        "label": "C",
+        "text": "等保三级"
+      },
+      {
+        "label": "D",
+        "text": "无需等保认证"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "腾讯云智能驾驶双专区提供专属隔离云平台，通过国家网络安全等级保护三级认证，保障数据合规。",
+    "difficulty": 1
+  },
+  {
+    "id": "107",
+    "stem": "《汽车数据安全管理若干规定（试行）》倡导的「四项原则」包括哪些？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "车内处理原则"
+      },
+      {
+        "label": "B",
+        "text": "默认不收集原则"
+      },
+      {
+        "label": "C",
+        "text": "精度范围适用原则"
+      },
+      {
+        "label": "D",
+        "text": "脱敏处理原则"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "四项原则为：车内处理（除非确有必要不向车外提供）、默认不收集、精度范围适用、脱敏处理。",
+    "difficulty": 1
+  },
+  {
+    "id": "108",
+    "stem": "「默认不收集原则」的含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "每次驾驶默认开启全部数据采集"
+      },
+      {
+        "label": "B",
+        "text": "除非驾驶人自主设定，每次驾驶默认设置为不收集状态"
+      },
+      {
+        "label": "C",
+        "text": "只要用户签过一次同意就永久默认收集"
+      },
+      {
+        "label": "D",
+        "text": "车企可以后台静默采集所有数据"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "默认不收集原则：除非驾驶人自主设定，每次驾驶时默认设定为不收集状态，从源头减少无序收集。",
+    "difficulty": 1
+  },
+  {
+    "id": "109",
+    "stem": "「精度范围适用原则」要求车企根据什么来确定摄像头、雷达的覆盖范围和分辨率？",
+    "options": [
+      {
+        "label": "A",
+        "text": "所提供功能服务对数据精度的要求"
+      },
+      {
+        "label": "B",
+        "text": "硬件成本越低越好"
+      },
+      {
+        "label": "C",
+        "text": "尽可能采集最高精度数据备用"
+      },
+      {
+        "label": "D",
+        "text": "竞争对手的配置"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "精度范围适用原则：根据所提供功能服务对数据精度的要求，确定摄像头、雷达等的覆盖范围、分辨率，避免过度采集。",
+    "difficulty": 1
+  },
+  {
+    "id": "110",
+    "stem": "处理「敏感个人信息」时，除告知外还需满足的关键要求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "取得个人单独同意"
+      },
+      {
+        "label": "B",
+        "text": "只需口头告知即可"
+      },
+      {
+        "label": "C",
+        "text": "无需任何同意"
+      },
+      {
+        "label": "D",
+        "text": "默示同意即可"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "处理敏感个人信息应取得个人单独同意，个人可自主设定同意期限；个人要求删除的，应在10个工作日内删除。",
+    "difficulty": 1
+  },
+  {
+    "id": "111",
+    "stem": "个人要求删除其个人信息（敏感个人信息）的，汽车数据处理者应在多少个工作日内删除？",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 个工作日"
+      },
+      {
+        "label": "B",
+        "text": "5 个工作日"
+      },
+      {
+        "label": "C",
+        "text": "10 个工作日"
+      },
+      {
+        "label": "D",
+        "text": "30 个工作日"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "《规定》第九条：个人要求删除的，汽车数据处理者应当在十个工作日内删除。",
+    "difficulty": 1
+  },
+  {
+    "id": "112",
+    "stem": "车企要收集车主的指纹、声纹、人脸、心律等生物识别特征信息，需要满足什么条件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只要用户注册时勾选了同意"
+      },
+      {
+        "label": "B",
+        "text": "具有增强行车安全的目的和充分的必要性"
+      },
+      {
+        "label": "C",
+        "text": "任何情况都不能收集"
+      },
+      {
+        "label": "D",
+        "text": "只要付了钱就可以收集"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "《规定》第九条：具有增强行车安全的目的和充分的必要性，方可收集指纹、声纹、人脸、心律等生物识别特征信息。",
+    "difficulty": 1
+  },
+  {
+    "id": "113",
+    "stem": "「匿名化」与「去标识化」的区别在于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "匿名化无法复原、无法识别特定自然人；去标识化仍可能借助额外信息复原"
+      },
+      {
+        "label": "B",
+        "text": "两者完全一样"
+      },
+      {
+        "label": "C",
+        "text": "去标识化保护更强"
+      },
+      {
+        "label": "D",
+        "text": "匿名化可以还原出个人信息"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "匿名化处理后无法复原、无法识别特定自然人；去标识化仅去除直接标识符，借助额外信息仍可能复原，保护强度低于匿名化。",
+    "difficulty": 1
+  },
+  {
+    "id": "114",
+    "stem": "关于「加密」和「匿名化」，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "加密后的数据等同于匿名化，可当作非个人信息处理"
+      },
+      {
+        "label": "B",
+        "text": "加密只是保护手段，解密后仍可识别，不能等同于匿名化"
+      },
+      {
+        "label": "C",
+        "text": "加密比匿名化更彻底"
+      },
+      {
+        "label": "D",
+        "text": "两者没有任何关系"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "加密是可逆的保护手段，解密后仍能识别个人信息；匿名化是不可逆的。加密不能替代匿名化。",
+    "difficulty": 1
+  },
+  {
+    "id": "115",
+    "stem": "智能网联汽车数据按安全影响程度可分级为一般级、敏感级、重要级和？",
+    "options": [
+      {
+        "label": "A",
+        "text": "核心级"
+      },
+      {
+        "label": "B",
+        "text": "机密级"
+      },
+      {
+        "label": "C",
+        "text": "绝密级"
+      },
+      {
+        "label": "D",
+        "text": "公开级"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据分级为一般级、敏感级、重要级、核心级四级，核心级指泄露后对公共利益造成严重危害、对国家安全造成一般危害的数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "116",
+    "stem": "下列哪些属于《规定》中的「敏感个人信息」？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "车辆行踪轨迹"
+      },
+      {
+        "label": "B",
+        "text": "车内音频、视频"
+      },
+      {
+        "label": "C",
+        "text": "车外图像"
+      },
+      {
+        "label": "D",
+        "text": "生物识别特征"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "敏感个人信息包括车辆行踪轨迹、音频、视频、图像和生物识别特征等信息，一旦泄露可能导致歧视或人身财产安全严重危害。",
+    "difficulty": 1
+  },
+  {
+    "id": "117",
+    "stem": "某外资车企要把在中国采集的、含人脸车牌的车外视频传回海外总部做算法训练，正确的合规路径是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接传，无需任何手续"
+      },
+      {
+        "label": "B",
+        "text": "重要数据境内存储，确需出境须通过安全评估"
+      },
+      {
+        "label": "C",
+        "text": "只要对方签保密协议就能传"
+      },
+      {
+        "label": "D",
+        "text": "压缩成小文件后直接传"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "重要数据应当依法在境内存储，因业务需要确需向境外提供的，应通过国家网信部门会同有关部门组织的安全评估。",
+    "difficulty": 1
+  },
+  {
+    "id": "118",
+    "stem": "汽车数据处理者开展重要数据处理活动，应当向哪个主体报送风险评估报告？",
+    "options": [
+      {
+        "label": "A",
+        "text": "省级网信部门和有关部门"
+      },
+      {
+        "label": "B",
+        "text": "任意第三方咨询公司"
+      },
+      {
+        "label": "C",
+        "text": "境外母公司"
+      },
+      {
+        "label": "D",
+        "text": "无需报送"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "开展重要数据处理活动应开展风险评估，并向省、自治区、直辖市网信部门和有关部门报送风险评估报告。",
+    "difficulty": 1
+  },
+  {
+    "id": "119",
+    "stem": "汽车数据处理者报送「年度汽车数据安全管理情况」的截止时间是每年？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 月 1 日前"
+      },
+      {
+        "label": "B",
+        "text": "6 月 30 日前"
+      },
+      {
+        "label": "C",
+        "text": "12 月 15 日前"
+      },
+      {
+        "label": "D",
+        "text": "无固定时间"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "《规定》第十三条：开展重要数据处理活动的，应在每年十二月十五日前报送年度汽车数据安全管理情况。",
+    "difficulty": 1
+  },
+  {
+    "id": "120",
+    "stem": "「车内处理原则」的核心含义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "所有数据只能在车内存储，永远不能出车"
+      },
+      {
+        "label": "B",
+        "text": "除非确有必要，不向车外提供数据"
+      },
+      {
+        "label": "C",
+        "text": "车内数据可以随意上传"
+      },
+      {
+        "label": "D",
+        "text": "车外数据必须全部上传云端"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车内处理原则：除非确有必要，不向车外提供，倡导数据尽量在车内处理，减少外传。",
+    "difficulty": 1
+  },
+  {
+    "id": "121",
+    "stem": "因保证行车安全需要，无法征得同意采集到车外个人信息且向车外提供的，应当如何处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接提供即可"
+      },
+      {
+        "label": "B",
+        "text": "进行匿名化处理（删除可识别画面或人脸轮廓化等）"
+      },
+      {
+        "label": "C",
+        "text": "只要加个水印即可"
+      },
+      {
+        "label": "D",
+        "text": "存 3 个月后自动提供"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "《规定》第八条：无法征得同意采集到车外个人信息且向车外提供的，应匿名化处理，包括删除可识别画面或对人脸局部轮廓化等。",
+    "difficulty": 1
+  },
+  {
+    "id": "122",
+    "stem": "「车端匿名化」相比「云端集中脱敏」的核心优势是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在数据源头就处理，风险更低、更彻底"
+      },
+      {
+        "label": "B",
+        "text": "完全没有区别"
+      },
+      {
+        "label": "C",
+        "text": "成本更高所以更好"
+      },
+      {
+        "label": "D",
+        "text": "不需要任何算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车端匿名化在数据采集源头（车辆端）就做匿名化处理，比上传后再云端脱敏更早、更彻底，从源头降低合规风险。",
+    "difficulty": 1
+  },
+  {
+    "id": "123",
+    "stem": "车企搭建车联网平台，常见的「混合云」架构是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车身相关及敏感数据放私有云，面向车主服务等公网入口放公有云"
+      },
+      {
+        "label": "B",
+        "text": "所有数据都放公有云"
+      },
+      {
+        "label": "C",
+        "text": "所有数据都放私有云"
+      },
+      {
+        "label": "D",
+        "text": "数据完全不上云"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车联网平台多采用混合云：与车身相关及敏感数据放私有云，面向车主服务、供应商等需公网访问的入口放公有云，兼顾私密性与公网能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "124",
+    "stem": "某车企希望提供「远程查看哨兵视频」功能，合规的做法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实时推原始视频给车主手机"
+      },
+      {
+        "label": "B",
+        "text": "上传画面对人脸、车牌实时打码（脱敏）后提供"
+      },
+      {
+        "label": "C",
+        "text": "把视频存到公有云开放下载"
+      },
+      {
+        "label": "D",
+        "text": "不做任何处理直接开放"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "远程查看哨兵视频需对上传图像脱敏（人脸及车牌打码），既满足法规又保留取证价值。",
+    "difficulty": 1
+  },
+  {
+    "id": "125",
+    "stem": "「涉及个人信息主体超过 10 万人的个人信息」在汽车数据分类中属于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "一般数据"
+      },
+      {
+        "label": "B",
+        "text": "敏感个人信息"
+      },
+      {
+        "label": "C",
+        "text": "重要数据"
+      },
+      {
+        "label": "D",
+        "text": "非个人信息"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "《规定》将「涉及个人信息主体超过 10 万人的个人信息」列为重要数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "126",
+    "stem": "关于数据分级中的「汇聚/组合风险」，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据级别一经确定永不改变"
+      },
+      {
+        "label": "B",
+        "text": "不同种类数据的组合、汇聚、分析可能导致数据级别上升"
+      },
+      {
+        "label": "C",
+        "text": "数据量越大级别越低"
+      },
+      {
+        "label": "D",
+        "text": "级别只与单一数据类型有关"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "同一数据因数量累积或场景变化会导致级别上升；不同种类数据组合、汇聚、分析也可能导致级别上升，需动态评估。",
+    "difficulty": 1
+  },
+  {
+    "id": "127",
+    "stem": "下列哪些数据属于「重要数据」？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事管理区的地理信息、人员流量数据"
+      },
+      {
+        "label": "B",
+        "text": "车辆流量、物流等反映经济运行情况的数据"
+      },
+      {
+        "label": "C",
+        "text": "汽车充电网的运行数据"
+      },
+      {
+        "label": "D",
+        "text": "包含人脸信息、车牌信息的车外视频图像数据"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "以上四项都是《规定》第三条列举的重要数据。",
+    "difficulty": 1
+  },
+  {
+    "id": "128",
+    "stem": "腾讯云在上海开设的「智能汽车云专区」的性质是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "普通公有云"
+      },
+      {
+        "label": "B",
+        "text": "专有云（硬件全栈物理隔离，专云专用）"
+      },
+      {
+        "label": "C",
+        "text": "开源的社区云"
+      },
+      {
+        "label": "D",
+        "text": "仅为演示用的虚拟专区"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "腾讯在上海专门开设智能汽车云专区，通过硬件全栈物理隔离和软件定向优化做到专云专用，保证数据安全、自主可控。",
+    "difficulty": 1
+  },
+  {
+    "id": "129",
+    "stem": "自动驾驶研发中，含人脸、车牌的原始采集数据在进入训练前，通常需要经过的关键环节是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据脱敏（人脸模糊、车牌打码）"
+      },
+      {
+        "label": "B",
+        "text": "直接喂给模型"
+      },
+      {
+        "label": "C",
+        "text": "先公开发布"
+      },
+      {
+        "label": "D",
+        "text": "先卖给别人"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "原始采集数据含人脸车牌，需脱敏后才能用于训练、仿真或共享，这是数据闭环中合规的前提环节。",
+    "difficulty": 1
+  },
+  {
+    "id": "130",
+    "stem": "「数据归属权」在车企与云服务商之间的一般原则是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据归属权属于云服务商"
+      },
+      {
+        "label": "B",
+        "text": "数据归属权完全属于车企，云服务商需授权才能使用"
+      },
+      {
+        "label": "C",
+        "text": "数据归政府所有"
+      },
+      {
+        "label": "D",
+        "text": "谁存储归谁"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据归属权完全属于车企本身，云服务商（如腾讯云）需车企授权才能使用部分数据，这是赢得车企信赖的关键。",
+    "difficulty": 1
+  },
+  {
+    "id": "131",
+    "stem": "以下哪种场景最容易触犯「过度收集」？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅为导航功能采集必要的位置信息"
+      },
+      {
+        "label": "B",
+        "text": "开启所有传感器全量采集数据但不告知用户用途"
+      },
+      {
+        "label": "C",
+        "text": "采集与所提供功能直接相关的必要数据"
+      },
+      {
+        "label": "D",
+        "text": "按功能所需精度设置摄像头分辨率"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "处理汽车数据应合法、正当、具体、明确，与汽车设计生产使用直接相关。全量采集且不告知用途属于过度收集。",
+    "difficulty": 1
+  },
+  {
+    "id": "132",
+    "stem": "「重要数据出境安全评估」由哪个部门组织？",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家网信部门会同国务院有关部门"
+      },
+      {
+        "label": "B",
+        "text": "任意保险公司"
+      },
+      {
+        "label": "C",
+        "text": "车企自己"
+      },
+      {
+        "label": "D",
+        "text": "云服务商"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "重要数据确需出境，应通过国家网信部门会同国务院有关部门组织的安全评估。",
+    "difficulty": 1
+  },
+  {
+    "id": "133",
+    "stem": "向境外提供重要数据，不得超出安全评估时明确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "目的、范围、方式和数据种类、规模"
+      },
+      {
+        "label": "B",
+        "text": "任意扩大的范围"
+      },
+      {
+        "label": "C",
+        "text": "金额大小"
+      },
+      {
+        "label": "D",
+        "text": "服务器品牌"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "向境外提供重要数据不得超出出境安全评估时明确的目的、范围、方式和数据种类、规模。",
+    "difficulty": 1
+  },
+  {
+    "id": "134",
+    "stem": "某数据属于「核心级」，其泄露的影响是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对公共利益造成严重危害、对国家安全造成一般危害"
+      },
+      {
+        "label": "B",
+        "text": "完全没有影响"
+      },
+      {
+        "label": "C",
+        "text": "仅影响个人隐私"
+      },
+      {
+        "label": "D",
+        "text": "仅影响企业利润"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "核心级数据指泄露后会对公共利益造成严重危害、对国家安全造成一般危害的数据，是最高保护级别。",
+    "difficulty": 1
+  },
+  {
+    "id": "135",
+    "stem": "关于车联网平台的数据安全，腾讯云「数据安全中心」提供的 IPDRR 闭环不包括哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "识别（Identify）"
+      },
+      {
+        "label": "B",
+        "text": "防护（Protect）"
+      },
+      {
+        "label": "C",
+        "text": "检测（Detect）"
+      },
+      {
+        "label": "D",
+        "text": "销售（Sell）"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "IPDRR 是识别(Identify)、防护(Protect)、检测(Detect)、响应(Response)、恢复(Recover)的数据安全闭环，不包含「销售」。",
+    "difficulty": 1
+  },
+  {
+    "id": "136",
+    "stem": "「数据分类分级自动化」的价值在于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动扫描元数据、实现分类分级智能化，降低人工梳理成本"
+      },
+      {
+        "label": "B",
+        "text": "只是给数据起个名字"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "反而增加合规风险"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据分类分级自动化对接多种数据源自动扫描元数据，实现分类分级智能化，是数据安全治理的基础。",
+    "difficulty": 1
+  },
+  {
+    "id": "137",
+    "stem": "自动驾驶「数据闭环」中，合规与效率的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "合规会拖慢迭代，应尽量绕过"
+      },
+      {
+        "label": "B",
+        "text": "脱敏合规是数据可用的前提，二者需兼顾"
+      },
+      {
+        "label": "C",
+        "text": "合规和效率完全无关"
+      },
+      {
+        "label": "D",
+        "text": "只要效率高就可以不脱敏"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据闭环追求迭代效率，但含人脸车牌的数据必须脱敏合规后才能进入训练，二者需兼顾——脱敏是数据可用的前提。",
+    "difficulty": 1
+  },
+  {
+    "id": "138",
+    "stem": "腾讯云汽车数据合规中，「无侵入式安全加固」的特点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "需要大规模改造业务系统"
+      },
+      {
+        "label": "B",
+        "text": "无需业务改造即可落地加密、脱敏、审计等能力"
+      },
+      {
+        "label": "C",
+        "text": "需要停业才能实施"
+      },
+      {
+        "label": "D",
+        "text": "只能保护数据库"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "无侵入式安全加固在无需业务改造前提下，落地数据链路加密、数据库加密、静态/动态脱敏、API 安全监测与审计等能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "139",
+    "stem": "关于「静态脱敏」与「动态脱敏」，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "静态脱敏在存储/导出时处理，动态脱敏在访问/展示时实时处理"
+      },
+      {
+        "label": "B",
+        "text": "两者完全一样"
+      },
+      {
+        "label": "C",
+        "text": "静态脱敏是实时处理"
+      },
+      {
+        "label": "D",
+        "text": "动态脱敏只能脱数据库"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "静态脱敏是对存储或导出的数据副本做一次性脱敏；动态脱敏是在数据被访问、展示时实时脱敏，二者应用场景不同。",
+    "difficulty": 1
+  },
+  {
+    "id": "140",
+    "stem": "车企要处理「车外行人」的个人信息，匿名化处理的最低要求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "删除能够识别自然人的画面，或对人脸等进行局部轮廓化处理"
+      },
+      {
+        "label": "B",
+        "text": "只需降低分辨率"
+      },
+      {
+        "label": "C",
+        "text": "只需打马赛克到看不清车牌即可"
+      },
+      {
+        "label": "D",
+        "text": "无需处理"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "匿名化处理包括删除含有能够识别自然人的画面，或对画面中的人脸信息等进行局部轮廓化处理等。",
+    "difficulty": 1
+  },
+  {
+    "id": "141",
+    "stem": "「数据出境」的监管重点对象是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全部数据一律禁止出境"
+      },
+      {
+        "label": "B",
+        "text": "重要数据与个人信息（尤其敏感个人信息）"
+      },
+      {
+        "label": "C",
+        "text": "只监管公开数据"
+      },
+      {
+        "label": "D",
+        "text": "不监管任何数据"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据出境监管重点是重要数据和个人信息（尤其敏感个人信息）；非敏感、已脱敏的数据出境要求相对宽松。",
+    "difficulty": 1
+  },
+  {
+    "id": "142",
+    "stem": "关于汽车数据合规的「必要性与最小化」，下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "采集的数据越多越安全"
+      },
+      {
+        "label": "B",
+        "text": "应采集与功能直接相关的最小必要数据"
+      },
+      {
+        "label": "C",
+        "text": "最小化与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "最小化会降低数据价值所以不可取"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "合规要求数据收集遵循必要、最小化原则，仅采集与功能直接相关的数据，避免过度收集。",
+    "difficulty": 1
+  },
+  {
+    "id": "143",
+    "stem": "腾讯云「车云一体」数据闭环方案中，车端数据上云的完整链路是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "采集 → 加密 → 脱敏 → 云端存储 → 训练 → 仿真"
+      },
+      {
+        "label": "B",
+        "text": "采集 → 直接上传 → 训练"
+      },
+      {
+        "label": "C",
+        "text": "采集 → 公开 → 训练"
+      },
+      {
+        "label": "D",
+        "text": "采集 → 直接卖给第三方"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车云一体数据闭环覆盖从车端数据采集、加密、脱敏到云端存储、训练、仿真的全链路。",
+    "difficulty": 1
+  },
+  {
+    "id": "144",
+    "stem": "某供应商只做「零部件和软件」供应，是否属于《规定》中的「汽车数据处理者」？",
+    "options": [
+      {
+        "label": "A",
+        "text": "不属于，只有车企才算"
+      },
+      {
+        "label": "B",
+        "text": "属于，零部件和软件供应商也是汽车数据处理者"
+      },
+      {
+        "label": "C",
+        "text": "只有经销商才算"
+      },
+      {
+        "label": "D",
+        "text": "只有出行服务企业才算"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "汽车数据处理者包括汽车制造商、零部件和软件供应商、经销商、维修机构以及出行服务企业等。",
+    "difficulty": 1
+  },
+  {
+    "id": "145",
+    "stem": "车端采集的「驾驶员操作数据」（如踩刹车、打转向）一般属于？",
+    "options": [
+      {
+        "label": "A",
+        "text": "敏感个人信息（驾驶行为可能关联个人）"
+      },
+      {
+        "label": "B",
+        "text": "完全不涉及个人"
+      },
+      {
+        "label": "C",
+        "text": "一定是重要数据"
+      },
+      {
+        "label": "D",
+        "text": "只能删除不能使用"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "驾驶员操作数据、驾驶习惯等与驾驶人相关，属于个人信息范畴，结合轨迹等可能构成敏感个人信息，需合规处理。",
+    "difficulty": 1
+  },
+  {
+    "id": "146",
+    "stem": "开展重要数据处理活动，风险评估报告应包括哪些内容？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "重要数据的种类、数量、范围"
+      },
+      {
+        "label": "B",
+        "text": "保存地点与期限"
+      },
+      {
+        "label": "C",
+        "text": "使用方式及是否向第三方提供"
+      },
+      {
+        "label": "D",
+        "text": "面临的数据安全风险及应对措施"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "风险评估报告应包含重要数据种类数量范围、保存地点期限、使用方式、是否向第三方提供、面临风险及应对措施等。",
+    "difficulty": 1
+  },
+  {
+    "id": "147",
+    "stem": "「敏感个人信息」中的「生物识别特征」包括？",
+    "options": [
+      {
+        "label": "A",
+        "text": "指纹、声纹、人脸、心律等"
+      },
+      {
+        "label": "B",
+        "text": "只有身份证号"
+      },
+      {
+        "label": "C",
+        "text": "只有电话号码"
+      },
+      {
+        "label": "D",
+        "text": "只有地址"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "生物识别特征包括指纹、声纹、人脸、心律等，收集需增强行车安全目的和充分必要性。",
+    "difficulty": 1
+  },
+  {
+    "id": "148",
+    "stem": "关于「车外视频」的法律性质，下列说法最准确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车外画面一定不是个人信息"
+      },
+      {
+        "label": "B",
+        "text": "含人脸、车牌的车外视频同时构成敏感个人信息和重要数据"
+      },
+      {
+        "label": "C",
+        "text": "车外视频不涉及任何合规要求"
+      },
+      {
+        "label": "D",
+        "text": "只有车内视频才受监管"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车外视频含人脸、车牌，既属于敏感个人信息（视频、图像），又属于重要数据（含人脸车牌的车外视频），受双重规制。",
+    "difficulty": 1
+  },
+  {
+    "id": "149",
+    "stem": "腾讯云数据安全中心提供的「数据资产大屏」主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可视化展示数据分布地图，实现数据资产智能化管理"
+      },
+      {
+        "label": "B",
+        "text": "只是装饰页面"
+      },
+      {
+        "label": "C",
+        "text": "用来播放广告"
+      },
+      {
+        "label": "D",
+        "text": "与数据安全无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "数据资产大屏实现数据分布地图可视化，配合分类分级自动化，实现数据资产智能化管理与全链路风险可控。",
+    "difficulty": 1
+  },
+  {
+    "id": "150",
+    "stem": "关于「全量审计与追溯」，其核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对数据库、API 全量审计，建立数据流转地图，跟踪数据流转状态"
+      },
+      {
+        "label": "B",
+        "text": "只是记录日志"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "只能审计数据库"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "全量审计与追溯实现对数据库、API 的全量审计，建立数据流转地图，跟踪流转状态，是敏感数据泄露追溯的关键能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "151",
+    "stem": "「敏感个人信息」与「重要数据」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "完全互斥"
+      },
+      {
+        "label": "B",
+        "text": "可能有交叉，如含人脸车牌的车外视频两者都是"
+      },
+      {
+        "label": "C",
+        "text": "完全等同"
+      },
+      {
+        "label": "D",
+        "text": "没有任何关系"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "两者是不同维度的分类：敏感个人信息侧重个人权益，重要数据侧重国家安全公共利益，但含人脸车牌的车外视频同时满足两者。",
+    "difficulty": 1
+  },
+  {
+    "id": "152",
+    "stem": "某车企把「已脱敏的车辆能耗统计报表」放到公有云做 BI 分析，是否合规？",
+    "options": [
+      {
+        "label": "A",
+        "text": "不合规，任何数据都不能上公有云"
+      },
+      {
+        "label": "B",
+        "text": "合规，脱敏后不含个人信息的统计数据可上公有云"
+      },
+      {
+        "label": "C",
+        "text": "只有私有云才能做分析"
+      },
+      {
+        "label": "D",
+        "text": "需先出境评估"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "已脱敏、不含个人信息的统计类数据（能耗报表等）不属于敏感个人信息或重要数据，可上公有云做分析。",
+    "difficulty": 1
+  },
+  {
+    "id": "153",
+    "stem": "关于「人脸识别技术」在汽车中的应用，最需警惕的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对人脸进行一对一验证或一对多辨识，可能进入专门的人脸识别监管"
+      },
+      {
+        "label": "B",
+        "text": "人脸识别完全无害"
+      },
+      {
+        "label": "C",
+        "text": "人脸识别不需要同意"
+      },
+      {
+        "label": "D",
+        "text": "人脸识别数据可随意共享"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "若提取面部生物特征用于一对一验证或一对多辨识，会进入人脸识别相关专门办法的规制；单纯「有人靠近」检测不等于人脸识别。",
+    "difficulty": 1
+  },
+  {
+    "id": "154",
+    "stem": "汽车数据合规中，处理「个人信息」应履行的三项基本义务是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "告知、征得同意、匿名化要求"
+      },
+      {
+        "label": "B",
+        "text": "只需告知"
+      },
+      {
+        "label": "C",
+        "text": "只需收费"
+      },
+      {
+        "label": "D",
+        "text": "无需任何义务"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "针对个人信息的三项义务：告知义务、征得同意义务、匿名化要求。",
+    "difficulty": 1
+  },
+  {
+    "id": "155",
+    "stem": "向境外提供重要数据的汽车数据处理者，除年度报告外还需补充报告？",
+    "options": [
+      {
+        "label": "A",
+        "text": "接收者基本情况、出境数据种类规模、境外保存地点等"
+      },
+      {
+        "label": "B",
+        "text": "无需补充"
+      },
+      {
+        "label": "C",
+        "text": "只需报告利润"
+      },
+      {
+        "label": "D",
+        "text": "只需报告服务器型号"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "向境外提供重要数据的，应补充报告接收者情况、出境数据种类规模目的、境外保存地点期限范围方式等。",
+    "difficulty": 1
+  },
+  {
+    "id": "156",
+    "stem": "智能驾驶数据闭环中，向量数据库「图像检索」的合规前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对图像数据先做脱敏，再用于检索和训练"
+      },
+      {
+        "label": "B",
+        "text": "直接用原始图像"
+      },
+      {
+        "label": "C",
+        "text": "公开原始图像"
+      },
+      {
+        "label": "D",
+        "text": "无需任何处理"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "图像检索加速数据闭环，但输入图像需先脱敏（人脸、车牌处理），否则检索和训练会触碰合规红线。",
+    "difficulty": 1
+  },
+  {
+    "id": "157",
+    "stem": "关于「合规云」的定位，最准确的说法是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "合规云只是普通公有云换了个名字"
+      },
+      {
+        "label": "B",
+        "text": "合规云是满足等保、数据隔离、专云专用的安全合规底座"
+      },
+      {
+        "label": "C",
+        "text": "合规云只存公开数据"
+      },
+      {
+        "label": "D",
+        "text": "合规云不需要等保认证"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "合规云（专有云）通过物理隔离、等保认证等，作为承载敏感数据的合规底座，确保数据安全、自主可控。",
+    "difficulty": 1
+  },
+  {
+    "id": "158",
+    "stem": "汽车数据合规中，「用户投诉举报渠道」的要求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "无需设置"
+      },
+      {
+        "label": "B",
+        "text": "应建立投诉举报渠道，设置便捷入口，及时处理"
+      },
+      {
+        "label": "C",
+        "text": "只能线下处理"
+      },
+      {
+        "label": "D",
+        "text": "由第三方代管即可"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "汽车数据处理者应建立投诉举报渠道，设置便捷的投诉举报入口，及时处理用户投诉举报。",
+    "difficulty": 1
+  },
+  {
+    "id": "159",
+    "stem": "智能汽车「车云一体」中，车端、云端、手机端三者的合规关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "三者各自为政，无合规关联"
+      },
+      {
+        "label": "B",
+        "text": "需打通三端的同时，统一落实数据合规要求"
+      },
+      {
+        "label": "C",
+        "text": "只有云端需要合规"
+      },
+      {
+        "label": "D",
+        "text": "只有车端需要合规"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "车云一体打通车端、云端、手机端，但三端的数据采集、传输、存储都需统一落实合规要求。",
+    "difficulty": 1
+  },
+  {
+    "id": "160",
+    "stem": "关于汽车数据合规的总体原则，下列说法最全面的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "合法正当、必要、车内处理、默认不收集、精度适用、脱敏处理"
+      },
+      {
+        "label": "B",
+        "text": "只追求效率，忽略合规"
+      },
+      {
+        "label": "C",
+        "text": "只追求合规，忽略业务"
+      },
+      {
+        "label": "D",
+        "text": "完全自由处理"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "ch1-compliance",
+    "tags": [
+      "数据合规"
+    ],
+    "analysis": "汽车数据合规总体遵循合法正当必要，以及车内处理、默认不收集、精度范围适用、脱敏处理等原则，兼顾安全与发展。",
+    "difficulty": 1
+  }
+]

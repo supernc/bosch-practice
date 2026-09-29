@@ -1,46 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>博世业务方向 · 学习刷题</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js" defer></script>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <i data-lucide="shield-check"></i>
-      <span>博世业务学习</span>
-    </div>
-    <nav class="nav-links">
-      <div class="nav-item active" id="nav-home">首页</div>
-      <div class="nav-item" id="nav-chapters">领域练习</div>
-      <div class="nav-item" id="nav-exam">随机自测</div>
-      <div class="nav-item" id="nav-wrong">错题本</div>
-      <div class="nav-item" id="nav-favs">题目收藏</div>
-      <div class="nav-item" id="nav-stats">做题统计</div>
-    </nav>
-    <div class="theme-toggle">
-      <button class="btn btn-outline" id="theme-btn">
-        <i data-lucide="moon"></i>
-      </button>
-    </div>
-  </header>
-
-  <main id="app-content">
-    <!-- Content will be injected by JavaScript -->
-  </main>
-
-  <footer>
-    <p>© 2026 博世业务方向学习 · 数据合规 / 自动驾驶 / 地图 / 具身智能 / 座舱</p>
-    <p style="font-size: 0.75rem; margin-top: 0.5rem; opacity: 0.7;">题目基于公司内部知识库与公开法规整理，仅供内部学习参考</p>
-  </footer>
-
-  <script src="questions.js" type="module"></script>
-  <script src="app.js" type="module"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>博世业务学习 - 汽车业务方向刷题</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

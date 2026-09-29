@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "501",
+    "stem": "「智能座舱」的核心硬件是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱域控制器 + SoC 芯片"
+      },
+      {
+        "label": "B",
+        "text": "只有座椅"
+      },
+      {
+        "label": "C",
+        "text": "只有空调"
+      },
+      {
+        "label": "D",
+        "text": "只有音箱"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "智能座舱的核心硬件是座舱域控制器 + SoC 芯片，集中承载仪表、中控、娱乐等系统。",
+    "difficulty": 1
+  },
+  {
+    "id": "502",
+    "stem": "「座舱域控制器」的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱中央算力平台，集成仪表/中控/娱乐/导航多系统"
+      },
+      {
+        "label": "B",
+        "text": "只做收音机"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "只做座椅调节"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱域控制器是座舱中央算力平台，集成仪表、中控、娱乐、导航等多屏多系统。",
+    "difficulty": 1
+  },
+  {
+    "id": "503",
+    "stem": "「舱驾一体」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱与智驾共用一套硬件/芯片，降本增效"
+      },
+      {
+        "label": "B",
+        "text": "座舱与发动机一体"
+      },
+      {
+        "label": "C",
+        "text": "座椅与方向盘一体"
+      },
+      {
+        "label": "D",
+        "text": "与硬件无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "舱驾一体指座舱与智驾共用一套硬件/芯片，降低成本、提升协同体验。",
+    "difficulty": 1
+  },
+  {
+    "id": "504",
+    "stem": "「舱泊一体」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱与泊车共用算力"
+      },
+      {
+        "label": "B",
+        "text": "只做泊车"
+      },
+      {
+        "label": "C",
+        "text": "与座舱无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "舱泊一体指座舱与自动泊车共用算力平台，是算力融合的常见形态。",
+    "difficulty": 1
+  },
+  {
+    "id": "505",
+    "stem": "座舱 SoC 芯片代差（8295→8775→8397）直接决定？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱算力与体验上限"
+      },
+      {
+        "label": "B",
+        "text": "只决定外观"
+      },
+      {
+        "label": "C",
+        "text": "与体验无关"
+      },
+      {
+        "label": "D",
+        "text": "只决定颜色"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱 SoC 芯片代差直接决定算力与体验上限，是座舱升级的核心驱动力。",
+    "difficulty": 1
+  },
+  {
+    "id": "506",
+    "stem": "高通 8397 新一代 AI 座舱芯片相对 8295 的算力提升是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 倍以上"
+      },
+      {
+        "label": "B",
+        "text": "约 2 倍"
+      },
+      {
+        "label": "C",
+        "text": "基本持平"
+      },
+      {
+        "label": "D",
+        "text": "反而降低"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "高通 8397 AI 座舱芯片性能是主流 8295 的 4 倍以上，驱动下一轮座舱算力升级。",
+    "difficulty": 1
+  },
+  {
+    "id": "507",
+    "stem": "「HMI」在座舱中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "人机交互界面，含语音、触控、手势、多屏、AR-HUD"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "与交互无关"
+      },
+      {
+        "label": "D",
+        "text": "只做座椅"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "HMI（人机交互界面）涵盖语音、触控、手势、多屏、AR-HUD 等交互方式。",
+    "difficulty": 1
+  },
+  {
+    "id": "508",
+    "stem": "「AR-HUD」的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把导航等信息投射到前挡风，减少视线转移，提升安全"
+      },
+      {
+        "label": "B",
+        "text": "只做装饰"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "AR-HUD 把导航、车速等信息投射到前挡风，与真实道路叠加，减少视线转移，提升安全。",
+    "difficulty": 1
+  },
+  {
+    "id": "509",
+    "stem": "「DMS」在座舱中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "驾驶员监测系统，检测疲劳、分心"
+      },
+      {
+        "label": "B",
+        "text": "只做音乐"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "DMS（驾驶员监测系统）检测驾驶员疲劳、分心，是座舱安全的关键功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "510",
+    "stem": "「OMS」在座舱中指？",
+    "options": [
+      {
+        "label": "A",
+        "text": "乘员监测系统，检测车内乘员状态（如儿童遗留）"
+      },
+      {
+        "label": "B",
+        "text": "只做空调"
+      },
+      {
+        "label": "C",
+        "text": "与乘员无关"
+      },
+      {
+        "label": "D",
+        "text": "只做座椅"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "OMS（乘员监测系统）检测车内乘员状态，如儿童遗留提醒等，是座舱安全功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "511",
+    "stem": "「车手互联」指的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "手机与车机互联（Carplay/HiCar/Carlink），延伸手机生态"
+      },
+      {
+        "label": "B",
+        "text": "只做蓝牙"
+      },
+      {
+        "label": "C",
+        "text": "与手机无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车手互联通过 Carplay/HiCar/Carlink 把手机生态延伸进车内，覆盖主流手机用户。",
+    "difficulty": 1
+  },
+  {
+    "id": "512",
+    "stem": "上汽通用座舱车手互联的目标是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "覆盖 Carplay/HiCar/Carlink，做国内适应性最好的车手互联"
+      },
+      {
+        "label": "B",
+        "text": "只支持苹果"
+      },
+      {
+        "label": "C",
+        "text": "不互联"
+      },
+      {
+        "label": "D",
+        "text": "只支持华为"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "上汽通用车机引入 HiCar、Carlink，加上 Carplay，目标是「国内适应性最好的车手互联」。",
+    "difficulty": 1
+  },
+  {
+    "id": "513",
+    "stem": "「大模型上车」对座舱交互的改变是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "语音助手从命令式进化为理解式多模态交互"
+      },
+      {
+        "label": "B",
+        "text": "与交互无关"
+      },
+      {
+        "label": "C",
+        "text": "只做音乐"
+      },
+      {
+        "label": "D",
+        "text": "没有改变"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "大模型（豆包/混元等）上车让语音助手从「命令式」进化为「理解式」多模态交互。",
+    "difficulty": 1
+  },
+  {
+    "id": "514",
+    "stem": "「OTA」在座舱中的核心价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "硬件一次性交付，体验靠软件持续迭代升级"
+      },
+      {
+        "label": "B",
+        "text": "只更新地图"
+      },
+      {
+        "label": "C",
+        "text": "与升级无关"
+      },
+      {
+        "label": "D",
+        "text": "只更新音乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "OTA 让座舱体验靠软件持续迭代升级，硬件一次性交付，是座舱的生命力所在。",
+    "difficulty": 1
+  },
+  {
+    "id": "515",
+    "stem": "博世 XC 在智能座舱领域的定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "做座舱域控制器赋能，不做座舱应用"
+      },
+      {
+        "label": "B",
+        "text": "做座舱应用（地图/音乐 App）"
+      },
+      {
+        "label": "C",
+        "text": "做手机系统"
+      },
+      {
+        "label": "D",
+        "text": "不涉足座舱"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "博世 XC 明确「不做座舱应用，做座舱域控制器赋能」，专注算力平台与软硬件整合。",
+    "difficulty": 1
+  },
+  {
+    "id": "516",
+    "stem": "博世 XC 智能座舱域控制器首次实现的重要突破是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱算力首次超过手机"
+      },
+      {
+        "label": "B",
+        "text": "只做屏幕"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "只做语音"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "XC 中国区团队开发的座舱域控制器首次让座舱算力超过手机，为跨域融合做准备。",
+    "difficulty": 1
+  },
+  {
+    "id": "517",
+    "stem": "座舱域控制器支持「多屏联动」的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仪表、中控、副驾娱乐、HUD、后排等多屏协同"
+      },
+      {
+        "label": "B",
+        "text": "只做一块屏"
+      },
+      {
+        "label": "C",
+        "text": "与联动无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "多屏联动支持仪表、中控、副驾娱乐、HUD、后排等多屏协同，最高可达 8 屏联动。",
+    "difficulty": 1
+  },
+  {
+    "id": "518",
+    "stem": "「50 英寸 AR-HUD」的亮点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "超大画幅增强现实显示，信息更直观"
+      },
+      {
+        "label": "B",
+        "text": "只做小屏"
+      },
+      {
+        "label": "C",
+        "text": "与显示无关"
+      },
+      {
+        "label": "D",
+        "text": "只做装饰"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "50 英寸 AR-HUD 提供超大画幅增强现实显示，导航等信息更直观，是座舱升级亮点。",
+    "difficulty": 1
+  },
+  {
+    "id": "519",
+    "stem": "「主动降噪」在座舱中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用反向声波降低车内噪声，提升静谧性"
+      },
+      {
+        "label": "B",
+        "text": "只做音乐"
+      },
+      {
+        "label": "C",
+        "text": "与降噪无关"
+      },
+      {
+        "label": "D",
+        "text": "只做音量"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "主动降噪用反向声波抵消车内噪声，提升静谧性与乘坐体验。",
+    "difficulty": 1
+  },
+  {
+    "id": "520",
+    "stem": "「人脸识别」在座舱中的典型应用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "身份识别、个性化配置、疲劳监测"
+      },
+      {
+        "label": "B",
+        "text": "只做拍照"
+      },
+      {
+        "label": "C",
+        "text": "与识别无关"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱人脸识别用于身份识别、个性化配置、疲劳监测等，但涉及生物识别需合规。",
+    "difficulty": 1
+  },
+  {
+    "id": "521",
+    "stem": "「多麦克风输入」在座舱语音中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "分区拾音，识别不同座位乘客的指令"
+      },
+      {
+        "label": "B",
+        "text": "只做录音"
+      },
+      {
+        "label": "C",
+        "text": "与语音无关"
+      },
+      {
+        "label": "D",
+        "text": "只做音乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "多麦克风分区拾音，识别不同座位乘客的语音指令，提升语音交互体验。",
+    "difficulty": 1
+  },
+  {
+    "id": "522",
+    "stem": "「360 度环视」在座舱/泊车场景的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全景影像辅助泊车与观察盲区"
+      },
+      {
+        "label": "B",
+        "text": "只做娱乐"
+      },
+      {
+        "label": "C",
+        "text": "与泊车无关"
+      },
+      {
+        "label": "D",
+        "text": "只做导航"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "360 度环视用多个摄像头拼接全景影像，辅助泊车和观察盲区，是座舱+泊车常用功能。",
+    "difficulty": 1
+  },
+  {
+    "id": "523",
+    "stem": "腾讯「智慧座舱 TAI」的典型能力是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车载微信、腾讯爱趣听、腾讯地图等车机生态"
+      },
+      {
+        "label": "B",
+        "text": "只做社交"
+      },
+      {
+        "label": "C",
+        "text": "与座舱无关"
+      },
+      {
+        "label": "D",
+        "text": "只做游戏"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "腾讯智慧座舱 TAI 提供车载微信、腾讯爱趣听、腾讯地图等车机生态，补齐座舱内容与服务。",
+    "difficulty": 1
+  },
+  {
+    "id": "524",
+    "stem": "「车载微信」的座舱价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把高频社交延伸到车内，语音收发消息不分散驾驶注意力"
+      },
+      {
+        "label": "B",
+        "text": "只做聊天"
+      },
+      {
+        "label": "C",
+        "text": "与座舱无关"
+      },
+      {
+        "label": "D",
+        "text": "只做朋友圈"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车载微信把高频社交延伸到车内，通过语音收发消息，减少驾驶分心，是腾讯座舱生态的核心。",
+    "difficulty": 1
+  },
+  {
+    "id": "525",
+    "stem": "腾讯「混元大模型」在座舱中的作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多模态语音助手、场景化智能推荐"
+      },
+      {
+        "label": "B",
+        "text": "只做翻译"
+      },
+      {
+        "label": "C",
+        "text": "与座舱无关"
+      },
+      {
+        "label": "D",
+        "text": "只做写作"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "混元大模型提供多模态语音助手、场景化智能推荐，助力大模型上车。",
+    "difficulty": 1
+  },
+  {
+    "id": "526",
+    "stem": "「座舱服务 1 个月上车」说明腾讯云座舱方案的什么优势？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标准化服务快速上车，加速迭代"
+      },
+      {
+        "label": "B",
+        "text": "上车很慢"
+      },
+      {
+        "label": "C",
+        "text": "与速度无关"
+      },
+      {
+        "label": "D",
+        "text": "只能定制"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "腾讯智能座舱云方案可实现标准服务 1 个月上车，帮助车企快速迭代座舱产品。",
+    "difficulty": 1
+  },
+  {
+    "id": "527",
+    "stem": "座舱「软件订阅/应用下载」商业模式的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "硬件之外创造持续性软件收入"
+      },
+      {
+        "label": "B",
+        "text": "无价值"
+      },
+      {
+        "label": "C",
+        "text": "与商业无关"
+      },
+      {
+        "label": "D",
+        "text": "只做一次性"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱软件订阅、应用下载等模式在硬件之外创造持续性软件收入，是软件定义汽车的价值体现。",
+    "difficulty": 1
+  },
+  {
+    "id": "528",
+    "stem": "「软件定义汽车（SDV）」的核心是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "软件主导功能与体验，硬件平台化"
+      },
+      {
+        "label": "B",
+        "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "与软件无关"
+      },
+      {
+        "label": "D",
+        "text": "只做外观"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "软件定义汽车以软件主导功能与体验，硬件平台化，通过 OTA 持续进化。",
+    "difficulty": 1
+  },
+  {
+    "id": "529",
+    "stem": "「多操作系统集成」在座舱域控中的意义是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "同时运行仪表、中控、娱乐等多个操作系统"
+      },
+      {
+        "label": "B",
+        "text": "只跑一个系统"
+      },
+      {
+        "label": "C",
+        "text": "与系统无关"
+      },
+      {
+        "label": "D",
+        "text": "只做 Linux"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "多操作系统集成让域控同时运行仪表（安全关键）、中控（信息娱乐）等多个系统，兼顾安全与体验。",
+    "difficulty": 1
+  },
+  {
+    "id": "530",
+    "stem": "「信息娱乐系统（IVI）」属于座舱的哪部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱的信息娱乐部分（导航、音乐、视频）"
+      },
+      {
+        "label": "B",
+        "text": "只做座椅"
+      },
+      {
+        "label": "C",
+        "text": "与娱乐无关"
+      },
+      {
+        "label": "D",
+        "text": "只做空调"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "IVI（信息娱乐系统）是座舱的信息娱乐部分，含导航、音乐、视频等。",
+    "difficulty": 1
+  },
+  {
+    "id": "531",
+    "stem": "「数字仪表」属于座舱哪部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱显示部分，展示车速、导航等关键信息"
+      },
+      {
+        "label": "B",
+        "text": "只做娱乐"
+      },
+      {
+        "label": "C",
+        "text": "与显示无关"
+      },
+      {
+        "label": "D",
+        "text": "只做装饰"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "数字仪表是座舱显示部分，展示车速、导航等关键信息，属安全相关显示。",
+    "difficulty": 1
+  },
+  {
+    "id": "532",
+    "stem": "座舱「芯片算力」与「手机算力」的对比变化说明？",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱算力正追赶并超过手机，车机体验不再落后"
+      },
+      {
+        "label": "B",
+        "text": "座舱永远落后手机"
+      },
+      {
+        "label": "C",
+        "text": "与算力无关"
+      },
+      {
+        "label": "D",
+        "text": "座舱不用芯片"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱算力正追赶并超过手机（博世 XC 首次实现），车机体验不再因算力落后。",
+    "difficulty": 1
+  },
+  {
+    "id": "533",
+    "stem": "「车机导航」体验差的历史原因是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "开发到量产周期长，量产时算力已过时"
+      },
+      {
+        "label": "B",
+        "text": "导航不好用"
+      },
+      {
+        "label": "C",
+        "text": "与周期无关"
+      },
+      {
+        "label": "D",
+        "text": "只做地图"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车机产品开发到量产需 3-4 年，量产时算力已落后手机，导致导航体验差，域控前瞻设计可解决。",
+    "difficulty": 1
+  },
+  {
+    "id": "534",
+    "stem": "「驾驶员监控（DMS）」的合规要点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "涉及人脸等生物识别，需增强行车安全目的+充分必要性"
+      },
+      {
+        "label": "B",
+        "text": "无合规要求"
+      },
+      {
+        "label": "C",
+        "text": "可随意采集"
+      },
+      {
+        "label": "D",
+        "text": "与隐私无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "DMS 涉及人脸等生物识别特征，采集需增强行车安全目的和充分必要性，受合规约束。",
+    "difficulty": 1
+  },
+  {
+    "id": "535",
+    "stem": "「车内语音」数据的合规属性是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "音频属敏感个人信息，需告知+单独同意"
+      },
+      {
+        "label": "B",
+        "text": "与个人信息无关"
+      },
+      {
+        "label": "C",
+        "text": "可随意处理"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车内语音是音频，属敏感个人信息，需告知+单独同意，且遵循车内处理、默认不收集原则。",
+    "difficulty": 1
+  },
+  {
+    "id": "536",
+    "stem": "「座舱数据」与「智驾数据」的合规关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "都受汽车数据法规约束，需统一合规治理"
+      },
+      {
+        "label": "B",
+        "text": "座舱无合规要求"
+      },
+      {
+        "label": "C",
+        "text": "智驾无合规要求"
+      },
+      {
+        "label": "D",
+        "text": "完全无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱数据（语音、人脸、位置）与智驾数据（车外视频、轨迹）都受汽车数据法规约束，需统一合规治理。",
+    "difficulty": 1
+  },
+  {
+    "id": "537",
+    "stem": "「车机生态」竞争的实质是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "内容与服务的生态之争，谁的内容丰富谁占优"
+      },
+      {
+        "label": "B",
+        "text": "只比硬件"
+      },
+      {
+        "label": "C",
+        "text": "与生态无关"
+      },
+      {
+        "label": "D",
+        "text": "只比外观"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车机生态竞争的实质是内容与服务生态之争，腾讯以内容生态（微信、音乐、地图）切入。",
+    "difficulty": 1
+  },
+  {
+    "id": "538",
+    "stem": "「座舱 OTA」推送的安全前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可靠的云端分发 + 安全校验 + 回滚机制"
+      },
+      {
+        "label": "B",
+        "text": "无前提"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做推送"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱 OTA 推送需可靠的云端分发、安全校验、回滚机制，避免升级失败影响行车安全。",
+    "difficulty": 1
+  },
+  {
+    "id": "539",
+    "stem": "「座舱域控」与「智驾域控」融合（舱驾一体）的技术前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高算力芯片 + 软硬件隔离保证安全"
+      },
+      {
+        "label": "B",
+        "text": "无前提"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做合并"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "舱驾一体需高算力芯片 + 软硬件隔离，保证安全关键功能与娱乐功能互不干扰。",
+    "difficulty": 1
+  },
+  {
+    "id": "540",
+    "stem": "「座舱安全」与「功能安全」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仪表等安全关键显示需功能安全，娱乐部分要求低"
+      },
+      {
+        "label": "B",
+        "text": "无关系"
+      },
+      {
+        "label": "C",
+        "text": "娱乐也要功能安全"
+      },
+      {
+        "label": "D",
+        "text": "仪表不需安全"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "仪表等安全关键显示需功能安全（如 ISO 26262），娱乐部分要求低，需软硬件隔离。",
+    "difficulty": 1
+  },
+  {
+    "id": "541",
+    "stem": "「语音助手」从命令式到理解式的关键是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大模型的多模态理解与推理能力"
+      },
+      {
+        "label": "B",
+        "text": "只做关键词"
+      },
+      {
+        "label": "C",
+        "text": "与理解无关"
+      },
+      {
+        "label": "D",
+        "text": "只做录音"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "大模型的多模态理解与推理能力让语音助手从命令式进化为理解式交互。",
+    "difficulty": 1
+  },
+  {
+    "id": "542",
+    "stem": "「副驾娱乐屏」的合规考量是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "避免影响驾驶员注意力，需安全设计"
+      },
+      {
+        "label": "B",
+        "text": "无考量"
+      },
+      {
+        "label": "C",
+        "text": "可任意播放"
+      },
+      {
+        "label": "D",
+        "text": "与安全无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "副驾娱乐屏需安全设计（如防窥、分屏），避免影响驾驶员注意力。",
+    "difficulty": 1
+  },
+  {
+    "id": "543",
+    "stem": "「座舱数据大集中」后的安全挑战是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据来源广、流动频繁，敏感数据泄露难追溯"
+      },
+      {
+        "label": "B",
+        "text": "无挑战"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做存储"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱数据大集中后面临来源广、流动频繁、敏感数据泄露难追溯等安全挑战。",
+    "difficulty": 1
+  },
+  {
+    "id": "544",
+    "stem": "腾讯云「数据安全中心」对座舱数据的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "分类分级、全量审计、无侵入脱敏，实现数据安全治理"
+      },
+      {
+        "label": "B",
+        "text": "只做备份"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做监控"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "数据安全中心提供分类分级、全量审计、无侵入脱敏，是座舱数据安全治理的核心能力。",
+    "difficulty": 1
+  },
+  {
+    "id": "545",
+    "stem": "「座舱个性化配置」依赖的数据是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用户偏好数据（座椅、温度、音乐等），需合规处理"
+      },
+      {
+        "label": "B",
+        "text": "无数据"
+      },
+      {
+        "label": "C",
+        "text": "与偏好无关"
+      },
+      {
+        "label": "D",
+        "text": "只做默认"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱个性化依赖用户偏好数据（座椅、温度、音乐等），属个人信息，需合规处理。",
+    "difficulty": 1
+  },
+  {
+    "id": "546",
+    "stem": "「车机账号体系」的合规要点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "账号关联个人信息，需告知+同意+安全保障"
+      },
+      {
+        "label": "B",
+        "text": "无要点"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "只做登录"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车机账号体系关联个人信息，需告知、同意、安全保障，是座舱数据合规的重要环节。",
+    "difficulty": 1
+  },
+  {
+    "id": "547",
+    "stem": "「座舱内容生态」与「云」的关系是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "音乐/视频/地图等内容靠云端分发与更新"
+      },
+      {
+        "label": "B",
+        "text": "与云无关"
+      },
+      {
+        "label": "C",
+        "text": "只做本地"
+      },
+      {
+        "label": "D",
+        "text": "只做缓存"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱音乐、视频、地图等内容靠云端分发与更新，云是座舱内容生态的基础设施。",
+    "difficulty": 1
+  },
+  {
+    "id": "548",
+    "stem": "「舱驾一体」对车企的成本价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "共用芯片/硬件，降低 BOM 成本"
+      },
+      {
+        "label": "B",
+        "text": "成本更高"
+      },
+      {
+        "label": "C",
+        "text": "与成本无关"
+      },
+      {
+        "label": "D",
+        "text": "只做高端"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "舱驾一体共用芯片/硬件，降低 BOM 成本，是车企降本的重要方向。",
+    "difficulty": 1
+  },
+  {
+    "id": "549",
+    "stem": "「座舱芯片国产化」的趋势背景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "供应链自主可控 + 成本考量"
+      },
+      {
+        "label": "B",
+        "text": "无背景"
+      },
+      {
+        "label": "C",
+        "text": "与自主无关"
+      },
+      {
+        "label": "D",
+        "text": "只做进口"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱芯片国产化源于供应链自主可控与成本考量，是行业趋势。",
+    "difficulty": 1
+  },
+  {
+    "id": "550",
+    "stem": "「AR-HUD」与「传统 HUD」的区别是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "AR-HUD 与真实道路叠加增强现实，传统只投影信息"
+      },
+      {
+        "label": "B",
+        "text": "两者一样"
+      },
+      {
+        "label": "C",
+        "text": "传统更强"
+      },
+      {
+        "label": "D",
+        "text": "与显示无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "AR-HUD 与真实道路叠加增强现实，传统 HUD 只简单投影信息，AR-HUD 更直观安全。",
+    "difficulty": 1
+  },
+  {
+    "id": "551",
+    "stem": "「座舱主动安全」功能（DMS/OMS）的价值是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "预防疲劳驾驶、儿童遗留等安全事故"
+      },
+      {
+        "label": "B",
+        "text": "只做娱乐"
+      },
+      {
+        "label": "C",
+        "text": "与安全无关"
+      },
+      {
+        "label": "D",
+        "text": "只做舒适"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "DMS/OMS 主动安全功能预防疲劳驾驶、儿童遗留等事故，是座舱安全的重要组成。",
+    "difficulty": 1
+  },
+  {
+    "id": "552",
+    "stem": "「车机系统升级」与「手机系统升级」的本质差异是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车机需车规级安全验证，周期更长"
+      },
+      {
+        "label": "B",
+        "text": "两者一样"
+      },
+      {
+        "label": "C",
+        "text": "车机更简单"
+      },
+      {
+        "label": "D",
+        "text": "与验证无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "车机系统升级需车规级安全验证，周期更长，是车机迭代慢于手机的根因。",
+    "difficulty": 1
+  },
+  {
+    "id": "553",
+    "stem": "「座舱数据出境」的典型场景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨国车企把中国座舱数据传回境外总部分析"
+      },
+      {
+        "label": "B",
+        "text": "无场景"
+      },
+      {
+        "label": "C",
+        "text": "与出境无关"
+      },
+      {
+        "label": "D",
+        "text": "只做境内"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "跨国车企把中国座舱数据（语音、偏好等）传回境外分析，需出境合规评估。",
+    "difficulty": 1
+  },
+  {
+    "id": "554",
+    "stem": "「座舱语音数据」用于「算法训练」的合规前提是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "脱敏/匿名化 + 用户同意"
+      },
+      {
+        "label": "B",
+        "text": "无前提"
+      },
+      {
+        "label": "C",
+        "text": "可随意使用"
+      },
+      {
+        "label": "D",
+        "text": "与训练无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱语音数据用于算法训练需脱敏/匿名化 + 用户同意，否则违反个人信息保护。",
+    "difficulty": 1
+  },
+  {
+    "id": "555",
+    "stem": "「多屏联动」的技术难点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多屏协同渲染与低延迟同步"
+      },
+      {
+        "label": "B",
+        "text": "无难点"
+      },
+      {
+        "label": "C",
+        "text": "只做一块"
+      },
+      {
+        "label": "D",
+        "text": "与渲染无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "多屏联动难点在于多屏协同渲染与低延迟同步，需要高算力域控支撑。",
+    "difficulty": 1
+  },
+  {
+    "id": "556",
+    "stem": "「座舱内容付费」的合规要点是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "支付、账号、个人信息合规"
+      },
+      {
+        "label": "B",
+        "text": "无要点"
+      },
+      {
+        "label": "C",
+        "text": "与合规无关"
+      },
+      {
+        "label": "D",
+        "text": "只做收费"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱内容付费涉及支付、账号、个人信息等，需合规处理。",
+    "difficulty": 1
+  },
+  {
+    "id": "557",
+    "stem": "「腾讯爱趣听」的座舱定位是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "车载音乐/音频内容服务"
+      },
+      {
+        "label": "B",
+        "text": "只做地图"
+      },
+      {
+        "label": "C",
+        "text": "与音频无关"
+      },
+      {
+        "label": "D",
+        "text": "只做社交"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "腾讯爱趣听是车载音乐/音频内容服务，是腾讯座舱内容生态的一部分。",
+    "difficulty": 1
+  },
+  {
+    "id": "558",
+    "stem": "「座舱 OTA」与「智驾 OTA」的关联是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可统一云端分发，但需分级安全验证"
+      },
+      {
+        "label": "B",
+        "text": "无关联"
+      },
+      {
+        "label": "C",
+        "text": "必须分开"
+      },
+      {
+        "label": "D",
+        "text": "只做座舱"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "座舱与智驾 OTA 可统一云端分发，但智驾涉及行车安全需更严格的分级验证。",
+    "difficulty": 1
+  },
+  {
+    "id": "559",
+    "stem": "「软件订阅」模式对「硬件平台化」的要求是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "硬件预留算力与传感器，软件按需开启"
+      },
+      {
+        "label": "B",
+        "text": "无要求"
+      },
+      {
+        "label": "C",
+        "text": "硬件不可变"
+      },
+      {
+        "label": "D",
+        "text": "与订阅无关"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "软件订阅模式要求硬件平台化（预留算力与传感器），软件按需开启，实现持续变现。",
+    "difficulty": 1
+  },
+  {
+    "id": "560",
+    "stem": "智能座舱的关键组成包括？（多选）",
+    "options": [
+      {
+        "label": "A",
+        "text": "座舱域控制器与 SoC 芯片"
+      },
+      {
+        "label": "B",
+        "text": "HMI（语音/多屏/AR-HUD）"
+      },
+      {
+        "label": "C",
+        "text": "车手互联（Carplay/HiCar/Carlink）"
+      },
+      {
+        "label": "D",
+        "text": "大模型上车与 OTA"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 5,
+    "subChapter": "ch5-cockpit",
+    "tags": [
+      "座舱"
+    ],
+    "analysis": "智能座舱由域控+SoC、HMI、车手互联、大模型与 OTA 等关键组成，共同构成体验。",
+    "difficulty": 1
+  }
+]
