@@ -174,6 +174,50 @@ export function saveNote(questionId: string, note: string): void {
   localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
 }
 
+// ======= 题目删除（用户在题库中隐藏不需要的题目） =======
+const DELETED_KEY = 'bosch-deleted-questions';
+const deletedListeners = new Set<() => void>();
+
+export function getDeletedQuestions(): Set<string> {
+  try {
+    const raw = localStorage.getItem(DELETED_KEY);
+    return new Set(raw ? (JSON.parse(raw) as string[]) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function setDeletedQuestions(ids: Set<string>): void {
+  localStorage.setItem(DELETED_KEY, JSON.stringify([...ids]));
+  deletedListeners.forEach(fn => fn());
+}
+
+// 删除题目：从题库隐藏，同时移出错题本与收藏夹
+export function deleteQuestion(questionId: string): void {
+  const ids = getDeletedQuestions();
+  ids.add(questionId);
+  const data = getData();
+  data.wrongQuestions = data.wrongQuestions.filter(id => id !== questionId);
+  data.favorites = data.favorites.filter(id => id !== questionId);
+  setData(data);
+  setDeletedQuestions(ids);
+}
+
+export function restoreQuestion(questionId: string): void {
+  const ids = getDeletedQuestions();
+  ids.delete(questionId);
+  setDeletedQuestions(ids);
+}
+
+export function restoreAllQuestions(): void {
+  setDeletedQuestions(new Set());
+}
+
+export function subscribeDeleted(fn: () => void): () => void {
+  deletedListeners.add(fn);
+  return () => { deletedListeners.delete(fn); };
+}
+
 // ======= 导出/导入功能 =======
 
 // 导出所有数据为 JSON 字符串
@@ -186,6 +230,7 @@ export function exportData(): string {
       version: CURRENT_VERSION,
     },
     data,
+    deletedQuestions: [...getDeletedQuestions()],
   };
   return JSON.stringify(exportPayload, null, 2);
 }
@@ -235,6 +280,14 @@ export function importData(jsonStr: string, mode: 'merge' | 'overwrite' = 'merge
         !Array.isArray(importedData.wrongQuestions) ||
         !Array.isArray(importedData.favorites)) {
       return { success: false, message: '数据格式不完整，缺少必要字段' };
+    }
+
+    // 同步「已删除题目」（合并模式取并集，覆盖模式直接替换）
+    if (Array.isArray(parsed.deletedQuestions)) {
+      const incoming = parsed.deletedQuestions as string[];
+      setDeletedQuestions(
+        mode === 'overwrite' ? new Set(incoming) : new Set([...getDeletedQuestions(), ...incoming])
+      );
     }
 
     if (mode === 'overwrite') {

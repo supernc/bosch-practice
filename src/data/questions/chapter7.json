@@ -5,23 +5,23 @@
     "options": [
       {
         "label": "A",
-        "text": "底盘控制系统事业部（Chassis Control）"
-      },
-      {
-        "label": "B",
-        "text": "业务发展部"
-      },
-      {
-        "label": "C",
         "text": "汽车售后"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "底盘控制系统事业部（Chassis Control）"
+      },
+      {
+        "label": "C",
         "text": "跨域计算"
+      },
+      {
+        "label": "D",
+        "text": "业务发展部"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -38,7 +38,7 @@
     "options": [
       {
         "label": "A",
-        "text": "ABS、ESP 等车辆动态控制系统"
+        "text": "只有灯具"
       },
       {
         "label": "B",
@@ -46,15 +46,15 @@
       },
       {
         "label": "C",
-        "text": "只有灯具"
+        "text": "只有音响"
       },
       {
         "label": "D",
-        "text": "只有音响"
+        "text": "ABS、ESP 等车辆动态控制系统"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -104,15 +104,15 @@
     "options": [
       {
         "label": "A",
-        "text": "防止紧急制动时车轮抱死，保持转向能力"
-      },
-      {
-        "label": "B",
         "text": "只做刹车灯"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与制动无关"
+      },
+      {
+        "label": "C",
+        "text": "防止紧急制动时车轮抱死，保持转向能力"
       },
       {
         "label": "D",
@@ -120,7 +120,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -170,23 +170,23 @@
     "options": [
       {
         "label": "A",
-        "text": "取消机械连接，支持可变转向比与自动驾驶"
-      },
-      {
-        "label": "B",
-        "text": "只做机械"
-      },
-      {
-        "label": "C",
         "text": "与转向无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "不能变比"
+      },
+      {
+        "label": "C",
+        "text": "只做机械"
+      },
+      {
+        "label": "D",
+        "text": "取消机械连接，支持可变转向比与自动驾驶"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -203,23 +203,23 @@
     "options": [
       {
         "label": "A",
-        "text": "几乎是博世最大、业绩最好的事业部"
+        "text": "与业绩无关"
       },
       {
         "label": "B",
-        "text": "最小的部门"
-      },
-      {
-        "label": "C",
         "text": "不盈利"
       },
       {
+        "label": "C",
+        "text": "几乎是博世最大、业绩最好的事业部"
+      },
+      {
         "label": "D",
-        "text": "与业绩无关"
+        "text": "最小的部门"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -236,23 +236,23 @@
     "options": [
       {
         "label": "A",
-        "text": "机电伺服制动助力器，支持能量回收"
-      },
-      {
-        "label": "B",
-        "text": "只做转向"
-      },
-      {
-        "label": "C",
         "text": "与制动无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "机电伺服制动助力器，支持能量回收"
+      },
+      {
+        "label": "C",
         "text": "只做减震"
+      },
+      {
+        "label": "D",
+        "text": "只做转向"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -269,7 +269,7 @@
     "options": [
       {
         "label": "A",
-        "text": "制动、转向、传感器、车辆动力学控制等"
+        "text": "与运动无关"
       },
       {
         "label": "B",
@@ -281,11 +281,11 @@
       },
       {
         "label": "D",
-        "text": "与运动无关"
+        "text": "制动、转向、传感器、车辆动力学控制等"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -302,15 +302,15 @@
     "options": [
       {
         "label": "A",
-        "text": "线控底盘是自动驾驶执行层的核心"
-      },
-      {
-        "label": "B",
         "text": "无关系"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "底盘不用线控"
+      },
+      {
+        "label": "C",
+        "text": "线控底盘是自动驾驶执行层的核心"
       },
       {
         "label": "D",
@@ -318,7 +318,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -335,23 +335,23 @@
     "options": [
       {
         "label": "A",
-        "text": "激光雷达扫描路面，主动调节空气悬架"
-      },
-      {
-        "label": "B",
         "text": "只做减震"
       },
       {
+        "label": "B",
+        "text": "激光雷达扫描路面，主动调节空气悬架"
+      },
+      {
         "label": "C",
-        "text": "与扫描无关"
+        "text": "只做装饰"
       },
       {
         "label": "D",
-        "text": "只做装饰"
+        "text": "与扫描无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -376,11 +376,11 @@
       },
       {
         "label": "C",
-        "text": "与软件无关"
+        "text": "不升级"
       },
       {
         "label": "D",
-        "text": "不升级"
+        "text": "与软件无关"
       }
     ],
     "answer": [
@@ -401,23 +401,23 @@
     "options": [
       {
         "label": "A",
-        "text": "业务发展部（Business Development）"
-      },
-      {
-        "label": "B",
         "text": "底盘控制"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "汽车售后"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "生产制造"
+      },
+      {
+        "label": "D",
+        "text": "业务发展部（Business Development）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -438,15 +438,15 @@
       },
       {
         "label": "B",
-        "text": "只做生产"
+        "text": "只做财务"
       },
       {
         "label": "C",
-        "text": "只做售后"
+        "text": "只做生产"
       },
       {
         "label": "D",
-        "text": "只做财务"
+        "text": "只做售后"
       }
     ],
     "answer": [
@@ -467,23 +467,23 @@
     "options": [
       {
         "label": "A",
-        "text": "博世（中国）投资有限公司的战略规划与业务发展部"
-      },
-      {
-        "label": "B",
-        "text": "博世底盘事业部"
-      },
-      {
-        "label": "C",
         "text": "博世售后"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "博世工厂"
+      },
+      {
+        "label": "C",
+        "text": "博世（中国）投资有限公司的战略规划与业务发展部"
+      },
+      {
+        "label": "D",
+        "text": "博世底盘事业部"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -500,15 +500,15 @@
     "options": [
       {
         "label": "A",
-        "text": "识别产业趋势与政府政策，支撑战略决策"
+        "text": "与战略无关"
       },
       {
         "label": "B",
-        "text": "无价值"
+        "text": "识别产业趋势与政府政策，支撑战略决策"
       },
       {
         "label": "C",
-        "text": "与战略无关"
+        "text": "无价值"
       },
       {
         "label": "D",
@@ -516,7 +516,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -537,11 +537,11 @@
       },
       {
         "label": "B",
-        "text": "只做售后"
+        "text": "与云无关"
       },
       {
         "label": "C",
-        "text": "与云无关"
+        "text": "只做售后"
       },
       {
         "label": "D",
@@ -566,23 +566,23 @@
     "options": [
       {
         "label": "A",
-        "text": "战略规划、市场洞察、新业务孵化"
+        "text": "只做招聘"
       },
       {
         "label": "B",
-        "text": "只做销售"
-      },
-      {
-        "label": "C",
         "text": "只做客服"
       },
       {
+        "label": "C",
+        "text": "只做销售"
+      },
+      {
         "label": "D",
-        "text": "只做招聘"
+        "text": "战略规划、市场洞察、新业务孵化"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -599,23 +599,23 @@
     "options": [
       {
         "label": "A",
-        "text": "博世（中国）投资有限公司"
-      },
-      {
-        "label": "B",
-        "text": "博世汽车部件长沙"
-      },
-      {
-        "label": "C",
         "text": "博世工程"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "博世售后"
+      },
+      {
+        "label": "C",
+        "text": "博世（中国）投资有限公司"
+      },
+      {
+        "label": "D",
+        "text": "博世汽车部件长沙"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -632,15 +632,15 @@
     "options": [
       {
         "label": "A",
-        "text": "博世在中国的投资主体，管理协调在华投资项目"
+        "text": "只做销售"
       },
       {
         "label": "B",
-        "text": "只做生产"
+        "text": "博世在中国的投资主体，管理协调在华投资项目"
       },
       {
         "label": "C",
-        "text": "只做销售"
+        "text": "只做生产"
       },
       {
         "label": "D",
@@ -648,7 +648,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -665,23 +665,23 @@
     "options": [
       {
         "label": "A",
-        "text": "1999 年"
+        "text": "2015 年"
       },
       {
         "label": "B",
-        "text": "1886 年"
+        "text": "1999 年"
       },
       {
         "label": "C",
-        "text": "2008 年"
+        "text": "1886 年"
       },
       {
         "label": "D",
-        "text": "2015 年"
+        "text": "2008 年"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -698,23 +698,23 @@
     "options": [
       {
         "label": "A",
-        "text": "上海"
-      },
-      {
-        "label": "B",
         "text": "苏州"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "长沙"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "北京"
+      },
+      {
+        "label": "D",
+        "text": "上海"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -739,11 +739,11 @@
       },
       {
         "label": "C",
-        "text": "与博世无关"
+        "text": "只做区域"
       },
       {
         "label": "D",
-        "text": "只做区域"
+        "text": "与博世无关"
       }
     ],
     "answer": [
@@ -764,7 +764,7 @@
     "options": [
       {
         "label": "A",
-        "text": "标识博世在中国的不同法律实体/公司"
+        "text": "只做产品编号"
       },
       {
         "label": "B",
@@ -772,7 +772,7 @@
       },
       {
         "label": "C",
-        "text": "只做产品编号"
+        "text": "标识博世在中国的不同法律实体/公司"
       },
       {
         "label": "D",
@@ -780,7 +780,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -797,15 +797,15 @@
     "options": [
       {
         "label": "A",
-        "text": "集团级合作与合规签约主体"
-      },
-      {
-        "label": "B",
         "text": "只做售后"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与云无关"
+      },
+      {
+        "label": "C",
+        "text": "集团级合作与合规签约主体"
       },
       {
         "label": "D",
@@ -813,7 +813,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -834,15 +834,15 @@
       },
       {
         "label": "B",
-        "text": "149 亿"
-      },
-      {
-        "label": "C",
         "text": "1.5 万亿"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "无销售"
+      },
+      {
+        "label": "D",
+        "text": "149 亿"
       }
     ],
     "answer": [
@@ -863,7 +863,7 @@
     "options": [
       {
         "label": "A",
-        "text": "博世汽车部件（长沙）有限公司"
+        "text": "博世售后"
       },
       {
         "label": "B",
@@ -875,11 +875,11 @@
       },
       {
         "label": "D",
-        "text": "博世售后"
+        "text": "博世汽车部件（长沙）有限公司"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -896,15 +896,15 @@
     "options": [
       {
         "label": "A",
-        "text": "博世在中国的汽车部件生产基地"
+        "text": "软件公司"
       },
       {
         "label": "B",
-        "text": "投资公司"
+        "text": "博世在中国的汽车部件生产基地"
       },
       {
         "label": "C",
-        "text": "软件公司"
+        "text": "投资公司"
       },
       {
         "label": "D",
@@ -912,7 +912,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -937,11 +937,11 @@
       },
       {
         "label": "C",
-        "text": "都指投资公司"
+        "text": "都指工厂"
       },
       {
         "label": "D",
-        "text": "都指工厂"
+        "text": "都指投资公司"
       }
     ],
     "answer": [
@@ -962,23 +962,23 @@
     "options": [
       {
         "label": "A",
-        "text": "博世在中国多地点、多实体的布局"
-      },
-      {
-        "label": "B",
-        "text": "只有一家公司"
-      },
-      {
-        "label": "C",
         "text": "与布局无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "博世在中国多地点、多实体的布局"
+      },
+      {
+        "label": "C",
         "text": "只做编号"
+      },
+      {
+        "label": "D",
+        "text": "只有一家公司"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -995,7 +995,7 @@
     "options": [
       {
         "label": "A",
-        "text": "RBAC"
+        "text": "RBAG"
       },
       {
         "label": "B",
@@ -1003,15 +1003,15 @@
       },
       {
         "label": "C",
-        "text": "RBCN"
+        "text": "RBAC"
       },
       {
         "label": "D",
-        "text": "RBAG"
+        "text": "RBCN"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1028,7 +1028,7 @@
     "options": [
       {
         "label": "A",
-        "text": "厘清签约主体、合规主体与业务归属"
+        "text": "只做编号"
       },
       {
         "label": "B",
@@ -1040,11 +1040,11 @@
       },
       {
         "label": "D",
-        "text": "只做编号"
+        "text": "厘清签约主体、合规主体与业务归属"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1061,23 +1061,23 @@
     "options": [
       {
         "label": "A",
-        "text": "博世工程技术有限公司（Bosch Engineering）"
-      },
-      {
-        "label": "B",
-        "text": "博世底盘"
-      },
-      {
-        "label": "C",
         "text": "博世售后"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "博世家电"
+      },
+      {
+        "label": "C",
+        "text": "博世底盘"
+      },
+      {
+        "label": "D",
+        "text": "博世工程技术有限公司（Bosch Engineering）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1094,7 +1094,7 @@
     "options": [
       {
         "label": "A",
-        "text": "为整车厂提供工程开发与测试服务（标定、功能开发、软件集成）"
+        "text": "只做销售"
       },
       {
         "label": "B",
@@ -1102,15 +1102,15 @@
       },
       {
         "label": "C",
-        "text": "只做售后"
+        "text": "为整车厂提供工程开发与测试服务（标定、功能开发、软件集成）"
       },
       {
         "label": "D",
-        "text": "只做销售"
+        "text": "只做售后"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1160,15 +1160,15 @@
     "options": [
       {
         "label": "A",
-        "text": "专注复杂控制逻辑到可量产性能的转化，不直接定义量产硬件"
+        "text": "与工程无关"
       },
       {
         "label": "B",
-        "text": "只做外包"
+        "text": "专注复杂控制逻辑到可量产性能的转化，不直接定义量产硬件"
       },
       {
         "label": "C",
-        "text": "与工程无关"
+        "text": "只做外包"
       },
       {
         "label": "D",
@@ -1176,7 +1176,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1193,23 +1193,23 @@
     "options": [
       {
         "label": "A",
-        "text": "博世对汽车动力演进的布局（燃油遗产区 + 电动战场区）"
+        "text": "只做电动"
       },
       {
         "label": "B",
-        "text": "无意义"
-      },
-      {
-        "label": "C",
         "text": "只做燃油"
       },
       {
+        "label": "C",
+        "text": "无意义"
+      },
+      {
         "label": "D",
-        "text": "只做电动"
+        "text": "博世对汽车动力演进的布局（燃油遗产区 + 电动战场区）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1230,15 +1230,15 @@
       },
       {
         "label": "B",
-        "text": "标定更重要"
+        "text": "标定消失"
       },
       {
         "label": "C",
-        "text": "无变化"
+        "text": "标定更重要"
       },
       {
         "label": "D",
-        "text": "标定消失"
+        "text": "无变化"
       }
     ],
     "answer": [
@@ -1259,11 +1259,11 @@
     "options": [
       {
         "label": "A",
-        "text": "面向中国客户的工程开发与测试服务"
+        "text": "只做行政"
       },
       {
         "label": "B",
-        "text": "只做海外"
+        "text": "面向中国客户的工程开发与测试服务"
       },
       {
         "label": "C",
@@ -1271,11 +1271,11 @@
       },
       {
         "label": "D",
-        "text": "只做行政"
+        "text": "只做海外"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1292,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "整车总装制造"
-      },
-      {
-        "label": "B",
-        "text": "功能开发"
-      },
-      {
-        "label": "C",
         "text": "标定"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "软件集成"
+      },
+      {
+        "label": "C",
+        "text": "整车总装制造"
+      },
+      {
+        "label": "D",
+        "text": "功能开发"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1325,7 +1325,7 @@
     "options": [
       {
         "label": "A",
-        "text": "工程开发的算力、仿真、数据存储云化"
+        "text": "与云无关"
       },
       {
         "label": "B",
@@ -1333,15 +1333,15 @@
       },
       {
         "label": "C",
-        "text": "与云无关"
+        "text": "只做硬件"
       },
       {
         "label": "D",
-        "text": "只做硬件"
+        "text": "工程开发的算力、仿真、数据存储云化"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1358,7 +1358,7 @@
     "options": [
       {
         "label": "A",
-        "text": "开发车辆控制功能软件并验证"
+        "text": "与功能无关"
       },
       {
         "label": "B",
@@ -1366,7 +1366,7 @@
       },
       {
         "label": "C",
-        "text": "与功能无关"
+        "text": "开发车辆控制功能软件并验证"
       },
       {
         "label": "D",
@@ -1374,7 +1374,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1395,15 +1395,15 @@
       },
       {
         "label": "B",
-        "text": "只做打包"
-      },
-      {
-        "label": "C",
         "text": "与集成无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做安装"
+      },
+      {
+        "label": "D",
+        "text": "只做打包"
       }
     ],
     "answer": [
@@ -1424,15 +1424,15 @@
     "options": [
       {
         "label": "A",
-        "text": "阿布施塔特（Abstatt，德国）"
+        "text": "长沙"
       },
       {
         "label": "B",
-        "text": "上海"
+        "text": "阿布施塔特（Abstatt，德国）"
       },
       {
         "label": "C",
-        "text": "长沙"
+        "text": "上海"
       },
       {
         "label": "D",
@@ -1440,7 +1440,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1457,23 +1457,23 @@
     "options": [
       {
         "label": "A",
-        "text": "汽车售后市场事业部（Automotive Aftermarket）"
+        "text": "跨域计算"
       },
       {
         "label": "B",
-        "text": "底盘控制"
-      },
-      {
-        "label": "C",
         "text": "业务发展"
       },
       {
+        "label": "C",
+        "text": "底盘控制"
+      },
+      {
         "label": "D",
-        "text": "跨域计算"
+        "text": "汽车售后市场事业部（Automotive Aftermarket）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1490,11 +1490,11 @@
     "options": [
       {
         "label": "A",
-        "text": "售后零部件、诊断设备、维修网络（Bosch Service）"
+        "text": "只做新车"
       },
       {
         "label": "B",
-        "text": "只做新车"
+        "text": "售后零部件、诊断设备、维修网络（Bosch Service）"
       },
       {
         "label": "C",
@@ -1506,7 +1506,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1523,7 +1523,7 @@
     "options": [
       {
         "label": "A",
-        "text": "全球约 15000 家维修站"
+        "text": "约 15 家"
       },
       {
         "label": "B",
@@ -1531,7 +1531,7 @@
       },
       {
         "label": "C",
-        "text": "约 15 家"
+        "text": "全球约 15000 家维修站"
       },
       {
         "label": "D",
@@ -1539,7 +1539,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1564,11 +1564,11 @@
       },
       {
         "label": "C",
-        "text": "约 130 人"
+        "text": "无员工"
       },
       {
         "label": "D",
-        "text": "无员工"
+        "text": "约 130 人"
       }
     ],
     "answer": [
@@ -1589,7 +1589,7 @@
     "options": [
       {
         "label": "A",
-        "text": "备件、诊断设备、维修服务、软件"
+        "text": "与备件无关"
       },
       {
         "label": "B",
@@ -1601,11 +1601,11 @@
       },
       {
         "label": "D",
-        "text": "与备件无关"
+        "text": "备件、诊断设备、维修服务、软件"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1622,11 +1622,11 @@
     "options": [
       {
         "label": "A",
-        "text": "云端诊断数据、软件更新、远程支持"
+        "text": "无需求"
       },
       {
         "label": "B",
-        "text": "无需求"
+        "text": "云端诊断数据、软件更新、远程支持"
       },
       {
         "label": "C",
@@ -1638,7 +1638,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1659,15 +1659,15 @@
       },
       {
         "label": "B",
-        "text": "约 10%"
+        "text": "无占比"
       },
       {
         "label": "C",
-        "text": "约 30%"
+        "text": "约 10%"
       },
       {
         "label": "D",
-        "text": "无占比"
+        "text": "约 30%"
       }
     ],
     "answer": [
@@ -1688,23 +1688,23 @@
     "options": [
       {
         "label": "A",
-        "text": "跨域计算（XC）、车辆运动（VM）、动力（PS）、汽车电子等"
-      },
-      {
-        "label": "B",
-        "text": "只有家电"
-      },
-      {
-        "label": "C",
         "text": "只有工业"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只有消费品"
+      },
+      {
+        "label": "C",
+        "text": "跨域计算（XC）、车辆运动（VM）、动力（PS）、汽车电子等"
+      },
+      {
+        "label": "D",
+        "text": "只有家电"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1721,7 +1721,7 @@
     "options": [
       {
         "label": "A",
-        "text": "转向、制动、传感器、车辆动力学控制"
+        "text": "与运动无关"
       },
       {
         "label": "B",
@@ -1733,11 +1733,11 @@
       },
       {
         "label": "D",
-        "text": "与运动无关"
+        "text": "转向、制动、传感器、车辆动力学控制"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1754,7 +1754,7 @@
     "options": [
       {
         "label": "A",
-        "text": "喷油器、泵、变速箱、燃料电池等动力总成组件"
+        "text": "只做灯具"
       },
       {
         "label": "B",
@@ -1762,7 +1762,7 @@
       },
       {
         "label": "C",
-        "text": "只做灯具"
+        "text": "喷油器、泵、变速箱、燃料电池等动力总成组件"
       },
       {
         "label": "D",
@@ -1770,7 +1770,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1787,23 +1787,23 @@
     "options": [
       {
         "label": "A",
-        "text": "ASIC、MEMS 传感器、功率半导体、ECU"
-      },
-      {
-        "label": "B",
         "text": "只做家电"
       },
       {
+        "label": "B",
+        "text": "ASIC、MEMS 传感器、功率半导体、ECU"
+      },
+      {
         "label": "C",
-        "text": "与电子无关"
+        "text": "只做机械"
       },
       {
         "label": "D",
-        "text": "只做机械"
+        "text": "与电子无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1824,15 +1824,15 @@
       },
       {
         "label": "B",
-        "text": "只做汽车"
-      },
-      {
-        "label": "C",
         "text": "与出行无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做家电"
+      },
+      {
+        "label": "D",
+        "text": "只做汽车"
       }
     ],
     "answer": [
@@ -1853,7 +1853,7 @@
     "options": [
       {
         "label": "A",
-        "text": "精准定位客户业务线，针对性提供方案"
+        "text": "与售前无关"
       },
       {
         "label": "B",
@@ -1861,15 +1861,15 @@
       },
       {
         "label": "C",
-        "text": "与售前无关"
+        "text": "只做编号"
       },
       {
         "label": "D",
-        "text": "只做编号"
+        "text": "精准定位客户业务线，针对性提供方案"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 7,
@@ -1886,11 +1886,11 @@
     "options": [
       {
         "label": "A",
-        "text": "汽车嵌入式系统、中间件与开发工具链"
+        "text": "只做家电"
       },
       {
         "label": "B",
-        "text": "只做家电"
+        "text": "汽车嵌入式系统、中间件与开发工具链"
       },
       {
         "label": "C",
@@ -1902,7 +1902,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 7,
@@ -1919,23 +1919,23 @@
     "options": [
       {
         "label": "A",
-        "text": "BEG 提供工程服务，ETAS 提供开发工具链"
+        "text": "与软件无关"
       },
       {
         "label": "B",
-        "text": "两者一样"
-      },
-      {
-        "label": "C",
         "text": "都做家电"
       },
       {
+        "label": "C",
+        "text": "BEG 提供工程服务，ETAS 提供开发工具链"
+      },
+      {
         "label": "D",
-        "text": "与软件无关"
+        "text": "两者一样"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 7,
@@ -1952,19 +1952,19 @@
     "options": [
       {
         "label": "A",
-        "text": "RBCN（博世中国投资）"
-      },
-      {
-        "label": "B",
-        "text": "RBCC（博世汽车部件长沙）"
-      },
-      {
-        "label": "C",
         "text": "RBAC（博世汽车部件苏州）"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "RBCN（博世中国投资）"
+      },
+      {
+        "label": "C",
         "text": "BEG（博世工程技术）"
+      },
+      {
+        "label": "D",
+        "text": "RBCC（博世汽车部件长沙）"
       }
     ],
     "answer": [

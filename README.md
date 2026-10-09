@@ -6,7 +6,10 @@
 
 ## 题库
 
-共 **420 题**，7 个领域各 60 题：
+共 **700 题**：7 个领域 × （60 道概念题 + 40 道业务场景题）。
+
+- **概念基础**（`chapter1-7.json`）：原有 420 题，选项顺序已重新打散，答案不再集中在 A。
+- **业务场景题**（`scenario.json`，280 题）：结合腾讯智慧出行真实产品（小鹅打码、汽车云专区、自动驾驶云 ADC、TAD Sim、智驾地图 / ODD 运营平台、Tairos、TCLake / TCRL、TAI / 随行 / 我的车钥匙 / 智慧停车等），以虚拟业务场景考查「什么场景用什么产品、操作步骤先后顺序、参数与指标怎么选」。练习页每个领域下可单独选「业务场景题」子章节。
 
 | 领域 | 内容侧重 |
 |------|---------|
@@ -25,6 +28,7 @@
 - 模拟考试（随机自测）、章节/领域练习、随机练习、实操模拟题
 - 错题本、收藏夹、数据看板（趋势图/热力图/雷达图）、连续打卡
 - 数据导出/导入（JSON 跨设备迁移）、密码门禁
+- **题目删除**：题卡右上角「删除」按钮（二次确认），删除后该题在练习/随机/模拟考试/错题/收藏中隐藏；可在「数据管理 → 已删除题目」逐题或全部恢复，删除记录随导出文件一起备份（模拟考试中不显示删除按钮）
 
 ## 技术栈
 
@@ -32,6 +36,13 @@ React 18 + TypeScript + Vite + TailwindCSS + Recharts（与 tccp-practice 一致
 
 ## 更新题目
 
-题目按领域存放于 `src/data/questions/chapter1-7.json`，领域定义在 `src/data/chapters.ts`。改完提交 `main` 分支，GitHub Actions 自动构建部署。
+- 概念题：`src/data/questions/chapter1-7.json`；领域定义：`src/data/chapters.ts`。
+- 业务场景题：在 `scripts/scenario/ch1.py` ~ `ch7.py` 中编辑（每题写明正确项与干扰项，正确项放第一位即可），然后运行：
+
+```bash
+python3 scripts/build_scenario_questions.py
+```
+
+脚本会生成 `src/data/questions/scenario.json`，自动打散选项并让 A/B/C/D 答案位置均衡，同时校验题干/选项重复。改完提交 `main` 分支，GitHub Actions 自动构建部署。
 
 > 内容基于公司内部知识库与公开法规整理，仅供内部学习参考。访问密码：`bosch2026`。

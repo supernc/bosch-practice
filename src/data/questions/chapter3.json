@@ -5,23 +5,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高精地图车道级、厘米级、含语义，面向机器；导航地图米级、面向人"
+        "text": "高精地图只做配色"
       },
       {
         "label": "B",
-        "text": "两者完全一样"
-      },
-      {
-        "label": "C",
         "text": "导航地图精度更高"
       },
       {
+        "label": "C",
+        "text": "高精地图车道级、厘米级、含语义，面向机器；导航地图米级、面向人"
+      },
+      {
         "label": "D",
-        "text": "高精地图只做配色"
+        "text": "两者完全一样"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -38,23 +38,23 @@
     "options": [
       {
         "label": "A",
-        "text": "自动驾驶/智驾系统（机器）"
-      },
-      {
-        "label": "B",
-        "text": "人类驾驶员看导航"
-      },
-      {
-        "label": "C",
         "text": "只有地图公司"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "自动驾驶/智驾系统（机器）"
+      },
+      {
+        "label": "C",
         "text": "与车无关"
+      },
+      {
+        "label": "D",
+        "text": "人类驾驶员看导航"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -71,7 +71,7 @@
     "options": [
       {
         "label": "A",
-        "text": "车道线、坡度、曲率、信号灯、道路边界等语义信息"
+        "text": "只有路名"
       },
       {
         "label": "B",
@@ -79,15 +79,15 @@
       },
       {
         "label": "C",
-        "text": "只有路名"
+        "text": "与道路无关"
       },
       {
         "label": "D",
-        "text": "与道路无关"
+        "text": "车道线、坡度、曲率、信号灯、道路边界等语义信息"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -108,7 +108,7 @@
       },
       {
         "label": "B",
-        "text": "厘米级"
+        "text": "无精度要求"
       },
       {
         "label": "C",
@@ -116,7 +116,7 @@
       },
       {
         "label": "D",
-        "text": "无精度要求"
+        "text": "厘米级"
       }
     ],
     "answer": [
@@ -137,23 +137,23 @@
     "options": [
       {
         "label": "A",
-        "text": "厘米级"
-      },
-      {
-        "label": "B",
         "text": "米级"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "公里级"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "无精度要求"
+      },
+      {
+        "label": "D",
+        "text": "厘米级"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -174,15 +174,15 @@
       },
       {
         "label": "B",
-        "text": "只提供地图"
+        "text": "只测车速"
       },
       {
         "label": "C",
-        "text": "与定位无关"
+        "text": "只提供地图"
       },
       {
         "label": "D",
-        "text": "只测车速"
+        "text": "与定位无关"
       }
     ],
     "answer": [
@@ -203,15 +203,15 @@
     "options": [
       {
         "label": "A",
-        "text": "借助基准站差分校正，把 GNSS 精度从米级提升到厘米级"
-      },
-      {
-        "label": "B",
         "text": "只用惯性导航"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与卫星无关"
+      },
+      {
+        "label": "C",
+        "text": "借助基准站差分校正，把 GNSS 精度从米级提升到厘米级"
       },
       {
         "label": "D",
@@ -219,7 +219,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -236,23 +236,23 @@
     "options": [
       {
         "label": "A",
-        "text": "提供高频相对运动信息，与 GNSS 融合弥补卫星遮挡盲区"
-      },
-      {
-        "label": "B",
-        "text": "只测温度"
-      },
-      {
-        "label": "C",
         "text": "与定位无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "提供高频相对运动信息，与 GNSS 融合弥补卫星遮挡盲区"
+      },
+      {
+        "label": "C",
         "text": "只做地图"
+      },
+      {
+        "label": "D",
+        "text": "只测温度"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -273,7 +273,7 @@
       },
       {
         "label": "B",
-        "text": "只做地图压缩"
+        "text": "只做语音识别"
       },
       {
         "label": "C",
@@ -281,7 +281,7 @@
       },
       {
         "label": "D",
-        "text": "只做语音识别"
+        "text": "只做地图压缩"
       }
     ],
     "answer": [
@@ -302,23 +302,23 @@
     "options": [
       {
         "label": "A",
-        "text": "甲级测绘资质"
-      },
-      {
-        "label": "B",
         "text": "普通营业执照"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "ISO 9001"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "无资质要求"
+      },
+      {
+        "label": "D",
+        "text": "甲级测绘资质"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -335,15 +335,15 @@
     "options": [
       {
         "label": "A",
-        "text": "地图公开出版/使用前需经审核并取得审图号"
+        "text": "与合规无关"
       },
       {
         "label": "B",
-        "text": "只是编号好看"
+        "text": "地图公开出版/使用前需经审核并取得审图号"
       },
       {
         "label": "C",
-        "text": "与合规无关"
+        "text": "只是编号好看"
       },
       {
         "label": "D",
@@ -351,7 +351,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -368,15 +368,15 @@
     "options": [
       {
         "label": "A",
-        "text": "涉及国家地理信息，监管严格，持牌机构少"
-      },
-      {
-        "label": "B",
         "text": "只是技术门槛低"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与安全无关"
+      },
+      {
+        "label": "C",
+        "text": "涉及国家地理信息，监管严格，持牌机构少"
       },
       {
         "label": "D",
@@ -384,7 +384,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -405,15 +405,15 @@
       },
       {
         "label": "B",
-        "text": "无任何要求"
+        "text": "只限公开数据"
       },
       {
         "label": "C",
-        "text": "可自由出境"
+        "text": "无任何要求"
       },
       {
         "label": "D",
-        "text": "只限公开数据"
+        "text": "可自由出境"
       }
     ],
     "answer": [
@@ -434,11 +434,11 @@
     "options": [
       {
         "label": "A",
-        "text": "高精地图成本高、更新慢、覆盖有限"
+        "text": "高精地图太便宜"
       },
       {
         "label": "B",
-        "text": "高精地图太便宜"
+        "text": "高精地图成本高、更新慢、覆盖有限"
       },
       {
         "label": "C",
@@ -450,7 +450,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -467,23 +467,23 @@
     "options": [
       {
         "label": "A",
-        "text": "用实时感知替代静态高精地图，减少对地图的依赖"
-      },
-      {
-        "label": "B",
-        "text": "让地图更贵"
-      },
-      {
-        "label": "C",
         "text": "与感知无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "让地图更依赖人工"
+      },
+      {
+        "label": "C",
+        "text": "用实时感知替代静态高精地图，减少对地图的依赖"
+      },
+      {
+        "label": "D",
+        "text": "让地图更贵"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -500,23 +500,23 @@
     "options": [
       {
         "label": "A",
-        "text": "从「必需」退化为「冗余安全件」"
+        "text": "与智驾无关"
       },
       {
         "label": "B",
-        "text": "完全消失"
-      },
-      {
-        "label": "C",
         "text": "更加必需"
       },
       {
+        "label": "C",
+        "text": "完全消失"
+      },
+      {
         "label": "D",
-        "text": "与智驾无关"
+        "text": "从「必需」退化为「冗余安全件」"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -537,11 +537,11 @@
       },
       {
         "label": "B",
-        "text": "只做离线地图"
+        "text": "与云无关"
       },
       {
         "label": "C",
-        "text": "与云无关"
+        "text": "只做离线地图"
       },
       {
         "label": "D",
@@ -566,7 +566,7 @@
     "options": [
       {
         "label": "A",
-        "text": "ODD（运行范围）动态更新 + 智驾表现评测"
+        "text": "与量产无关"
       },
       {
         "label": "B",
@@ -574,15 +574,15 @@
       },
       {
         "label": "C",
-        "text": "与量产无关"
+        "text": "只做地图下载"
       },
       {
         "label": "D",
-        "text": "只做地图下载"
+        "text": "ODD（运行范围）动态更新 + 智驾表现评测"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -599,23 +599,23 @@
     "options": [
       {
         "label": "A",
-        "text": "ODD 是动态变化的运行范围数据，需云端实时维护"
-      },
-      {
-        "label": "B",
-        "text": "ODD 永不变化"
-      },
-      {
-        "label": "C",
         "text": "与云端无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只需纸质记录"
+      },
+      {
+        "label": "C",
+        "text": "ODD 是动态变化的运行范围数据，需云端实时维护"
+      },
+      {
+        "label": "D",
+        "text": "ODD 永不变化"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -632,23 +632,23 @@
     "options": [
       {
         "label": "A",
-        "text": "对比云端人类驾驶轨迹给智驾系统打分，定位薄弱路段"
-      },
-      {
-        "label": "B",
-        "text": "只靠人工测试"
-      },
-      {
-        "label": "C",
         "text": "与轨迹无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "对比云端人类驾驶轨迹给智驾系统打分，定位薄弱路段"
+      },
+      {
+        "label": "C",
         "text": "不评测表现"
+      },
+      {
+        "label": "D",
+        "text": "只靠人工测试"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -665,23 +665,23 @@
     "options": [
       {
         "label": "A",
-        "text": "用大量车辆采集数据回传，实时更新地图"
-      },
-      {
-        "label": "B",
         "text": "只靠人工测绘"
       },
       {
+        "label": "B",
+        "text": "只更新一次"
+      },
+      {
         "label": "C",
-        "text": "与更新无关"
+        "text": "用大量车辆采集数据回传，实时更新地图"
       },
       {
         "label": "D",
-        "text": "只更新一次"
+        "text": "与更新无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -706,11 +706,11 @@
       },
       {
         "label": "C",
-        "text": "与更新无关"
+        "text": "只影响配色"
       },
       {
         "label": "D",
-        "text": "只影响配色"
+        "text": "与更新无关"
       }
     ],
     "answer": [
@@ -731,23 +731,23 @@
     "options": [
       {
         "label": "A",
-        "text": "导航、定位、路况、POI 等"
-      },
-      {
-        "label": "B",
         "text": "只做天气"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "只做社交"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "与汽车无关"
+      },
+      {
+        "label": "D",
+        "text": "导航、定位、路况、POI 等"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -764,11 +764,11 @@
     "options": [
       {
         "label": "A",
-        "text": "提供存储、实时更新分发、众包回传的平台底座"
+        "text": "只做展示"
       },
       {
         "label": "B",
-        "text": "只做展示"
+        "text": "提供存储、实时更新分发、众包回传的平台底座"
       },
       {
         "label": "C",
@@ -780,7 +780,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -801,15 +801,15 @@
       },
       {
         "label": "B",
-        "text": "加密数据"
+        "text": "只做压缩"
       },
       {
         "label": "C",
-        "text": "与合规无关"
+        "text": "加密数据"
       },
       {
         "label": "D",
-        "text": "只做压缩"
+        "text": "与合规无关"
       }
     ],
     "answer": [
@@ -830,15 +830,15 @@
     "options": [
       {
         "label": "A",
-        "text": "车道线、信号灯、标识等含义信息"
-      },
-      {
-        "label": "B",
         "text": "只有形状"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "只有颜色"
+      },
+      {
+        "label": "C",
+        "text": "车道线、信号灯、标识等含义信息"
       },
       {
         "label": "D",
@@ -846,7 +846,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -863,23 +863,23 @@
     "options": [
       {
         "label": "A",
-        "text": "道路、车道的连接关系"
+        "text": "与连接无关"
       },
       {
         "label": "B",
-        "text": "只有 POI"
-      },
-      {
-        "label": "C",
         "text": "只有路名"
       },
       {
+        "label": "C",
+        "text": "只有 POI"
+      },
+      {
         "label": "D",
-        "text": "与连接无关"
+        "text": "道路、车道的连接关系"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -896,11 +896,11 @@
     "options": [
       {
         "label": "A",
-        "text": "确定车辆在车道内的精确位置，支撑车道级决策"
+        "text": "只做导航"
       },
       {
         "label": "B",
-        "text": "只做导航"
+        "text": "确定车辆在车道内的精确位置，支撑车道级决策"
       },
       {
         "label": "C",
@@ -912,7 +912,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -937,11 +937,11 @@
       },
       {
         "label": "C",
-        "text": "只做一次性授权"
+        "text": "不收费"
       },
       {
         "label": "D",
-        "text": "不收费"
+        "text": "只做一次性授权"
       }
     ],
     "answer": [
@@ -962,11 +962,11 @@
     "options": [
       {
         "label": "A",
-        "text": "地图配色美观度"
+        "text": "数据出境评估"
       },
       {
         "label": "B",
-        "text": "测绘资质"
+        "text": "地图配色美观度"
       },
       {
         "label": "C",
@@ -974,11 +974,11 @@
       },
       {
         "label": "D",
-        "text": "数据出境评估"
+        "text": "测绘资质"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -995,23 +995,23 @@
     "options": [
       {
         "label": "A",
-        "text": "涉及国家地理信息，出境需安全评估"
-      },
-      {
-        "label": "B",
         "text": "无任何风险"
       },
       {
+        "label": "B",
+        "text": "与法规无关"
+      },
+      {
         "label": "C",
-        "text": "只涉及隐私"
+        "text": "涉及国家地理信息，出境需安全评估"
       },
       {
         "label": "D",
-        "text": "与法规无关"
+        "text": "只涉及隐私"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1028,11 +1028,11 @@
     "options": [
       {
         "label": "A",
-        "text": "车外视频含地理位置，可能构成重要数据，需合规处理"
+        "text": "与地图无关"
       },
       {
         "label": "B",
-        "text": "与地图无关"
+        "text": "无需处理"
       },
       {
         "label": "C",
@@ -1040,11 +1040,11 @@
       },
       {
         "label": "D",
-        "text": "无需处理"
+        "text": "车外视频含地理位置，可能构成重要数据，需合规处理"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1061,23 +1061,23 @@
     "options": [
       {
         "label": "A",
-        "text": "按功能所需精度采集，避免过度采集高精度位置"
-      },
-      {
-        "label": "B",
-        "text": "精度越高越好"
-      },
-      {
-        "label": "C",
         "text": "与合规无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "按功能所需精度采集，避免过度采集高精度位置"
+      },
+      {
+        "label": "C",
         "text": "只做精度显示"
+      },
+      {
+        "label": "D",
+        "text": "精度越高越好"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1094,7 +1094,7 @@
     "options": [
       {
         "label": "A",
-        "text": "划定车辆可运行/禁行区域，如智驾 ODD 限制"
+        "text": "与定位无关"
       },
       {
         "label": "B",
@@ -1102,7 +1102,7 @@
       },
       {
         "label": "C",
-        "text": "与定位无关"
+        "text": "划定车辆可运行/禁行区域，如智驾 ODD 限制"
       },
       {
         "label": "D",
@@ -1110,7 +1110,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1127,23 +1127,23 @@
     "options": [
       {
         "label": "A",
-        "text": "实时把地图更新推送到车端，解决鲜度问题"
-      },
-      {
-        "label": "B",
-        "text": "只做备份"
-      },
-      {
-        "label": "C",
         "text": "与更新无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只能本地更新"
+      },
+      {
+        "label": "C",
+        "text": "只做备份"
+      },
+      {
+        "label": "D",
+        "text": "实时把地图更新推送到车端，解决鲜度问题"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1164,11 +1164,11 @@
       },
       {
         "label": "B",
-        "text": "无难点"
+        "text": "只涉及存储"
       },
       {
         "label": "C",
-        "text": "只涉及存储"
+        "text": "无难点"
       },
       {
         "label": "D",
@@ -1193,23 +1193,23 @@
     "options": [
       {
         "label": "A",
-        "text": "地图能力云化、服务化"
+        "text": "地图不可更新"
       },
       {
         "label": "B",
-        "text": "地图必须离线"
-      },
-      {
-        "label": "C",
         "text": "与云无关"
       },
       {
+        "label": "C",
+        "text": "地图能力云化、服务化"
+      },
+      {
         "label": "D",
-        "text": "地图不可更新"
+        "text": "地图必须离线"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1226,23 +1226,23 @@
     "options": [
       {
         "label": "A",
-        "text": "AI 大模型辅助标注"
-      },
-      {
-        "label": "B",
-        "text": "纯人工"
-      },
-      {
-        "label": "C",
         "text": "与 AI 无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "减少数据"
+      },
+      {
+        "label": "C",
+        "text": "纯人工"
+      },
+      {
+        "label": "D",
+        "text": "AI 大模型辅助标注"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1263,11 +1263,11 @@
       },
       {
         "label": "B",
-        "text": "只做文本搜索"
+        "text": "与检索无关"
       },
       {
         "label": "C",
-        "text": "与检索无关"
+        "text": "只做文本搜索"
       },
       {
         "label": "D",
@@ -1292,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "车路协同补充单车感知，地图提供道路级先验"
-      },
-      {
-        "label": "B",
-        "text": "两者无关"
-      },
-      {
-        "label": "C",
         "text": "V2X 替代地图"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "车路协同补充单车感知，地图提供道路级先验"
+      },
+      {
+        "label": "C",
         "text": "与定位无关"
+      },
+      {
+        "label": "D",
+        "text": "两者无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1325,23 +1325,23 @@
     "options": [
       {
         "label": "A",
-        "text": "GNSS + RTK + IMU 多源融合"
-      },
-      {
-        "label": "B",
-        "text": "只用 GNSS"
-      },
-      {
-        "label": "C",
         "text": "只用 IMU"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只用视觉"
+      },
+      {
+        "label": "C",
+        "text": "GNSS + RTK + IMU 多源融合"
+      },
+      {
+        "label": "D",
+        "text": "只用 GNSS"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1358,11 +1358,11 @@
     "options": [
       {
         "label": "A",
-        "text": "地图降密针对地理信息精度，脱敏针对人脸车牌等个人信息"
+        "text": "与数据无关"
       },
       {
         "label": "B",
-        "text": "两者完全一样"
+        "text": "地图降密针对地理信息精度，脱敏针对人脸车牌等个人信息"
       },
       {
         "label": "C",
@@ -1370,11 +1370,11 @@
       },
       {
         "label": "D",
-        "text": "与数据无关"
+        "text": "两者完全一样"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1399,11 +1399,11 @@
       },
       {
         "label": "C",
-        "text": "与导航无关"
+        "text": "只做行政区划"
       },
       {
         "label": "D",
-        "text": "只做行政区划"
+        "text": "与导航无关"
       }
     ],
     "answer": [
@@ -1424,11 +1424,11 @@
     "options": [
       {
         "label": "A",
-        "text": "精确到具体车道，指导变道、转向"
+        "text": "只显示路名"
       },
       {
         "label": "B",
-        "text": "只显示路名"
+        "text": "精度更低"
       },
       {
         "label": "C",
@@ -1436,11 +1436,11 @@
       },
       {
         "label": "D",
-        "text": "精度更低"
+        "text": "精确到具体车道，指导变道、转向"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1457,23 +1457,23 @@
     "options": [
       {
         "label": "A",
-        "text": "涉及国家地理信息的数据应境内存储"
-      },
-      {
-        "label": "B",
         "text": "无依据"
       },
       {
+        "label": "B",
+        "text": "只限境外存储"
+      },
+      {
         "label": "C",
-        "text": "可自由出境"
+        "text": "涉及国家地理信息的数据应境内存储"
       },
       {
         "label": "D",
-        "text": "只限境外存储"
+        "text": "可自由出境"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1490,7 +1490,7 @@
     "options": [
       {
         "label": "A",
-        "text": "地图更新快、成本低、可定制"
+        "text": "与收益无关"
       },
       {
         "label": "B",
@@ -1498,15 +1498,15 @@
       },
       {
         "label": "C",
-        "text": "与收益无关"
+        "text": "地图不可定制"
       },
       {
         "label": "D",
-        "text": "地图不可定制"
+        "text": "地图更新快、成本低、可定制"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1527,11 +1527,11 @@
       },
       {
         "label": "B",
-        "text": "只影响美观"
+        "text": "与安全无关"
       },
       {
         "label": "C",
-        "text": "与安全无关"
+        "text": "只影响美观"
       },
       {
         "label": "D",
@@ -1556,23 +1556,23 @@
     "options": [
       {
         "label": "A",
-        "text": "地图数据处理、出境、提供第三方等环节的安全风险"
-      },
-      {
-        "label": "B",
         "text": "只评估配色"
       },
       {
+        "label": "B",
+        "text": "地图数据处理、出境、提供第三方等环节的安全风险"
+      },
+      {
         "label": "C",
-        "text": "与安全无关"
+        "text": "只评估收费"
       },
       {
         "label": "D",
-        "text": "只评估收费"
+        "text": "与安全无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1589,23 +1589,23 @@
     "options": [
       {
         "label": "A",
-        "text": "国产 GNSS，提供自主可控的定位能力"
+        "text": "只做地图"
       },
       {
         "label": "B",
-        "text": "只做通信"
-      },
-      {
-        "label": "C",
         "text": "与定位无关"
       },
       {
+        "label": "C",
+        "text": "只做通信"
+      },
+      {
         "label": "D",
-        "text": "只做地图"
+        "text": "国产 GNSS，提供自主可控的定位能力"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1622,15 +1622,15 @@
     "options": [
       {
         "label": "A",
-        "text": "车端回传数据反哺地图更新，形成「用图-采图-更新图」循环"
-      },
-      {
-        "label": "B",
         "text": "只做一次"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与闭环无关"
+      },
+      {
+        "label": "C",
+        "text": "车端回传数据反哺地图更新，形成「用图-采图-更新图」循环"
       },
       {
         "label": "D",
@@ -1638,7 +1638,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1659,15 +1659,15 @@
       },
       {
         "label": "B",
-        "text": "几乎零成本"
-      },
-      {
-        "label": "C",
         "text": "只做一次"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "与成本无关"
+      },
+      {
+        "label": "D",
+        "text": "几乎零成本"
       }
     ],
     "answer": [
@@ -1688,11 +1688,11 @@
     "options": [
       {
         "label": "A",
-        "text": "只保留关键道路要素，降低地图精度与成本要求"
+        "text": "地图更重"
       },
       {
         "label": "B",
-        "text": "地图更重"
+        "text": "只保留关键道路要素，降低地图精度与成本要求"
       },
       {
         "label": "C",
@@ -1704,7 +1704,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1721,23 +1721,23 @@
     "options": [
       {
         "label": "A",
-        "text": "中国研发地图数据出海需评估，形成合规门槛"
-      },
-      {
-        "label": "B",
-        "text": "无影响"
-      },
-      {
-        "label": "C",
         "text": "出海更简单"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "与合规无关"
+      },
+      {
+        "label": "C",
+        "text": "中国研发地图数据出海需评估，形成合规门槛"
+      },
+      {
+        "label": "D",
+        "text": "无影响"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 3,
@@ -1787,11 +1787,11 @@
     "options": [
       {
         "label": "A",
-        "text": "集成导航、定位、路况能力到车机应用"
+        "text": "只做壁纸"
       },
       {
         "label": "B",
-        "text": "只做壁纸"
+        "text": "只做音乐"
       },
       {
         "label": "C",
@@ -1799,11 +1799,11 @@
       },
       {
         "label": "D",
-        "text": "只做音乐"
+        "text": "集成导航、定位、路况能力到车机应用"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1820,23 +1820,23 @@
     "options": [
       {
         "label": "A",
-        "text": "地图数据敏感，需专有云物理隔离保障合规"
+        "text": "只做加速"
       },
       {
         "label": "B",
-        "text": "只为了贵"
+        "text": "地图数据敏感，需专有云物理隔离保障合规"
       },
       {
         "label": "C",
-        "text": "与合规无关"
+        "text": "只为了贵"
       },
       {
         "label": "D",
-        "text": "只做加速"
+        "text": "与合规无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1853,23 +1853,23 @@
     "options": [
       {
         "label": "A",
-        "text": "车道线、路牌、信号灯等道路要素"
-      },
-      {
-        "label": "B",
-        "text": "只标注文字"
-      },
-      {
-        "label": "C",
         "text": "与道路无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只标注颜色"
+      },
+      {
+        "label": "C",
+        "text": "只标注文字"
+      },
+      {
+        "label": "D",
+        "text": "车道线、路牌、信号灯等道路要素"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 3,
@@ -1890,7 +1890,7 @@
       },
       {
         "label": "B",
-        "text": "无失效场景"
+        "text": "与传感器无关"
       },
       {
         "label": "C",
@@ -1898,7 +1898,7 @@
       },
       {
         "label": "D",
-        "text": "与传感器无关"
+        "text": "无失效场景"
       }
     ],
     "answer": [
@@ -1919,23 +1919,23 @@
     "options": [
       {
         "label": "A",
-        "text": "从强依赖变为可选冗余，端到端更依赖实时感知"
+        "text": "地位不变"
       },
       {
         "label": "B",
-        "text": "更加必需"
+        "text": "从强依赖变为可选冗余，端到端更依赖实时感知"
       },
       {
         "label": "C",
-        "text": "与端到端无关"
+        "text": "更加必需"
       },
       {
         "label": "D",
-        "text": "地位不变"
+        "text": "与端到端无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 3,
@@ -1956,11 +1956,11 @@
       },
       {
         "label": "B",
-        "text": "审图号"
+        "text": "数据出境评估"
       },
       {
         "label": "C",
-        "text": "数据出境评估"
+        "text": "审图号"
       },
       {
         "label": "D",

@@ -104,7 +104,7 @@ export function ConfirmModal({
         </>
       }
     >
-      <p className="text-text-secondary text-sm leading-relaxed">{message}</p>
+      <p className="text-text-secondary text-sm leading-relaxed whitespace-pre-line">{message}</p>
     </Modal>
   );
 }

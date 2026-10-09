@@ -5,7 +5,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Cross-Domain Computing Solutions（跨域计算解决方案）"
+        "text": "Cross Connection Systems"
       },
       {
         "label": "B",
@@ -13,15 +13,15 @@
       },
       {
         "label": "C",
-        "text": "Cross Connection Systems"
+        "text": "Computing Center Solutions"
       },
       {
         "label": "D",
-        "text": "Computing Center Solutions"
+        "text": "Cross-Domain Computing Solutions（跨域计算解决方案）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -38,23 +38,23 @@
     "options": [
       {
         "label": "A",
-        "text": "2021 年（年初重组）"
-      },
-      {
-        "label": "B",
-        "text": "2015 年"
-      },
-      {
-        "label": "C",
         "text": "2018 年"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "2023 年"
+      },
+      {
+        "label": "C",
+        "text": "2021 年（年初重组）"
+      },
+      {
+        "label": "D",
+        "text": "2015 年"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -71,11 +71,11 @@
     "options": [
       {
         "label": "A",
-        "text": "整合软件与电子专长，降低汽车电子复杂度，加速功能上车"
+        "text": "退出汽车业务"
       },
       {
         "label": "B",
-        "text": "只做硬件制造"
+        "text": "整合软件与电子专长，降低汽车电子复杂度，加速功能上车"
       },
       {
         "label": "C",
@@ -83,11 +83,11 @@
       },
       {
         "label": "D",
-        "text": "退出汽车业务"
+        "text": "只做硬件制造"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -137,23 +137,23 @@
     "options": [
       {
         "label": "A",
-        "text": "17000 人"
-      },
-      {
-        "label": "B",
         "text": "1700 人"
       },
       {
+        "label": "B",
+        "text": "17 人"
+      },
+      {
         "label": "C",
-        "text": "170 人"
+        "text": "17000 人"
       },
       {
         "label": "D",
-        "text": "17 人"
+        "text": "170 人"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -170,23 +170,23 @@
     "options": [
       {
         "label": "A",
-        "text": "1100 人"
+        "text": "11 人"
       },
       {
         "label": "B",
-        "text": "110 人"
-      },
-      {
-        "label": "C",
         "text": "11000 人"
       },
       {
+        "label": "C",
+        "text": "110 人"
+      },
+      {
         "label": "D",
-        "text": "11 人"
+        "text": "1100 人"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -207,15 +207,15 @@
       },
       {
         "label": "B",
-        "text": "北京"
+        "text": "深圳"
       },
       {
         "label": "C",
-        "text": "广州"
+        "text": "北京"
       },
       {
         "label": "D",
-        "text": "深圳"
+        "text": "广州"
       }
     ],
     "answer": [
@@ -236,23 +236,23 @@
     "options": [
       {
         "label": "A",
-        "text": "XC 本质是软件公司，生产委托兄弟事业部"
-      },
-      {
-        "label": "B",
         "text": "博世不生产了"
       },
       {
+        "label": "B",
+        "text": "XC 本质是软件公司，生产委托兄弟事业部"
+      },
+      {
         "label": "C",
-        "text": "与业务无关"
+        "text": "只做贸易"
       },
       {
         "label": "D",
-        "text": "只做贸易"
+        "text": "与业务无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -269,11 +269,11 @@
     "options": [
       {
         "label": "A",
-        "text": "超 80%"
+        "text": "约 30%"
       },
       {
         "label": "B",
-        "text": "约 30%"
+        "text": "约 10%"
       },
       {
         "label": "C",
@@ -281,11 +281,11 @@
       },
       {
         "label": "D",
-        "text": "约 10%"
+        "text": "超 80%"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -302,23 +302,23 @@
     "options": [
       {
         "label": "A",
-        "text": "自动驾驶/智能驾驶"
-      },
-      {
-        "label": "B",
         "text": "智能座舱域控制器"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "车路协同/智能网联"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "整车总装"
+      },
+      {
+        "label": "D",
+        "text": "自动驾驶/智能驾驶"
       }
     ],
     "answer": [
-      "D"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -335,23 +335,23 @@
     "options": [
       {
         "label": "A",
-        "text": "做座舱域控制器赋能，不做座舱应用"
-      },
-      {
-        "label": "B",
         "text": "做座舱应用"
       },
       {
+        "label": "B",
+        "text": "做座舱域控制器赋能，不做座舱应用"
+      },
+      {
         "label": "C",
-        "text": "做手机系统"
+        "text": "不涉足"
       },
       {
         "label": "D",
-        "text": "不涉足"
+        "text": "做手机系统"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -401,23 +401,23 @@
     "options": [
       {
         "label": "A",
-        "text": "基于 AUTOSAR 的工程团队"
-      },
-      {
-        "label": "B",
-        "text": "只做应用"
-      },
-      {
-        "label": "C",
         "text": "与中间件无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做硬件"
+      },
+      {
+        "label": "C",
+        "text": "只做应用"
+      },
+      {
+        "label": "D",
+        "text": "基于 AUTOSAR 的工程团队"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -434,23 +434,23 @@
     "options": [
       {
         "label": "A",
-        "text": "汽车电子软件标准架构，实现软硬件解耦与复用"
+        "text": "只做通信"
       },
       {
         "label": "B",
-        "text": "只做硬件"
+        "text": "汽车电子软件标准架构，实现软硬件解耦与复用"
       },
       {
         "label": "C",
-        "text": "与软件无关"
+        "text": "只做硬件"
       },
       {
         "label": "D",
-        "text": "只做通信"
+        "text": "与软件无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -467,7 +467,7 @@
     "options": [
       {
         "label": "A",
-        "text": "集中算力、减少 ECU 数量、支持软件升级"
+        "text": "更落后"
       },
       {
         "label": "B",
@@ -475,15 +475,15 @@
       },
       {
         "label": "C",
-        "text": "成本更高"
+        "text": "集中算力、减少 ECU 数量、支持软件升级"
       },
       {
         "label": "D",
-        "text": "更落后"
+        "text": "成本更高"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -504,15 +504,15 @@
       },
       {
         "label": "B",
-        "text": "10 个"
+        "text": "0 个"
       },
       {
         "label": "C",
-        "text": "1 个"
+        "text": "10 个"
       },
       {
         "label": "D",
-        "text": "0 个"
+        "text": "1 个"
       }
     ],
     "answer": [
@@ -533,11 +533,11 @@
     "options": [
       {
         "label": "A",
-        "text": "城市 NOA、端到端大模型、L2++ 乃至 L3"
+        "text": "只有 AEB"
       },
       {
         "label": "B",
-        "text": "只有 AEB"
+        "text": "城市 NOA、端到端大模型、L2++ 乃至 L3"
       },
       {
         "label": "C",
@@ -549,7 +549,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -574,11 +574,11 @@
       },
       {
         "label": "C",
-        "text": "L4 无人驾驶"
+        "text": "记忆泊车"
       },
       {
         "label": "D",
-        "text": "记忆泊车"
+        "text": "L4 无人驾驶"
       }
     ],
     "answer": [
@@ -599,11 +599,11 @@
     "options": [
       {
         "label": "A",
-        "text": "高阶（L3/L4 研发）+ 低阶（L2+ 量产）组合"
+        "text": "只做高阶"
       },
       {
         "label": "B",
-        "text": "只做高阶"
+        "text": "只做海外"
       },
       {
         "label": "C",
@@ -611,11 +611,11 @@
       },
       {
         "label": "D",
-        "text": "只做海外"
+        "text": "高阶（L3/L4 研发）+ 低阶（L2+ 量产）组合"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -632,23 +632,23 @@
     "options": [
       {
         "label": "A",
-        "text": "10-15 雷达、10-15 摄像头、2-4 激光雷达"
-      },
-      {
-        "label": "B",
-        "text": "1 个摄像头"
-      },
-      {
-        "label": "C",
         "text": "只超声波"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "不接传感器"
+      },
+      {
+        "label": "C",
+        "text": "10-15 雷达、10-15 摄像头、2-4 激光雷达"
+      },
+      {
+        "label": "D",
+        "text": "1 个摄像头"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -665,15 +665,15 @@
     "options": [
       {
         "label": "A",
-        "text": "从高速脱手驾驶到城市脱手驾驶"
+        "text": "只做高速"
       },
       {
         "label": "B",
-        "text": "从城市到高速"
+        "text": "从高速脱手驾驶到城市脱手驾驶"
       },
       {
         "label": "C",
-        "text": "只做高速"
+        "text": "从城市到高速"
       },
       {
         "label": "D",
@@ -681,7 +681,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -698,11 +698,11 @@
     "options": [
       {
         "label": "A",
-        "text": "18 个月从定点到量产"
+        "text": "共同造车"
       },
       {
         "label": "B",
-        "text": "共同造车"
+        "text": "只做存储"
       },
       {
         "label": "C",
@@ -710,11 +710,11 @@
       },
       {
         "label": "D",
-        "text": "只做存储"
+        "text": "18 个月从定点到量产"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -731,7 +731,7 @@
     "options": [
       {
         "label": "A",
-        "text": "向量数据库图像检索"
+        "text": "只做邮件"
       },
       {
         "label": "B",
@@ -739,7 +739,7 @@
       },
       {
         "label": "C",
-        "text": "只做邮件"
+        "text": "向量数据库图像检索"
       },
       {
         "label": "D",
@@ -747,7 +747,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -768,11 +768,11 @@
       },
       {
         "label": "B",
-        "text": "软硬必须绑定"
+        "text": "与架构无关"
       },
       {
         "label": "C",
-        "text": "与架构无关"
+        "text": "软硬必须绑定"
       },
       {
         "label": "D",
@@ -797,23 +797,23 @@
     "options": [
       {
         "label": "A",
-        "text": "把车载计算单元与软件工程能力集中，做一站式方案"
+        "text": "只做硬件"
       },
       {
         "label": "B",
-        "text": "继续分散"
-      },
-      {
-        "label": "C",
         "text": "不做集中"
       },
       {
+        "label": "C",
+        "text": "继续分散"
+      },
+      {
         "label": "D",
-        "text": "只做硬件"
+        "text": "把车载计算单元与软件工程能力集中，做一站式方案"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -830,11 +830,11 @@
     "options": [
       {
         "label": "A",
-        "text": "从分布式 ECU 到域集中、再到中央计算"
+        "text": "只做机械"
       },
       {
         "label": "B",
-        "text": "越来越分散"
+        "text": "从分布式 ECU 到域集中、再到中央计算"
       },
       {
         "label": "C",
@@ -842,11 +842,11 @@
       },
       {
         "label": "D",
-        "text": "只做机械"
+        "text": "越来越分散"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -863,15 +863,15 @@
     "options": [
       {
         "label": "A",
-        "text": "AUTOSAR 底层软件与中间件团队"
-      },
-      {
-        "label": "B",
         "text": "只做应用"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与软件无关"
+      },
+      {
+        "label": "C",
+        "text": "AUTOSAR 底层软件与中间件团队"
       },
       {
         "label": "D",
@@ -879,7 +879,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -900,15 +900,15 @@
       },
       {
         "label": "B",
-        "text": "只做海外"
+        "text": "只做导航"
       },
       {
         "label": "C",
-        "text": "与协同无关"
+        "text": "只做海外"
       },
       {
         "label": "D",
-        "text": "只做导航"
+        "text": "与协同无关"
       }
     ],
     "answer": [
@@ -929,23 +929,23 @@
     "options": [
       {
         "label": "A",
-        "text": "苏州为总部（研发+销售），上海虹桥/张江协同"
-      },
-      {
-        "label": "B",
         "text": "只在苏州"
       },
       {
+        "label": "B",
+        "text": "与分工无关"
+      },
+      {
         "label": "C",
-        "text": "只在上海"
+        "text": "苏州为总部（研发+销售），上海虹桥/张江协同"
       },
       {
         "label": "D",
-        "text": "与分工无关"
+        "text": "只在上海"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -962,15 +962,15 @@
     "options": [
       {
         "label": "A",
-        "text": "人才共享和项目支持协同"
+        "text": "竞争关系"
       },
       {
         "label": "B",
-        "text": "无关系"
+        "text": "人才共享和项目支持协同"
       },
       {
         "label": "C",
-        "text": "竞争关系"
+        "text": "无关系"
       },
       {
         "label": "D",
@@ -978,7 +978,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1003,11 +1003,11 @@
       },
       {
         "label": "C",
-        "text": "与算力无关"
+        "text": "只做开关"
       },
       {
         "label": "D",
-        "text": "只做开关"
+        "text": "与算力无关"
       }
     ],
     "answer": [
@@ -1028,23 +1028,23 @@
     "options": [
       {
         "label": "A",
-        "text": "采集-标注-训练-仿真-回灌"
+        "text": "与闭环无关"
       },
       {
         "label": "B",
-        "text": "只做采集"
-      },
-      {
-        "label": "C",
         "text": "只做训练"
       },
       {
+        "label": "C",
+        "text": "只做采集"
+      },
+      {
         "label": "D",
-        "text": "与闭环无关"
+        "text": "采集-标注-训练-仿真-回灌"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1065,15 +1065,15 @@
       },
       {
         "label": "B",
-        "text": "底盘事业部"
+        "text": "工业事业部"
       },
       {
         "label": "C",
-        "text": "售后事业部"
+        "text": "底盘事业部"
       },
       {
         "label": "D",
-        "text": "工业事业部"
+        "text": "售后事业部"
       }
     ],
     "answer": [
@@ -1094,11 +1094,11 @@
     "options": [
       {
         "label": "A",
-        "text": "从千万行级增长到数亿行级"
+        "text": "与软件无关"
       },
       {
         "label": "B",
-        "text": "越来越少"
+        "text": "从千万行级增长到数亿行级"
       },
       {
         "label": "C",
@@ -1106,11 +1106,11 @@
       },
       {
         "label": "D",
-        "text": "与软件无关"
+        "text": "越来越少"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1127,15 +1127,15 @@
     "options": [
       {
         "label": "A",
-        "text": "跨域软件与电子整合能力"
-      },
-      {
-        "label": "B",
         "text": "只做机械"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "只做销售"
+      },
+      {
+        "label": "C",
+        "text": "跨域软件与电子整合能力"
       },
       {
         "label": "D",
@@ -1143,7 +1143,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1160,23 +1160,23 @@
     "options": [
       {
         "label": "A",
-        "text": "中国市场"
-      },
-      {
-        "label": "B",
-        "text": "欧洲市场"
-      },
-      {
-        "label": "C",
         "text": "美国市场"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "日本市场"
+      },
+      {
+        "label": "C",
+        "text": "欧洲市场"
+      },
+      {
+        "label": "D",
+        "text": "中国市场"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1197,15 +1197,15 @@
       },
       {
         "label": "B",
-        "text": "传感器降价"
-      },
-      {
-        "label": "C",
         "text": "芯片降价"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "无前提"
+      },
+      {
+        "label": "D",
+        "text": "传感器降价"
       }
     ],
     "answer": [
@@ -1226,7 +1226,7 @@
     "options": [
       {
         "label": "A",
-        "text": "中央计算是域控之后的进一步集中"
+        "text": "中央更分散"
       },
       {
         "label": "B",
@@ -1234,15 +1234,15 @@
       },
       {
         "label": "C",
-        "text": "两者无关"
+        "text": "中央计算是域控之后的进一步集中"
       },
       {
         "label": "D",
-        "text": "中央更分散"
+        "text": "两者无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1259,23 +1259,23 @@
     "options": [
       {
         "label": "A",
-        "text": "从一次性硬件销售转向持续性软件服务"
-      },
-      {
-        "label": "B",
-        "text": "只卖硬件"
-      },
-      {
-        "label": "C",
         "text": "只做一次性"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "从一次性硬件销售转向持续性软件服务"
+      },
+      {
+        "label": "C",
         "text": "与商业无关"
+      },
+      {
+        "label": "D",
+        "text": "只卖硬件"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1292,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "软件功能可远程持续更新，加速迭代"
-      },
-      {
-        "label": "B",
-        "text": "与升级无关"
-      },
-      {
-        "label": "C",
         "text": "只更新地图"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只能线下"
+      },
+      {
+        "label": "C",
+        "text": "与升级无关"
+      },
+      {
+        "label": "D",
+        "text": "软件功能可远程持续更新，加速迭代"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1358,23 +1358,23 @@
     "options": [
       {
         "label": "A",
-        "text": "承载高阶智驾数据与应用的合规底座"
-      },
-      {
-        "label": "B",
-        "text": "只做加速"
-      },
-      {
-        "label": "C",
         "text": "与合规无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做存储"
+      },
+      {
+        "label": "C",
+        "text": "承载高阶智驾数据与应用的合规底座"
+      },
+      {
+        "label": "D",
+        "text": "只做加速"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1391,7 +1391,7 @@
     "options": [
       {
         "label": "A",
-        "text": "中国市场对博世 XC 的战略重要性上升"
+        "text": "与研发无关"
       },
       {
         "label": "B",
@@ -1399,15 +1399,15 @@
       },
       {
         "label": "C",
-        "text": "与研发无关"
+        "text": "只做制造"
       },
       {
         "label": "D",
-        "text": "只做制造"
+        "text": "中国市场对博世 XC 的战略重要性上升"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1424,11 +1424,11 @@
     "options": [
       {
         "label": "A",
-        "text": "跨越驾驶辅助、座舱、动力、车身等多个域整合"
+        "text": "只做底盘"
       },
       {
         "label": "B",
-        "text": "只做单域"
+        "text": "跨越驾驶辅助、座舱、动力、车身等多个域整合"
       },
       {
         "label": "C",
@@ -1436,11 +1436,11 @@
       },
       {
         "label": "D",
-        "text": "只做底盘"
+        "text": "只做单域"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1457,11 +1457,11 @@
     "options": [
       {
         "label": "A",
-        "text": "把底盘软件能力并入跨域方案，实现整车协同"
+        "text": "底盘退出"
       },
       {
         "label": "B",
-        "text": "底盘退出"
+        "text": "只做硬件"
       },
       {
         "label": "C",
@@ -1469,11 +1469,11 @@
       },
       {
         "label": "D",
-        "text": "只做硬件"
+        "text": "把底盘软件能力并入跨域方案，实现整车协同"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1490,23 +1490,23 @@
     "options": [
       {
         "label": "A",
-        "text": "强大车载计算机整合多域功能，减少 ECU"
+        "text": "只做娱乐"
       },
       {
         "label": "B",
-        "text": "不用车载计算机"
+        "text": "强大车载计算机整合多域功能，减少 ECU"
       },
       {
         "label": "C",
-        "text": "与架构无关"
+        "text": "不用车载计算机"
       },
       {
         "label": "D",
-        "text": "只做娱乐"
+        "text": "与架构无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1523,7 +1523,7 @@
     "options": [
       {
         "label": "A",
-        "text": "数据脱敏（人脸/车牌）+ 专有云存储"
+        "text": "与合规无关"
       },
       {
         "label": "B",
@@ -1531,15 +1531,15 @@
       },
       {
         "label": "C",
-        "text": "直接公有云"
+        "text": "数据脱敏（人脸/车牌）+ 专有云存储"
       },
       {
         "label": "D",
-        "text": "与合规无关"
+        "text": "直接公有云"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1560,11 +1560,11 @@
       },
       {
         "label": "B",
-        "text": "无提升"
+        "text": "更简单"
       },
       {
         "label": "C",
-        "text": "更简单"
+        "text": "无提升"
       },
       {
         "label": "D",
@@ -1589,23 +1589,23 @@
     "options": [
       {
         "label": "A",
-        "text": "正在中国开展高速场景 L4 研发"
-      },
-      {
-        "label": "B",
-        "text": "已完全量产"
-      },
-      {
-        "label": "C",
         "text": "不做 L4"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做 L2"
+      },
+      {
+        "label": "C",
+        "text": "正在中国开展高速场景 L4 研发"
+      },
+      {
+        "label": "D",
+        "text": "已完全量产"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1622,11 +1622,11 @@
     "options": [
       {
         "label": "A",
-        "text": "不同等级对安全性、冗余要求不同，统一方案未必最优"
+        "text": "不能做 L4"
       },
       {
         "label": "B",
-        "text": "不能做 L4"
+        "text": "不同等级对安全性、冗余要求不同，统一方案未必最优"
       },
       {
         "label": "C",
@@ -1638,7 +1638,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1655,23 +1655,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高通骁龙第三代数字座舱平台"
-      },
-      {
-        "label": "B",
         "text": "只做自研"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "不用芯片"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只用 MCU"
+      },
+      {
+        "label": "D",
+        "text": "高通骁龙第三代数字座舱平台"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1692,7 +1692,7 @@
       },
       {
         "label": "B",
-        "text": "只做一块屏"
+        "text": "与功能无关"
       },
       {
         "label": "C",
@@ -1700,7 +1700,7 @@
       },
       {
         "label": "D",
-        "text": "与功能无关"
+        "text": "只做一块屏"
       }
     ],
     "answer": [
@@ -1721,11 +1721,11 @@
     "options": [
       {
         "label": "A",
-        "text": "基础软件、中间件、架构数据流通打通"
+        "text": "软硬绑定"
       },
       {
         "label": "B",
-        "text": "软硬绑定"
+        "text": "基础软件、中间件、架构数据流通打通"
       },
       {
         "label": "C",
@@ -1737,7 +1737,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 6,
@@ -1754,23 +1754,23 @@
     "options": [
       {
         "label": "A",
-        "text": "整车厂（提供跨域软硬件一站式方案）"
-      },
-      {
-        "label": "B",
         "text": "只做个人"
       },
       {
+        "label": "B",
+        "text": "与客户无关"
+      },
+      {
         "label": "C",
-        "text": "只做后市场"
+        "text": "整车厂（提供跨域软硬件一站式方案）"
       },
       {
         "label": "D",
-        "text": "与客户无关"
+        "text": "只做后市场"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1787,23 +1787,23 @@
     "options": [
       {
         "label": "A",
-        "text": "整合资源做车载计算单元与软件一站式服务"
+        "text": "不做应对"
       },
       {
         "label": "B",
-        "text": "拒绝集中"
-      },
-      {
-        "label": "C",
         "text": "只做分布"
       },
       {
+        "label": "C",
+        "text": "拒绝集中"
+      },
+      {
         "label": "D",
-        "text": "不做应对"
+        "text": "整合资源做车载计算单元与软件一站式服务"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1824,15 +1824,15 @@
       },
       {
         "label": "B",
-        "text": "只做备份"
+        "text": "只做加速"
       },
       {
         "label": "C",
-        "text": "与训练无关"
+        "text": "只做备份"
       },
       {
         "label": "D",
-        "text": "只做加速"
+        "text": "与训练无关"
       }
     ],
     "answer": [
@@ -1853,23 +1853,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高阶智驾数据闭环（图像检索、训练、仿真）"
-      },
-      {
-        "label": "B",
-        "text": "只做邮件"
-      },
-      {
-        "label": "C",
         "text": "只做网盘"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "与数据无关"
+      },
+      {
+        "label": "C",
+        "text": "只做邮件"
+      },
+      {
+        "label": "D",
+        "text": "高阶智驾数据闭环（图像检索、训练、仿真）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 6,
@@ -1890,7 +1890,7 @@
       },
       {
         "label": "B",
-        "text": "无要求"
+        "text": "与安全无关"
       },
       {
         "label": "C",
@@ -1898,7 +1898,7 @@
       },
       {
         "label": "D",
-        "text": "与安全无关"
+        "text": "无要求"
       }
     ],
     "answer": [
@@ -1919,23 +1919,23 @@
     "options": [
       {
         "label": "A",
-        "text": "整车通信枢纽，连接各域与 ECU"
-      },
-      {
-        "label": "B",
-        "text": "只做收音机"
-      },
-      {
-        "label": "C",
         "text": "与通信无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做电源"
+      },
+      {
+        "label": "C",
+        "text": "整车通信枢纽，连接各域与 ECU"
+      },
+      {
+        "label": "D",
+        "text": "只做收音机"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 6,
@@ -1952,19 +1952,19 @@
     "options": [
       {
         "label": "A",
-        "text": "跨域计算解决方案"
+        "text": "全球约 17000 人、中国约 1100 人"
       },
       {
         "label": "B",
-        "text": "唯一无生产、以研发软件为主"
+        "text": "跨域计算解决方案"
       },
       {
         "label": "C",
-        "text": "覆盖高阶/低阶智驾与座舱域控"
+        "text": "唯一无生产、以研发软件为主"
       },
       {
         "label": "D",
-        "text": "全球约 17000 人、中国约 1100 人"
+        "text": "覆盖高阶/低阶智驾与座舱域控"
       }
     ],
     "answer": [

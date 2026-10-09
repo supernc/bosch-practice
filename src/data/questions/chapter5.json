@@ -5,23 +5,23 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱域控制器 + SoC 芯片"
+        "text": "只有音箱"
       },
       {
         "label": "B",
-        "text": "只有座椅"
-      },
-      {
-        "label": "C",
         "text": "只有空调"
       },
       {
+        "label": "C",
+        "text": "只有座椅"
+      },
+      {
         "label": "D",
-        "text": "只有音箱"
+        "text": "座舱域控制器 + SoC 芯片"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -42,15 +42,15 @@
       },
       {
         "label": "B",
-        "text": "只做收音机"
-      },
-      {
-        "label": "C",
         "text": "与算力无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做座椅调节"
+      },
+      {
+        "label": "D",
+        "text": "只做收音机"
       }
     ],
     "answer": [
@@ -71,11 +71,11 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱与智驾共用一套硬件/芯片，降本增效"
+        "text": "与硬件无关"
       },
       {
         "label": "B",
-        "text": "座舱与发动机一体"
+        "text": "座舱与智驾共用一套硬件/芯片，降本增效"
       },
       {
         "label": "C",
@@ -83,11 +83,11 @@
       },
       {
         "label": "D",
-        "text": "与硬件无关"
+        "text": "座舱与发动机一体"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -104,7 +104,7 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱与泊车共用算力"
+        "text": "与座舱无关"
       },
       {
         "label": "B",
@@ -112,7 +112,7 @@
       },
       {
         "label": "C",
-        "text": "与座舱无关"
+        "text": "座舱与泊车共用算力"
       },
       {
         "label": "D",
@@ -120,7 +120,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -137,11 +137,11 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱算力与体验上限"
+        "text": "只决定颜色"
       },
       {
         "label": "B",
-        "text": "只决定外观"
+        "text": "座舱算力与体验上限"
       },
       {
         "label": "C",
@@ -149,11 +149,11 @@
       },
       {
         "label": "D",
-        "text": "只决定颜色"
+        "text": "只决定外观"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -170,23 +170,23 @@
     "options": [
       {
         "label": "A",
-        "text": "4 倍以上"
-      },
-      {
-        "label": "B",
         "text": "约 2 倍"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "基本持平"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "反而降低"
+      },
+      {
+        "label": "D",
+        "text": "4 倍以上"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -207,11 +207,11 @@
       },
       {
         "label": "B",
-        "text": "只做硬件"
+        "text": "与交互无关"
       },
       {
         "label": "C",
-        "text": "与交互无关"
+        "text": "只做硬件"
       },
       {
         "label": "D",
@@ -236,7 +236,7 @@
     "options": [
       {
         "label": "A",
-        "text": "把导航等信息投射到前挡风，减少视线转移，提升安全"
+        "text": "只做娱乐"
       },
       {
         "label": "B",
@@ -244,15 +244,15 @@
       },
       {
         "label": "C",
-        "text": "与安全无关"
+        "text": "把导航等信息投射到前挡风，减少视线转移，提升安全"
       },
       {
         "label": "D",
-        "text": "只做娱乐"
+        "text": "与安全无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -273,15 +273,15 @@
       },
       {
         "label": "B",
-        "text": "只做音乐"
-      },
-      {
-        "label": "C",
         "text": "与安全无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做导航"
+      },
+      {
+        "label": "D",
+        "text": "只做音乐"
       }
     ],
     "answer": [
@@ -302,7 +302,7 @@
     "options": [
       {
         "label": "A",
-        "text": "乘员监测系统，检测车内乘员状态（如儿童遗留）"
+        "text": "只做座椅"
       },
       {
         "label": "B",
@@ -310,15 +310,15 @@
       },
       {
         "label": "C",
-        "text": "与乘员无关"
+        "text": "乘员监测系统，检测车内乘员状态（如儿童遗留）"
       },
       {
         "label": "D",
-        "text": "只做座椅"
+        "text": "与乘员无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -335,23 +335,23 @@
     "options": [
       {
         "label": "A",
-        "text": "手机与车机互联（Carplay/HiCar/Carlink），延伸手机生态"
-      },
-      {
-        "label": "B",
         "text": "只做蓝牙"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与手机无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做导航"
+      },
+      {
+        "label": "D",
+        "text": "手机与车机互联（Carplay/HiCar/Carlink），延伸手机生态"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -368,23 +368,23 @@
     "options": [
       {
         "label": "A",
-        "text": "覆盖 Carplay/HiCar/Carlink，做国内适应性最好的车手互联"
-      },
-      {
-        "label": "B",
-        "text": "只支持苹果"
-      },
-      {
-        "label": "C",
         "text": "不互联"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "覆盖 Carplay/HiCar/Carlink，做国内适应性最好的车手互联"
+      },
+      {
+        "label": "C",
         "text": "只支持华为"
+      },
+      {
+        "label": "D",
+        "text": "只支持苹果"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -401,11 +401,11 @@
     "options": [
       {
         "label": "A",
-        "text": "语音助手从命令式进化为理解式多模态交互"
+        "text": "与交互无关"
       },
       {
         "label": "B",
-        "text": "与交互无关"
+        "text": "没有改变"
       },
       {
         "label": "C",
@@ -413,11 +413,11 @@
       },
       {
         "label": "D",
-        "text": "没有改变"
+        "text": "语音助手从命令式进化为理解式多模态交互"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -434,23 +434,23 @@
     "options": [
       {
         "label": "A",
-        "text": "硬件一次性交付，体验靠软件持续迭代升级"
+        "text": "只更新音乐"
       },
       {
         "label": "B",
-        "text": "只更新地图"
+        "text": "硬件一次性交付，体验靠软件持续迭代升级"
       },
       {
         "label": "C",
-        "text": "与升级无关"
+        "text": "只更新地图"
       },
       {
         "label": "D",
-        "text": "只更新音乐"
+        "text": "与升级无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -467,7 +467,7 @@
     "options": [
       {
         "label": "A",
-        "text": "做座舱域控制器赋能，不做座舱应用"
+        "text": "做手机系统"
       },
       {
         "label": "B",
@@ -475,7 +475,7 @@
       },
       {
         "label": "C",
-        "text": "做手机系统"
+        "text": "做座舱域控制器赋能，不做座舱应用"
       },
       {
         "label": "D",
@@ -483,7 +483,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -533,23 +533,23 @@
     "options": [
       {
         "label": "A",
-        "text": "仪表、中控、副驾娱乐、HUD、后排等多屏协同"
-      },
-      {
-        "label": "B",
         "text": "只做一块屏"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与联动无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做娱乐"
+      },
+      {
+        "label": "D",
+        "text": "仪表、中控、副驾娱乐、HUD、后排等多屏协同"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -570,11 +570,11 @@
       },
       {
         "label": "B",
-        "text": "只做小屏"
+        "text": "与显示无关"
       },
       {
         "label": "C",
-        "text": "与显示无关"
+        "text": "只做小屏"
       },
       {
         "label": "D",
@@ -599,15 +599,15 @@
     "options": [
       {
         "label": "A",
-        "text": "用反向声波降低车内噪声，提升静谧性"
+        "text": "与降噪无关"
       },
       {
         "label": "B",
-        "text": "只做音乐"
+        "text": "用反向声波降低车内噪声，提升静谧性"
       },
       {
         "label": "C",
-        "text": "与降噪无关"
+        "text": "只做音乐"
       },
       {
         "label": "D",
@@ -615,7 +615,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -632,15 +632,15 @@
     "options": [
       {
         "label": "A",
-        "text": "身份识别、个性化配置、疲劳监测"
-      },
-      {
-        "label": "B",
         "text": "只做拍照"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与识别无关"
+      },
+      {
+        "label": "C",
+        "text": "身份识别、个性化配置、疲劳监测"
       },
       {
         "label": "D",
@@ -648,7 +648,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -665,7 +665,7 @@
     "options": [
       {
         "label": "A",
-        "text": "分区拾音，识别不同座位乘客的指令"
+        "text": "只做音乐"
       },
       {
         "label": "B",
@@ -673,15 +673,15 @@
       },
       {
         "label": "C",
-        "text": "与语音无关"
+        "text": "分区拾音，识别不同座位乘客的指令"
       },
       {
         "label": "D",
-        "text": "只做音乐"
+        "text": "与语音无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -698,23 +698,23 @@
     "options": [
       {
         "label": "A",
-        "text": "全景影像辅助泊车与观察盲区"
-      },
-      {
-        "label": "B",
-        "text": "只做娱乐"
-      },
-      {
-        "label": "C",
         "text": "与泊车无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "全景影像辅助泊车与观察盲区"
+      },
+      {
+        "label": "C",
         "text": "只做导航"
+      },
+      {
+        "label": "D",
+        "text": "只做娱乐"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -735,15 +735,15 @@
       },
       {
         "label": "B",
-        "text": "只做社交"
-      },
-      {
-        "label": "C",
         "text": "与座舱无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做游戏"
+      },
+      {
+        "label": "D",
+        "text": "只做社交"
       }
     ],
     "answer": [
@@ -764,23 +764,23 @@
     "options": [
       {
         "label": "A",
-        "text": "把高频社交延伸到车内，语音收发消息不分散驾驶注意力"
+        "text": "只做朋友圈"
       },
       {
         "label": "B",
-        "text": "只做聊天"
-      },
-      {
-        "label": "C",
         "text": "与座舱无关"
       },
       {
+        "label": "C",
+        "text": "只做聊天"
+      },
+      {
         "label": "D",
-        "text": "只做朋友圈"
+        "text": "把高频社交延伸到车内，语音收发消息不分散驾驶注意力"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -801,7 +801,7 @@
       },
       {
         "label": "B",
-        "text": "只做翻译"
+        "text": "只做写作"
       },
       {
         "label": "C",
@@ -809,7 +809,7 @@
       },
       {
         "label": "D",
-        "text": "只做写作"
+        "text": "只做翻译"
       }
     ],
     "answer": [
@@ -830,11 +830,11 @@
     "options": [
       {
         "label": "A",
-        "text": "标准化服务快速上车，加速迭代"
+        "text": "上车很慢"
       },
       {
         "label": "B",
-        "text": "上车很慢"
+        "text": "只能定制"
       },
       {
         "label": "C",
@@ -842,11 +842,11 @@
       },
       {
         "label": "D",
-        "text": "只能定制"
+        "text": "标准化服务快速上车，加速迭代"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -863,23 +863,23 @@
     "options": [
       {
         "label": "A",
-        "text": "硬件之外创造持续性软件收入"
+        "text": "只做一次性"
       },
       {
         "label": "B",
-        "text": "无价值"
-      },
-      {
-        "label": "C",
         "text": "与商业无关"
       },
       {
+        "label": "C",
+        "text": "硬件之外创造持续性软件收入"
+      },
+      {
         "label": "D",
-        "text": "只做一次性"
+        "text": "无价值"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -896,15 +896,15 @@
     "options": [
       {
         "label": "A",
-        "text": "软件主导功能与体验，硬件平台化"
+        "text": "与软件无关"
       },
       {
         "label": "B",
-        "text": "只做硬件"
+        "text": "软件主导功能与体验，硬件平台化"
       },
       {
         "label": "C",
-        "text": "与软件无关"
+        "text": "只做硬件"
       },
       {
         "label": "D",
@@ -912,7 +912,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -929,11 +929,11 @@
     "options": [
       {
         "label": "A",
-        "text": "同时运行仪表、中控、娱乐等多个操作系统"
+        "text": "只跑一个系统"
       },
       {
         "label": "B",
-        "text": "只跑一个系统"
+        "text": "同时运行仪表、中控、娱乐等多个操作系统"
       },
       {
         "label": "C",
@@ -945,7 +945,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -962,7 +962,7 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱的信息娱乐部分（导航、音乐、视频）"
+        "text": "只做空调"
       },
       {
         "label": "B",
@@ -970,15 +970,15 @@
       },
       {
         "label": "C",
-        "text": "与娱乐无关"
+        "text": "座舱的信息娱乐部分（导航、音乐、视频）"
       },
       {
         "label": "D",
-        "text": "只做空调"
+        "text": "与娱乐无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -995,23 +995,23 @@
     "options": [
       {
         "label": "A",
-        "text": "座舱显示部分，展示车速、导航等关键信息"
-      },
-      {
-        "label": "B",
-        "text": "只做娱乐"
-      },
-      {
-        "label": "C",
         "text": "与显示无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做装饰"
+      },
+      {
+        "label": "C",
+        "text": "只做娱乐"
+      },
+      {
+        "label": "D",
+        "text": "座舱显示部分，展示车速、导航等关键信息"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1032,7 +1032,7 @@
       },
       {
         "label": "B",
-        "text": "座舱永远落后手机"
+        "text": "座舱不用芯片"
       },
       {
         "label": "C",
@@ -1040,7 +1040,7 @@
       },
       {
         "label": "D",
-        "text": "座舱不用芯片"
+        "text": "座舱永远落后手机"
       }
     ],
     "answer": [
@@ -1094,23 +1094,23 @@
     "options": [
       {
         "label": "A",
-        "text": "涉及人脸等生物识别，需增强行车安全目的+充分必要性"
-      },
-      {
-        "label": "B",
         "text": "无合规要求"
       },
       {
+        "label": "B",
+        "text": "涉及人脸等生物识别，需增强行车安全目的+充分必要性"
+      },
+      {
         "label": "C",
-        "text": "可随意采集"
+        "text": "与隐私无关"
       },
       {
         "label": "D",
-        "text": "与隐私无关"
+        "text": "可随意采集"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1127,15 +1127,15 @@
     "options": [
       {
         "label": "A",
-        "text": "音频属敏感个人信息，需告知+单独同意"
-      },
-      {
-        "label": "B",
         "text": "与个人信息无关"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "可随意处理"
+      },
+      {
+        "label": "C",
+        "text": "音频属敏感个人信息，需告知+单独同意"
       },
       {
         "label": "D",
@@ -1143,7 +1143,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1160,7 +1160,7 @@
     "options": [
       {
         "label": "A",
-        "text": "都受汽车数据法规约束，需统一合规治理"
+        "text": "完全无关"
       },
       {
         "label": "B",
@@ -1172,11 +1172,11 @@
       },
       {
         "label": "D",
-        "text": "完全无关"
+        "text": "都受汽车数据法规约束，需统一合规治理"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1193,23 +1193,23 @@
     "options": [
       {
         "label": "A",
-        "text": "内容与服务的生态之争，谁的内容丰富谁占优"
-      },
-      {
-        "label": "B",
         "text": "只比硬件"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与生态无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只比外观"
+      },
+      {
+        "label": "D",
+        "text": "内容与服务的生态之争，谁的内容丰富谁占优"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1230,7 +1230,7 @@
       },
       {
         "label": "B",
-        "text": "无前提"
+        "text": "只做推送"
       },
       {
         "label": "C",
@@ -1238,7 +1238,7 @@
       },
       {
         "label": "D",
-        "text": "只做推送"
+        "text": "无前提"
       }
     ],
     "answer": [
@@ -1259,23 +1259,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高算力芯片 + 软硬件隔离保证安全"
+        "text": "只做合并"
       },
       {
         "label": "B",
-        "text": "无前提"
+        "text": "高算力芯片 + 软硬件隔离保证安全"
       },
       {
         "label": "C",
-        "text": "与安全无关"
+        "text": "无前提"
       },
       {
         "label": "D",
-        "text": "只做合并"
+        "text": "与安全无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1292,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "仪表等安全关键显示需功能安全，娱乐部分要求低"
+        "text": "仪表不需安全"
       },
       {
         "label": "B",
-        "text": "无关系"
-      },
-      {
-        "label": "C",
         "text": "娱乐也要功能安全"
       },
       {
+        "label": "C",
+        "text": "仪表等安全关键显示需功能安全，娱乐部分要求低"
+      },
+      {
         "label": "D",
-        "text": "仪表不需安全"
+        "text": "无关系"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1325,23 +1325,23 @@
     "options": [
       {
         "label": "A",
-        "text": "大模型的多模态理解与推理能力"
+        "text": "只做录音"
       },
       {
         "label": "B",
-        "text": "只做关键词"
+        "text": "大模型的多模态理解与推理能力"
       },
       {
         "label": "C",
-        "text": "与理解无关"
+        "text": "只做关键词"
       },
       {
         "label": "D",
-        "text": "只做录音"
+        "text": "与理解无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1358,7 +1358,7 @@
     "options": [
       {
         "label": "A",
-        "text": "避免影响驾驶员注意力，需安全设计"
+        "text": "与安全无关"
       },
       {
         "label": "B",
@@ -1370,11 +1370,11 @@
       },
       {
         "label": "D",
-        "text": "与安全无关"
+        "text": "避免影响驾驶员注意力，需安全设计"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1424,7 +1424,7 @@
     "options": [
       {
         "label": "A",
-        "text": "分类分级、全量审计、无侵入脱敏，实现数据安全治理"
+        "text": "与安全无关"
       },
       {
         "label": "B",
@@ -1432,7 +1432,7 @@
       },
       {
         "label": "C",
-        "text": "与安全无关"
+        "text": "分类分级、全量审计、无侵入脱敏，实现数据安全治理"
       },
       {
         "label": "D",
@@ -1440,7 +1440,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1457,23 +1457,23 @@
     "options": [
       {
         "label": "A",
-        "text": "用户偏好数据（座椅、温度、音乐等），需合规处理"
-      },
-      {
-        "label": "B",
-        "text": "无数据"
-      },
-      {
-        "label": "C",
         "text": "与偏好无关"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "用户偏好数据（座椅、温度、音乐等），需合规处理"
+      },
+      {
+        "label": "C",
         "text": "只做默认"
+      },
+      {
+        "label": "D",
+        "text": "无数据"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1494,11 +1494,11 @@
       },
       {
         "label": "B",
-        "text": "无要点"
+        "text": "与合规无关"
       },
       {
         "label": "C",
-        "text": "与合规无关"
+        "text": "无要点"
       },
       {
         "label": "D",
@@ -1523,15 +1523,15 @@
     "options": [
       {
         "label": "A",
-        "text": "音乐/视频/地图等内容靠云端分发与更新"
-      },
-      {
-        "label": "B",
         "text": "与云无关"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "只做本地"
+      },
+      {
+        "label": "C",
+        "text": "音乐/视频/地图等内容靠云端分发与更新"
       },
       {
         "label": "D",
@@ -1539,7 +1539,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1556,23 +1556,23 @@
     "options": [
       {
         "label": "A",
-        "text": "共用芯片/硬件，降低 BOM 成本"
-      },
-      {
-        "label": "B",
-        "text": "成本更高"
-      },
-      {
-        "label": "C",
         "text": "与成本无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做高端"
+      },
+      {
+        "label": "C",
+        "text": "成本更高"
+      },
+      {
+        "label": "D",
+        "text": "共用芯片/硬件，降低 BOM 成本"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1589,11 +1589,11 @@
     "options": [
       {
         "label": "A",
-        "text": "供应链自主可控 + 成本考量"
+        "text": "只做进口"
       },
       {
         "label": "B",
-        "text": "无背景"
+        "text": "供应链自主可控 + 成本考量"
       },
       {
         "label": "C",
@@ -1601,11 +1601,11 @@
       },
       {
         "label": "D",
-        "text": "只做进口"
+        "text": "无背景"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1622,7 +1622,7 @@
     "options": [
       {
         "label": "A",
-        "text": "AR-HUD 与真实道路叠加增强现实，传统只投影信息"
+        "text": "与显示无关"
       },
       {
         "label": "B",
@@ -1630,15 +1630,15 @@
       },
       {
         "label": "C",
-        "text": "传统更强"
+        "text": "AR-HUD 与真实道路叠加增强现实，传统只投影信息"
       },
       {
         "label": "D",
-        "text": "与显示无关"
+        "text": "传统更强"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1663,11 +1663,11 @@
       },
       {
         "label": "C",
-        "text": "与安全无关"
+        "text": "只做舒适"
       },
       {
         "label": "D",
-        "text": "只做舒适"
+        "text": "与安全无关"
       }
     ],
     "answer": [
@@ -1688,7 +1688,7 @@
     "options": [
       {
         "label": "A",
-        "text": "车机需车规级安全验证，周期更长"
+        "text": "与验证无关"
       },
       {
         "label": "B",
@@ -1700,11 +1700,11 @@
       },
       {
         "label": "D",
-        "text": "与验证无关"
+        "text": "车机需车规级安全验证，周期更长"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1721,7 +1721,7 @@
     "options": [
       {
         "label": "A",
-        "text": "跨国车企把中国座舱数据传回境外总部分析"
+        "text": "与出境无关"
       },
       {
         "label": "B",
@@ -1729,7 +1729,7 @@
       },
       {
         "label": "C",
-        "text": "与出境无关"
+        "text": "跨国车企把中国座舱数据传回境外总部分析"
       },
       {
         "label": "D",
@@ -1737,7 +1737,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1754,15 +1754,15 @@
     "options": [
       {
         "label": "A",
-        "text": "脱敏/匿名化 + 用户同意"
+        "text": "可随意使用"
       },
       {
         "label": "B",
-        "text": "无前提"
+        "text": "脱敏/匿名化 + 用户同意"
       },
       {
         "label": "C",
-        "text": "可随意使用"
+        "text": "无前提"
       },
       {
         "label": "D",
@@ -1770,7 +1770,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1791,15 +1791,15 @@
       },
       {
         "label": "B",
-        "text": "无难点"
-      },
-      {
-        "label": "C",
         "text": "只做一块"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "与渲染无关"
+      },
+      {
+        "label": "D",
+        "text": "无难点"
       }
     ],
     "answer": [
@@ -1820,11 +1820,11 @@
     "options": [
       {
         "label": "A",
-        "text": "支付、账号、个人信息合规"
+        "text": "无要点"
       },
       {
         "label": "B",
-        "text": "无要点"
+        "text": "只做收费"
       },
       {
         "label": "C",
@@ -1832,11 +1832,11 @@
       },
       {
         "label": "D",
-        "text": "只做收费"
+        "text": "支付、账号、个人信息合规"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 5,
@@ -1853,7 +1853,7 @@
     "options": [
       {
         "label": "A",
-        "text": "车载音乐/音频内容服务"
+        "text": "与音频无关"
       },
       {
         "label": "B",
@@ -1861,7 +1861,7 @@
       },
       {
         "label": "C",
-        "text": "与音频无关"
+        "text": "车载音乐/音频内容服务"
       },
       {
         "label": "D",
@@ -1869,7 +1869,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 5,
@@ -1886,11 +1886,11 @@
     "options": [
       {
         "label": "A",
-        "text": "可统一云端分发，但需分级安全验证"
+        "text": "只做座舱"
       },
       {
         "label": "B",
-        "text": "无关联"
+        "text": "可统一云端分发，但需分级安全验证"
       },
       {
         "label": "C",
@@ -1898,11 +1898,11 @@
       },
       {
         "label": "D",
-        "text": "只做座舱"
+        "text": "无关联"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 5,
@@ -1923,15 +1923,15 @@
       },
       {
         "label": "B",
-        "text": "无要求"
+        "text": "与订阅无关"
       },
       {
         "label": "C",
-        "text": "硬件不可变"
+        "text": "无要求"
       },
       {
         "label": "D",
-        "text": "与订阅无关"
+        "text": "硬件不可变"
       }
     ],
     "answer": [
@@ -1956,7 +1956,7 @@
       },
       {
         "label": "B",
-        "text": "HMI（语音/多屏/AR-HUD）"
+        "text": "大模型上车与 OTA"
       },
       {
         "label": "C",
@@ -1964,7 +1964,7 @@
       },
       {
         "label": "D",
-        "text": "大模型上车与 OTA"
+        "text": "HMI（语音/多屏/AR-HUD）"
       }
     ],
     "answer": [

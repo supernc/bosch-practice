@@ -252,6 +252,7 @@ export default function RandomPage() {
         showResult={practice.isSubmitted}
         isFavorited={practice.favorites.has(practice.currentQuestion.id)}
         onToggleFavorite={practice.toggleFavorite}
+        onDelete={practice.deleteQuestion}
       />
 
       {/* Actions */}

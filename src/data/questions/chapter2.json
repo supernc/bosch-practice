@@ -5,15 +5,15 @@
     "options": [
       {
         "label": "A",
-        "text": "L0"
-      },
-      {
-        "label": "B",
         "text": "L1"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "L3"
+      },
+      {
+        "label": "C",
+        "text": "L0"
       },
       {
         "label": "D",
@@ -21,7 +21,7 @@
       }
     ],
     "answer": [
-      "B"
+      "A"
     ],
     "type": "single",
     "chapter": 2,
@@ -38,7 +38,7 @@
     "options": [
       {
         "label": "A",
-        "text": "L2"
+        "text": "L4"
       },
       {
         "label": "B",
@@ -46,11 +46,11 @@
       },
       {
         "label": "C",
-        "text": "L4"
+        "text": "L5"
       },
       {
         "label": "D",
-        "text": "L5"
+        "text": "L2"
       }
     ],
     "answer": [
@@ -71,23 +71,23 @@
     "options": [
       {
         "label": "A",
-        "text": "感知层"
-      },
-      {
-        "label": "B",
         "text": "决策层"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "执行层"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "云平台层"
+      },
+      {
+        "label": "D",
+        "text": "感知层"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -108,7 +108,7 @@
       },
       {
         "label": "B",
-        "text": "决策层"
+        "text": "通信层"
       },
       {
         "label": "C",
@@ -116,7 +116,7 @@
       },
       {
         "label": "D",
-        "text": "通信层"
+        "text": "决策层"
       }
     ],
     "answer": [
@@ -137,15 +137,15 @@
     "options": [
       {
         "label": "A",
-        "text": "传感器、芯片、算法分别外包"
-      },
-      {
-        "label": "B",
         "text": "用单一神经网络从传感器输入直接输出驾驶动作"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "必须依赖高精地图"
+      },
+      {
+        "label": "C",
+        "text": "传感器、芯片、算法分别外包"
       },
       {
         "label": "D",
@@ -153,7 +153,7 @@
       }
     ],
     "answer": [
-      "B"
+      "A"
     ],
     "type": "single",
     "chapter": 2,
@@ -170,23 +170,23 @@
     "options": [
       {
         "label": "A",
-        "text": "感知、定位、规划、控制逐级流水线，可解释性强但模块间误差会累积"
-      },
-      {
-        "label": "B",
-        "text": "只有一个神经网络"
-      },
-      {
-        "label": "C",
         "text": "完全不需要传感器"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只能用于 L4"
+      },
+      {
+        "label": "C",
+        "text": "感知、定位、规划、控制逐级流水线，可解释性强但模块间误差会累积"
+      },
+      {
+        "label": "D",
+        "text": "只有一个神经网络"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -203,23 +203,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高阶智驾"
-      },
-      {
-        "label": "B",
-        "text": "L1-L2 基础 ADAS"
-      },
-      {
-        "label": "C",
         "text": "L4 自动驾驶"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "纯娱乐功能"
+      },
+      {
+        "label": "C",
+        "text": "高阶智驾"
+      },
+      {
+        "label": "D",
+        "text": "L1-L2 基础 ADAS"
       }
     ],
     "answer": [
-      "B"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -244,11 +244,11 @@
       },
       {
         "label": "C",
-        "text": "为了好看"
+        "text": "摄像头比雷达便宜"
       },
       {
         "label": "D",
-        "text": "摄像头比雷达便宜"
+        "text": "为了好看"
       }
     ],
     "answer": [
@@ -273,11 +273,11 @@
       },
       {
         "label": "B",
-        "text": "高阶智驾"
+        "text": "完全不需要地图"
       },
       {
         "label": "C",
-        "text": "完全不需要地图"
+        "text": "高阶智驾"
       },
       {
         "label": "D",
@@ -285,7 +285,7 @@
       }
     ],
     "answer": [
-      "B"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -302,7 +302,7 @@
     "options": [
       {
         "label": "A",
-        "text": "记住常停车位，自动完成泊车"
+        "text": "与泊车无关"
       },
       {
         "label": "B",
@@ -314,11 +314,11 @@
       },
       {
         "label": "D",
-        "text": "与泊车无关"
+        "text": "记住常停车位，自动完成泊车"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -335,23 +335,23 @@
     "options": [
       {
         "label": "A",
-        "text": "训练→采集→标注→仿真→回灌"
-      },
-      {
-        "label": "B",
         "text": "采集→脱敏→标注→训练→仿真→OTA回灌"
       },
       {
+        "label": "B",
+        "text": "训练→采集→标注→仿真→回灌"
+      },
+      {
         "label": "C",
-        "text": "标注→采集→回灌→训练"
+        "text": "仿真→训练→采集→标注"
       },
       {
         "label": "D",
-        "text": "仿真→训练→采集→标注"
+        "text": "标注→采集→回灌→训练"
       }
     ],
     "answer": [
-      "B"
+      "A"
     ],
     "type": "single",
     "chapter": 2,
@@ -368,23 +368,23 @@
     "options": [
       {
         "label": "A",
-        "text": "谁的实车数据多、闭环快，谁的智驾能力就强"
-      },
-      {
-        "label": "B",
         "text": "数据闭环只是噱头"
       },
       {
+        "label": "B",
+        "text": "谁的实车数据多、闭环快，谁的智驾能力就强"
+      },
+      {
         "label": "C",
-        "text": "与算法无关"
+        "text": "数据越少越好"
       },
       {
         "label": "D",
-        "text": "数据越少越好"
+        "text": "与算法无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -401,23 +401,23 @@
     "options": [
       {
         "label": "A",
-        "text": "车载中央算力平台，运行感知、规划、控制算法"
-      },
-      {
-        "label": "B",
-        "text": "只是收音机"
-      },
-      {
-        "label": "C",
         "text": "只负责导航地图"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "车载中央算力平台，运行感知、规划、控制算法"
+      },
+      {
+        "label": "C",
         "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只是收音机"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -434,11 +434,11 @@
     "options": [
       {
         "label": "A",
-        "text": "10-15 个雷达、10-15 个摄像头、2-4 个激光雷达"
+        "text": "只支持 1 个摄像头"
       },
       {
         "label": "B",
-        "text": "只支持 1 个摄像头"
+        "text": "不接传感器"
       },
       {
         "label": "C",
@@ -446,11 +446,11 @@
       },
       {
         "label": "D",
-        "text": "不接传感器"
+        "text": "10-15 个雷达、10-15 个摄像头、2-4 个激光雷达"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -467,23 +467,23 @@
     "options": [
       {
         "label": "A",
-        "text": "政策法规与责任认定逐步明确"
-      },
-      {
-        "label": "B",
         "text": "传感器太贵买不起"
       },
       {
+        "label": "B",
+        "text": "完全不需要任何条件"
+      },
+      {
         "label": "C",
-        "text": "芯片功耗太高"
+        "text": "政策法规与责任认定逐步明确"
       },
       {
         "label": "D",
-        "text": "完全不需要任何条件"
+        "text": "芯片功耗太高"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -504,11 +504,11 @@
       },
       {
         "label": "B",
-        "text": "只做高速场景"
+        "text": "只做城市场景"
       },
       {
         "label": "C",
-        "text": "只做城市场景"
+        "text": "只做高速场景"
       },
       {
         "label": "D",
@@ -533,23 +533,23 @@
     "options": [
       {
         "label": "A",
-        "text": "从高速脱手驾驶到城市脱手驾驶"
+        "text": "只做城市"
       },
       {
         "label": "B",
-        "text": "从城市到高速"
-      },
-      {
-        "label": "C",
         "text": "只做高速"
       },
       {
+        "label": "C",
+        "text": "从城市到高速"
+      },
+      {
         "label": "D",
-        "text": "只做城市"
+        "text": "从高速脱手驾驶到城市脱手驾驶"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -566,15 +566,15 @@
     "options": [
       {
         "label": "A",
-        "text": "高阶智驾方案 18 个月从定点到量产"
+        "text": "共同研发芯片"
       },
       {
         "label": "B",
-        "text": "共同造车"
+        "text": "高阶智驾方案 18 个月从定点到量产"
       },
       {
         "label": "C",
-        "text": "共同研发芯片"
+        "text": "共同造车"
       },
       {
         "label": "D",
@@ -582,7 +582,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -599,7 +599,7 @@
     "options": [
       {
         "label": "A",
-        "text": "TADP 自动驾驶开发平台"
+        "text": "只有邮箱"
       },
       {
         "label": "B",
@@ -607,7 +607,7 @@
       },
       {
         "label": "C",
-        "text": "只有邮箱"
+        "text": "TADP 自动驾驶开发平台"
       },
       {
         "label": "D",
@@ -615,7 +615,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -665,11 +665,11 @@
     "options": [
       {
         "label": "A",
-        "text": "脱敏（人脸模糊、车牌打码）"
+        "text": "直接训练"
       },
       {
         "label": "B",
-        "text": "直接训练"
+        "text": "直接卖给第三方"
       },
       {
         "label": "C",
@@ -677,11 +677,11 @@
       },
       {
         "label": "D",
-        "text": "直接卖给第三方"
+        "text": "脱敏（人脸模糊、车牌打码）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -698,7 +698,7 @@
     "options": [
       {
         "label": "A",
-        "text": "提供车道级先验知识，辅助定位与规划"
+        "text": "只用于娱乐"
       },
       {
         "label": "B",
@@ -706,15 +706,15 @@
       },
       {
         "label": "C",
-        "text": "与智驾无关"
+        "text": "提供车道级先验知识，辅助定位与规划"
       },
       {
         "label": "D",
-        "text": "只用于娱乐"
+        "text": "与智驾无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -764,11 +764,11 @@
     "options": [
       {
         "label": "A",
-        "text": "在虚拟环境低成本、大规模验证算法，加速迭代"
+        "text": "比实车测试更慢"
       },
       {
         "label": "B",
-        "text": "只做展示"
+        "text": "在虚拟环境低成本、大规模验证算法，加速迭代"
       },
       {
         "label": "C",
@@ -776,11 +776,11 @@
       },
       {
         "label": "D",
-        "text": "比实车测试更慢"
+        "text": "只做展示"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -797,23 +797,23 @@
     "options": [
       {
         "label": "A",
-        "text": "把训练好的新模型远程下发到车端，形成闭环"
-      },
-      {
-        "label": "B",
-        "text": "只是更新导航地图"
-      },
-      {
-        "label": "C",
         "text": "与智驾无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只更新音乐"
+      },
+      {
+        "label": "C",
+        "text": "只是更新导航地图"
+      },
+      {
+        "label": "D",
+        "text": "把训练好的新模型远程下发到车端，形成闭环"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -830,11 +830,11 @@
     "options": [
       {
         "label": "A",
-        "text": "多源信息互补，弥补单一传感器盲区，提升可靠性"
+        "text": "与感知无关"
       },
       {
         "label": "B",
-        "text": "只是为了省成本"
+        "text": "多源信息互补，弥补单一传感器盲区，提升可靠性"
       },
       {
         "label": "C",
@@ -842,11 +842,11 @@
       },
       {
         "label": "D",
-        "text": "与感知无关"
+        "text": "只是为了省成本"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -863,7 +863,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Robotaxi（自动驾驶出租车）示范运营"
+        "text": "只能在实验室"
       },
       {
         "label": "B",
@@ -871,7 +871,7 @@
       },
       {
         "label": "C",
-        "text": "只能在实验室"
+        "text": "Robotaxi（自动驾驶出租车）示范运营"
       },
       {
         "label": "D",
@@ -879,7 +879,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -929,7 +929,7 @@
     "options": [
       {
         "label": "A",
-        "text": "高阶贵在传感器+算力+数据，低阶靠规模化摊薄"
+        "text": "低阶更贵"
       },
       {
         "label": "B",
@@ -937,7 +937,7 @@
       },
       {
         "label": "C",
-        "text": "低阶更贵"
+        "text": "高阶贵在传感器+算力+数据，低阶靠规模化摊薄"
       },
       {
         "label": "D",
@@ -945,7 +945,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -962,23 +962,23 @@
     "options": [
       {
         "label": "A",
-        "text": "1700 万个"
-      },
-      {
-        "label": "B",
         "text": "170 万个"
       },
       {
+        "label": "B",
+        "text": "1700 万个"
+      },
+      {
         "label": "C",
-        "text": "17 万个"
+        "text": "1.7 万个"
       },
       {
         "label": "D",
-        "text": "1.7 万个"
+        "text": "17 万个"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -995,15 +995,15 @@
     "options": [
       {
         "label": "A",
-        "text": "摄像头"
+        "text": "激光雷达"
       },
       {
         "label": "B",
-        "text": "毫米波雷达"
+        "text": "摄像头"
       },
       {
         "label": "C",
-        "text": "激光雷达"
+        "text": "毫米波雷达"
       },
       {
         "label": "D",
@@ -1039,11 +1039,11 @@
       },
       {
         "label": "C",
-        "text": "更省电"
+        "text": "体积更小"
       },
       {
         "label": "D",
-        "text": "体积更小"
+        "text": "更省电"
       }
     ],
     "answer": [
@@ -1064,23 +1064,23 @@
     "options": [
       {
         "label": "A",
-        "text": "测距测速精准，恶劣天气穿透力强"
-      },
-      {
-        "label": "B",
-        "text": "能看到颜色"
-      },
-      {
-        "label": "C",
         "text": "分辨率最高"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "最便宜"
+      },
+      {
+        "label": "C",
+        "text": "能看到颜色"
+      },
+      {
+        "label": "D",
+        "text": "测距测速精准，恶劣天气穿透力强"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1097,23 +1097,23 @@
     "options": [
       {
         "label": "A",
-        "text": "丰富的语义信息（颜色、车道线、标识），成本低"
+        "text": "不需要算法"
       },
       {
         "label": "B",
-        "text": "不受光照影响"
-      },
-      {
-        "label": "C",
         "text": "测距最精准"
       },
       {
+        "label": "C",
+        "text": "丰富的语义信息（颜色、车道线、标识），成本低"
+      },
+      {
         "label": "D",
-        "text": "不需要算法"
+        "text": "不受光照影响"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1130,7 +1130,7 @@
     "options": [
       {
         "label": "A",
-        "text": "减少模块间误差累积，上限更高、泛化更强"
+        "text": "成本更高"
       },
       {
         "label": "B",
@@ -1142,11 +1142,11 @@
       },
       {
         "label": "D",
-        "text": "成本更高"
+        "text": "减少模块间误差累积，上限更高、泛化更强"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1163,23 +1163,23 @@
     "options": [
       {
         "label": "A",
-        "text": "可解释性弱、依赖海量高质量数据、安全性验证难"
-      },
-      {
-        "label": "B",
         "text": "完全无挑战"
       },
       {
+        "label": "B",
+        "text": "可解释性弱、依赖海量高质量数据、安全性验证难"
+      },
+      {
         "label": "C",
-        "text": "成本更低"
+        "text": "不需要算力"
       },
       {
         "label": "D",
-        "text": "不需要算力"
+        "text": "成本更低"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1204,11 +1204,11 @@
       },
       {
         "label": "C",
-        "text": "省电模式"
+        "text": "与数据无关"
       },
       {
         "label": "D",
-        "text": "与数据无关"
+        "text": "省电模式"
       }
     ],
     "answer": [
@@ -1229,7 +1229,7 @@
     "options": [
       {
         "label": "A",
-        "text": "对采集图像/点云标注物体、车道线等供模型学习"
+        "text": "与训练无关"
       },
       {
         "label": "B",
@@ -1237,7 +1237,7 @@
       },
       {
         "label": "C",
-        "text": "与训练无关"
+        "text": "对采集图像/点云标注物体、车道线等供模型学习"
       },
       {
         "label": "D",
@@ -1245,7 +1245,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1266,7 +1266,7 @@
       },
       {
         "label": "B",
-        "text": "只存图片"
+        "text": "只做压缩"
       },
       {
         "label": "C",
@@ -1274,7 +1274,7 @@
       },
       {
         "label": "D",
-        "text": "只做压缩"
+        "text": "只存图片"
       }
     ],
     "answer": [
@@ -1295,23 +1295,23 @@
     "options": [
       {
         "label": "A",
-        "text": "图像相似检索，快速找到相似场景样本"
-      },
-      {
-        "label": "B",
         "text": "只存文本"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与检索无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做关系查询"
+      },
+      {
+        "label": "D",
+        "text": "图像相似检索，快速找到相似场景样本"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1328,15 +1328,15 @@
     "options": [
       {
         "label": "A",
-        "text": "车端、云端、手机端打通，数据驱动持续迭代"
+        "text": "与数据无关"
       },
       {
         "label": "B",
-        "text": "车和云物理合一"
+        "text": "车端、云端、手机端打通，数据驱动持续迭代"
       },
       {
         "label": "C",
-        "text": "与数据无关"
+        "text": "车和云物理合一"
       },
       {
         "label": "D",
@@ -1344,7 +1344,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1369,11 +1369,11 @@
       },
       {
         "label": "C",
-        "text": "与存储无关"
+        "text": "只存文本"
       },
       {
         "label": "D",
-        "text": "只存文本"
+        "text": "与存储无关"
       }
     ],
     "answer": [
@@ -1394,23 +1394,23 @@
     "options": [
       {
         "label": "A",
-        "text": "弹性算力按需扩缩容 + 存储分层"
+        "text": "只用最贵的"
       },
       {
         "label": "B",
-        "text": "无限购买硬件"
+        "text": "弹性算力按需扩缩容 + 存储分层"
       },
       {
         "label": "C",
-        "text": "与云无关"
+        "text": "无限购买硬件"
       },
       {
         "label": "D",
-        "text": "只用最贵的"
+        "text": "与云无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1427,23 +1427,23 @@
     "options": [
       {
         "label": "A",
-        "text": "自适应巡航（ACC）+ 车道保持（LKA）"
-      },
-      {
-        "label": "B",
-        "text": "完全无人驾驶"
-      },
-      {
-        "label": "C",
         "text": "只有 AEB"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只有泊车"
+      },
+      {
+        "label": "C",
+        "text": "完全无人驾驶"
+      },
+      {
+        "label": "D",
+        "text": "自适应巡航（ACC）+ 车道保持（LKA）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1460,7 +1460,7 @@
     "options": [
       {
         "label": "A",
-        "text": "城市场景更复杂（行人、路口、非机动车），技术难度更高"
+        "text": "高速更难"
       },
       {
         "label": "B",
@@ -1468,7 +1468,7 @@
       },
       {
         "label": "C",
-        "text": "高速更难"
+        "text": "城市场景更复杂（行人、路口、非机动车），技术难度更高"
       },
       {
         "label": "D",
@@ -1476,7 +1476,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1493,11 +1493,11 @@
     "options": [
       {
         "label": "A",
-        "text": "极端少见但种类繁多的 corner case，难以穷尽"
+        "text": "只是尾部传感器"
       },
       {
         "label": "B",
-        "text": "只是尾部传感器"
+        "text": "只有高速有"
       },
       {
         "label": "C",
@@ -1505,11 +1505,11 @@
       },
       {
         "label": "D",
-        "text": "只有高速有"
+        "text": "极端少见但种类繁多的 corner case，难以穷尽"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1530,11 +1530,11 @@
       },
       {
         "label": "B",
-        "text": "只靠人工"
+        "text": "减少测试"
       },
       {
         "label": "C",
-        "text": "减少测试"
+        "text": "只靠人工"
       },
       {
         "label": "D",
@@ -1559,15 +1559,15 @@
     "options": [
       {
         "label": "A",
-        "text": "底盘技术，用激光雷达扫描路面主动调节悬架"
-      },
-      {
-        "label": "B",
         "text": "纯智驾功能"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与智驾底盘都无关"
+      },
+      {
+        "label": "C",
+        "text": "底盘技术，用激光雷达扫描路面主动调节悬架"
       },
       {
         "label": "D",
@@ -1575,7 +1575,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1592,11 +1592,11 @@
     "options": [
       {
         "label": "A",
-        "text": "功能安全应对系统故障，SOTIF 应对系统无故障但功能不足导致的风险"
+        "text": "与安全无关"
       },
       {
         "label": "B",
-        "text": "两者完全一样"
+        "text": "功能安全应对系统故障，SOTIF 应对系统无故障但功能不足导致的风险"
       },
       {
         "label": "C",
@@ -1604,11 +1604,11 @@
       },
       {
         "label": "D",
-        "text": "与安全无关"
+        "text": "两者完全一样"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1625,11 +1625,11 @@
     "options": [
       {
         "label": "A",
-        "text": "自研掌握数据与迭代能力但投入大，采购快但难差异化"
+        "text": "自研一定更差"
       },
       {
         "label": "B",
-        "text": "自研一定更差"
+        "text": "与决策无关"
       },
       {
         "label": "C",
@@ -1637,11 +1637,11 @@
       },
       {
         "label": "D",
-        "text": "与决策无关"
+        "text": "自研掌握数据与迭代能力但投入大，采购快但难差异化"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1662,15 +1662,15 @@
       },
       {
         "label": "B",
-        "text": "只做营销"
+        "text": "与智驾无关"
       },
       {
         "label": "C",
-        "text": "只做售后"
+        "text": "只做营销"
       },
       {
         "label": "D",
-        "text": "与智驾无关"
+        "text": "只做售后"
       }
     ],
     "answer": [
@@ -1691,23 +1691,23 @@
     "options": [
       {
         "label": "A",
-        "text": "提供算法与智驾方案（如城市 NOA）"
-      },
-      {
-        "label": "B",
-        "text": "只做硬件"
-      },
-      {
-        "label": "C",
         "text": "只做地图"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "提供算法与智驾方案（如城市 NOA）"
+      },
+      {
+        "label": "C",
         "text": "与智驾无关"
+      },
+      {
+        "label": "D",
+        "text": "只做硬件"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1724,23 +1724,23 @@
     "options": [
       {
         "label": "A",
-        "text": "软硬件解耦，软件可跨硬件复用，加速迭代"
+        "text": "增加成本"
       },
       {
         "label": "B",
-        "text": "软硬件必须绑定"
-      },
-      {
-        "label": "C",
         "text": "与架构无关"
       },
       {
+        "label": "C",
+        "text": "软硬件解耦，软件可跨硬件复用，加速迭代"
+      },
+      {
         "label": "D",
-        "text": "增加成本"
+        "text": "软硬件必须绑定"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1757,23 +1757,23 @@
     "options": [
       {
         "label": "A",
-        "text": "《汽车数据安全管理若干规定》要求重要数据境内存储"
+        "text": "与法规无关"
       },
       {
         "label": "B",
-        "text": "没有任何要求"
+        "text": "《汽车数据安全管理若干规定》要求重要数据境内存储"
       },
       {
         "label": "C",
-        "text": "只有境外才要"
+        "text": "没有任何要求"
       },
       {
         "label": "D",
-        "text": "与法规无关"
+        "text": "只有境外才要"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 2,
@@ -1790,23 +1790,23 @@
     "options": [
       {
         "label": "A",
-        "text": "脱敏合规是数据可用的前提，需兼顾"
-      },
-      {
-        "label": "B",
         "text": "合规一定拖慢效率"
       },
       {
+        "label": "B",
+        "text": "效率优先可跳过合规"
+      },
+      {
         "label": "C",
-        "text": "两者无关"
+        "text": "脱敏合规是数据可用的前提，需兼顾"
       },
       {
         "label": "D",
-        "text": "效率优先可跳过合规"
+        "text": "两者无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1823,23 +1823,23 @@
     "options": [
       {
         "label": "A",
-        "text": "自动驾驶/智能驾驶"
+        "text": "整车总装制造"
       },
       {
         "label": "B",
-        "text": "智能座舱域控制器"
-      },
-      {
-        "label": "C",
         "text": "车路协同/智能网联"
       },
       {
+        "label": "C",
+        "text": "自动驾驶/智能驾驶"
+      },
+      {
         "label": "D",
-        "text": "整车总装制造"
+        "text": "智能座舱域控制器"
       }
     ],
     "answer": [
-      "D"
+      "A"
     ],
     "type": "single",
     "chapter": 2,
@@ -1856,11 +1856,11 @@
     "options": [
       {
         "label": "A",
-        "text": "车路协同 V2X 相关研究与跨域打通"
+        "text": "车载 Wi-Fi"
       },
       {
         "label": "B",
-        "text": "车载 Wi-Fi"
+        "text": "只做车机导航"
       },
       {
         "label": "C",
@@ -1868,11 +1868,11 @@
       },
       {
         "label": "D",
-        "text": "只做车机导航"
+        "text": "车路协同 V2X 相关研究与跨域打通"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1889,23 +1889,23 @@
     "options": [
       {
         "label": "A",
-        "text": "专属隔离云平台 + 等保三级，保障智驾数据合规"
+        "text": "只做加速"
       },
       {
         "label": "B",
-        "text": "只是多开几个机房"
-      },
-      {
-        "label": "C",
         "text": "与合规无关"
       },
       {
+        "label": "C",
+        "text": "只是多开几个机房"
+      },
+      {
         "label": "D",
-        "text": "只做加速"
+        "text": "专属隔离云平台 + 等保三级，保障智驾数据合规"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 2,
@@ -1922,23 +1922,23 @@
     "options": [
       {
         "label": "A",
-        "text": "统一数据目录 + 多模态检索"
-      },
-      {
-        "label": "B",
-        "text": "纯人工翻找"
-      },
-      {
-        "label": "C",
         "text": "与工具无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "减少数据量"
+      },
+      {
+        "label": "C",
+        "text": "统一数据目录 + 多模态检索"
+      },
+      {
+        "label": "D",
+        "text": "纯人工翻找"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 2,
@@ -1955,19 +1955,19 @@
     "options": [
       {
         "label": "A",
-        "text": "端到端/大模型算法"
-      },
-      {
-        "label": "B",
         "text": "海量数据闭环"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "高算力域控制器"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "数据脱敏合规"
+      },
+      {
+        "label": "D",
+        "text": "端到端/大模型算法"
       }
     ],
     "answer": [

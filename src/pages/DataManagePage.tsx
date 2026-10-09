@@ -12,14 +12,20 @@ import {
   CheckCircle,
   AlertTriangle,
   Info,
+  RotateCcw,
 } from 'lucide-react';
 import {
   downloadData,
   importData,
   clearAllData,
   getDataSummary,
+  getDeletedQuestions,
+  restoreQuestion,
+  restoreAllQuestions,
   type ImportResult,
 } from '../services/storage';
+import { getRawQuestions } from '../data';
+import { chapters } from '../data/chapters';
 
 export default function DataManagePage() {
   const [summary, setSummary] = useState(() => getDataSummary());
@@ -28,9 +34,24 @@ export default function DataManagePage() {
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  const [deletedIds, setDeletedIds] = useState(() => getDeletedQuestions());
+
   const refreshSummary = useCallback(() => {
     setSummary(getDataSummary());
+    setDeletedIds(getDeletedQuestions());
   }, []);
+
+  const deletedQuestions = getRawQuestions().filter(q => deletedIds.has(q.id));
+
+  const handleRestore = (id: string) => {
+    restoreQuestion(id);
+    refreshSummary();
+  };
+
+  const handleRestoreAll = () => {
+    restoreAllQuestions();
+    refreshSummary();
+  };
 
   // 导出
   const handleExport = () => {
@@ -100,7 +121,7 @@ export default function DataManagePage() {
   };
 
   const hasData = summary.answerRecords > 0 || summary.wrongQuestions > 0 ||
-                  summary.favorites > 0 || summary.examHistory > 0;
+                  summary.favorites > 0 || summary.examHistory > 0 || deletedIds.size > 0;
 
   return (
     <div className="space-y-6 animate-fade-in max-w-4xl">
@@ -245,6 +266,50 @@ export default function DataManagePage() {
           </button>
         </div>
       )}
+
+      {/* 已删除题目 */}
+      <div className="card-glow rounded-xl bg-bg-secondary p-5">
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="text-sm font-semibold text-text-primary flex items-center gap-2">
+            <Trash2 size={16} className="text-danger" />
+            已删除题目
+            <span className="text-xs font-normal text-text-secondary">（{deletedQuestions.length} 道）</span>
+          </h3>
+          {deletedQuestions.length > 0 && (
+            <button
+              onClick={handleRestoreAll}
+              className="py-1.5 px-3 rounded-lg text-xs font-medium flex items-center gap-1.5 bg-primary/10 text-primary-light hover:bg-primary/20 border border-primary/20 transition-colors cursor-pointer"
+            >
+              <RotateCcw size={13} />
+              全部恢复
+            </button>
+          )}
+        </div>
+        <p className="text-xs text-text-secondary mb-3">
+          在题卡右上角点击「删除」的题目会从练习、随机、模拟考试中隐藏。删除记录保存在本机浏览器，并会随「导出数据」一起备份。
+        </p>
+        {deletedQuestions.length === 0 ? (
+          <p className="text-xs text-text-muted text-center py-4">暂无已删除的题目</p>
+        ) : (
+          <div className="max-h-80 overflow-y-auto space-y-1.5 pr-1">
+            {deletedQuestions.map(q => (
+              <div key={q.id} className="flex items-center gap-3 bg-white/[0.03] rounded-lg px-3 py-2">
+                <span className="text-[10px] text-text-muted w-10 flex-shrink-0">{q.id}</span>
+                <span className="text-[10px] text-primary-light flex-shrink-0">
+                  {chapters.find(c => c.id === q.chapter)?.name ?? `Ch${q.chapter}`}
+                </span>
+                <span className="text-xs text-text-primary truncate flex-1" title={q.stem}>{q.stem}</span>
+                <button
+                  onClick={() => handleRestore(q.id)}
+                  className="text-xs text-primary-light hover:underline flex-shrink-0 cursor-pointer"
+                >
+                  恢复
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
 
       {/* 危险操作区 */}
       <div className="card-glow rounded-xl bg-bg-secondary p-5 border border-danger/10">

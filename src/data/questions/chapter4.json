@@ -9,7 +9,7 @@
       },
       {
         "label": "B",
-        "text": "只做语音助手"
+        "text": "与机器人无关"
       },
       {
         "label": "C",
@@ -17,7 +17,7 @@
       },
       {
         "label": "D",
-        "text": "与机器人无关"
+        "text": "只做语音助手"
       }
     ],
     "answer": [
@@ -38,15 +38,15 @@
     "options": [
       {
         "label": "A",
-        "text": "感知、决策（大脑）、执行（本体）"
-      },
-      {
-        "label": "B",
         "text": "采集、存储、展示"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "芯片、算法、市场"
+      },
+      {
+        "label": "C",
+        "text": "感知、决策（大脑）、执行（本体）"
       },
       {
         "label": "D",
@@ -54,7 +54,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -71,11 +71,11 @@
     "options": [
       {
         "label": "A",
-        "text": "视觉-语言-动作（Vision-Language-Action）"
+        "text": "Very Large AI"
       },
       {
         "label": "B",
-        "text": "Very Large AI"
+        "text": "视觉-语言-动作（Vision-Language-Action）"
       },
       {
         "label": "C",
@@ -87,7 +87,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -104,23 +104,23 @@
     "options": [
       {
         "label": "A",
-        "text": "把视觉、语言指令映射为机器人的动作序列"
+        "text": "与动作无关"
       },
       {
         "label": "B",
-        "text": "只做图像分类"
-      },
-      {
-        "label": "C",
         "text": "只做语音识别"
       },
       {
+        "label": "C",
+        "text": "只做图像分类"
+      },
+      {
         "label": "D",
-        "text": "与动作无关"
+        "text": "把视觉、语言指令映射为机器人的动作序列"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -137,23 +137,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高质量真机数据稀缺（数据荒）"
+        "text": "机械结构设计"
       },
       {
         "label": "B",
-        "text": "芯片算力不足"
-      },
-      {
-        "label": "C",
         "text": "电池续航"
       },
       {
+        "label": "C",
+        "text": "芯片算力不足"
+      },
+      {
         "label": "D",
-        "text": "机械结构设计"
+        "text": "高质量真机数据稀缺（数据荒）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -170,23 +170,23 @@
     "options": [
       {
         "label": "A",
-        "text": "高质量真机数据稀缺，无法规模化供给"
-      },
-      {
-        "label": "B",
-        "text": "数据太多"
-      },
-      {
-        "label": "C",
         "text": "数据太贵没人买"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "与数据无关"
+      },
+      {
+        "label": "C",
+        "text": "高质量真机数据稀缺，无法规模化供给"
+      },
+      {
+        "label": "D",
+        "text": "数据太多"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -203,23 +203,23 @@
     "options": [
       {
         "label": "A",
-        "text": "人工远程操控机器人采集真机数据"
+        "text": "与数据无关"
       },
       {
         "label": "B",
-        "text": "机器人全自动采集"
+        "text": "人工远程操控机器人采集真机数据"
       },
       {
         "label": "C",
-        "text": "只采集图片"
+        "text": "机器人全自动采集"
       },
       {
         "label": "D",
-        "text": "与数据无关"
+        "text": "只采集图片"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -244,11 +244,11 @@
       },
       {
         "label": "C",
-        "text": "与数据无关"
+        "text": "只做仿真"
       },
       {
         "label": "D",
-        "text": "只做仿真"
+        "text": "与数据无关"
       }
     ],
     "answer": [
@@ -269,11 +269,11 @@
     "options": [
       {
         "label": "A",
-        "text": "数据采集→训练→仿真评测→真机部署→再采集"
+        "text": "训练→采集→部署"
       },
       {
         "label": "B",
-        "text": "训练→采集→部署"
+        "text": "数据采集→训练→仿真评测→真机部署→再采集"
       },
       {
         "label": "C",
@@ -285,7 +285,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -302,7 +302,7 @@
     "options": [
       {
         "label": "A",
-        "text": "在虚拟环境低成本训练/评测机器人，降低真机成本"
+        "text": "与训练无关"
       },
       {
         "label": "B",
@@ -310,7 +310,7 @@
       },
       {
         "label": "C",
-        "text": "与训练无关"
+        "text": "在虚拟环境低成本训练/评测机器人，降低真机成本"
       },
       {
         "label": "D",
@@ -318,7 +318,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -335,23 +335,23 @@
     "options": [
       {
         "label": "A",
-        "text": "感知、执行占大部分硬件，决策在硬件层面占比极小"
+        "text": "与硬件无关"
       },
       {
         "label": "B",
-        "text": "决策占大部分硬件"
-      },
-      {
-        "label": "C",
         "text": "三者平均"
       },
       {
+        "label": "C",
+        "text": "决策占大部分硬件"
+      },
+      {
         "label": "D",
-        "text": "与硬件无关"
+        "text": "感知、执行占大部分硬件，决策在硬件层面占比极小"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -372,11 +372,11 @@
       },
       {
         "label": "B",
-        "text": "三者都未成熟"
+        "text": "数据已饱和"
       },
       {
         "label": "C",
-        "text": "数据已饱和"
+        "text": "三者都未成熟"
       },
       {
         "label": "D",
@@ -401,23 +401,23 @@
     "options": [
       {
         "label": "A",
-        "text": "通用具身智能载体，适配人类环境"
-      },
-      {
-        "label": "B",
         "text": "只做工业机械臂"
       },
       {
+        "label": "B",
+        "text": "只做轮式机器人"
+      },
+      {
         "label": "C",
-        "text": "与具身无关"
+        "text": "通用具身智能载体，适配人类环境"
       },
       {
         "label": "D",
-        "text": "只做轮式机器人"
+        "text": "与具身无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -434,11 +434,11 @@
     "options": [
       {
         "label": "A",
-        "text": "机械手完成精细、灵活的操作任务"
+        "text": "与操作无关"
       },
       {
         "label": "B",
-        "text": "只做行走"
+        "text": "机械手完成精细、灵活的操作任务"
       },
       {
         "label": "C",
@@ -446,11 +446,11 @@
       },
       {
         "label": "D",
-        "text": "与操作无关"
+        "text": "只做行走"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -467,7 +467,7 @@
     "options": [
       {
         "label": "A",
-        "text": "机器人灵活、稳定的运动控制（行走、避障）"
+        "text": "只做语音"
       },
       {
         "label": "B",
@@ -479,11 +479,11 @@
       },
       {
         "label": "D",
-        "text": "只做语音"
+        "text": "机器人灵活、稳定的运动控制（行走、避障）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -533,7 +533,7 @@
     "options": [
       {
         "label": "A",
-        "text": "海量训练/采集数据的存储与跨云/IDC 交付"
+        "text": "只做备份"
       },
       {
         "label": "B",
@@ -545,11 +545,11 @@
       },
       {
         "label": "D",
-        "text": "只做备份"
+        "text": "海量训练/采集数据的存储与跨云/IDC 交付"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -599,11 +599,11 @@
     "options": [
       {
         "label": "A",
-        "text": "GPU 算力集群"
+        "text": "只有存储"
       },
       {
         "label": "B",
-        "text": "只有域名"
+        "text": "GPU 算力集群"
       },
       {
         "label": "C",
@@ -611,11 +611,11 @@
       },
       {
         "label": "D",
-        "text": "只有存储"
+        "text": "只有域名"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -632,23 +632,23 @@
     "options": [
       {
         "label": "A",
-        "text": "聚焦具身智能的初创企业，数据/算力是刚需"
-      },
-      {
-        "label": "B",
-        "text": "大型整车厂"
-      },
-      {
-        "label": "C",
         "text": "与具身无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做软件"
+      },
+      {
+        "label": "C",
+        "text": "聚焦具身智能的初创企业，数据/算力是刚需"
+      },
+      {
+        "label": "D",
+        "text": "大型整车厂"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -665,23 +665,23 @@
     "options": [
       {
         "label": "A",
-        "text": "融资 271 亿元（108 起），行业快速起量"
+        "text": "无融资"
       },
       {
         "label": "B",
-        "text": "融资遇冷"
+        "text": "融资 271 亿元（108 起），行业快速起量"
       },
       {
         "label": "C",
-        "text": "与热度无关"
+        "text": "融资遇冷"
       },
       {
         "label": "D",
-        "text": "无融资"
+        "text": "与热度无关"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -698,7 +698,7 @@
     "options": [
       {
         "label": "A",
-        "text": "都是「采集-训练-评测-部署」闭环，都需要脱敏合规"
+        "text": "只有算力相同"
       },
       {
         "label": "B",
@@ -706,15 +706,15 @@
       },
       {
         "label": "C",
-        "text": "只有存储相同"
+        "text": "都是「采集-训练-评测-部署」闭环，都需要脱敏合规"
       },
       {
         "label": "D",
-        "text": "只有算力相同"
+        "text": "只有存储相同"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -735,15 +735,15 @@
       },
       {
         "label": "B",
-        "text": "只做图像生成"
-      },
-      {
-        "label": "C",
         "text": "与规划无关"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "只做文本"
+      },
+      {
+        "label": "D",
+        "text": "只做图像生成"
       }
     ],
     "answer": [
@@ -764,7 +764,7 @@
     "options": [
       {
         "label": "A",
-        "text": "真机数据真实但稀缺，仿真数据易得但有域差，二者互补"
+        "text": "仿真数据没用"
       },
       {
         "label": "B",
@@ -776,11 +776,11 @@
       },
       {
         "label": "D",
-        "text": "仿真数据没用"
+        "text": "真机数据真实但稀缺，仿真数据易得但有域差，二者互补"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -797,7 +797,7 @@
     "options": [
       {
         "label": "A",
-        "text": "仿真训练模型迁移到真机时性能下降的问题"
+        "text": "真机比仿真差"
       },
       {
         "label": "B",
@@ -805,15 +805,15 @@
       },
       {
         "label": "C",
-        "text": "与迁移无关"
+        "text": "仿真训练模型迁移到真机时性能下降的问题"
       },
       {
         "label": "D",
-        "text": "真机比仿真差"
+        "text": "与迁移无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -830,23 +830,23 @@
     "options": [
       {
         "label": "A",
-        "text": "域随机化、真机数据微调"
+        "text": "忽略域差"
       },
       {
         "label": "B",
-        "text": "只用仿真"
+        "text": "域随机化、真机数据微调"
       },
       {
         "label": "C",
-        "text": "只用真机"
+        "text": "只用仿真"
       },
       {
         "label": "D",
-        "text": "忽略域差"
+        "text": "只用真机"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -867,15 +867,15 @@
       },
       {
         "label": "B",
-        "text": "只做电商"
+        "text": "只做社交"
       },
       {
         "label": "C",
-        "text": "与具身无关"
+        "text": "只做电商"
       },
       {
         "label": "D",
-        "text": "只做社交"
+        "text": "与具身无关"
       }
     ],
     "answer": [
@@ -896,23 +896,23 @@
     "options": [
       {
         "label": "A",
-        "text": "需标注动作序列、力反馈等，比图像标注更复杂"
+        "text": "无需标注"
       },
       {
         "label": "B",
-        "text": "只标图片"
-      },
-      {
-        "label": "C",
         "text": "与动作无关"
       },
       {
+        "label": "C",
+        "text": "只标图片"
+      },
+      {
         "label": "D",
-        "text": "无需标注"
+        "text": "需标注动作序列、力反馈等，比图像标注更复杂"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -929,11 +929,11 @@
     "options": [
       {
         "label": "A",
-        "text": "分层决策分感知/规划/控制，端到端用单一模型直接输出动作"
+        "text": "两者完全一样"
       },
       {
         "label": "B",
-        "text": "两者完全一样"
+        "text": "分层决策分感知/规划/控制，端到端用单一模型直接输出动作"
       },
       {
         "label": "C",
@@ -945,7 +945,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -962,7 +962,7 @@
     "options": [
       {
         "label": "A",
-        "text": "开源具身智能数据生产平台，突破数据瓶颈"
+        "text": "与数据无关"
       },
       {
         "label": "B",
@@ -970,15 +970,15 @@
       },
       {
         "label": "C",
-        "text": "与数据无关"
+        "text": "只做仿真"
       },
       {
         "label": "D",
-        "text": "只做仿真"
+        "text": "开源具身智能数据生产平台，突破数据瓶颈"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -995,7 +995,7 @@
     "options": [
       {
         "label": "A",
-        "text": "存储、算力、仿真、数据管理的一站式底座"
+        "text": "只做监控"
       },
       {
         "label": "B",
@@ -1003,15 +1003,15 @@
       },
       {
         "label": "C",
-        "text": "与闭环无关"
+        "text": "存储、算力、仿真、数据管理的一站式底座"
       },
       {
         "label": "D",
-        "text": "只做监控"
+        "text": "与闭环无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1032,15 +1032,15 @@
       },
       {
         "label": "B",
-        "text": "只有几 GB"
+        "text": "只有文本"
       },
       {
         "label": "C",
-        "text": "与数据无关"
+        "text": "只有几 GB"
       },
       {
         "label": "D",
-        "text": "只有文本"
+        "text": "与数据无关"
       }
     ],
     "answer": [
@@ -1094,11 +1094,11 @@
     "options": [
       {
         "label": "A",
-        "text": "整合多模态数据目录，实现数据对齐与发现"
+        "text": "只做备份"
       },
       {
         "label": "B",
-        "text": "只做文件列表"
+        "text": "整合多模态数据目录，实现数据对齐与发现"
       },
       {
         "label": "C",
@@ -1106,11 +1106,11 @@
       },
       {
         "label": "D",
-        "text": "只做备份"
+        "text": "只做文件列表"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1127,7 +1127,7 @@
     "options": [
       {
         "label": "A",
-        "text": "智能异构计算调度，提升训练效率"
+        "text": "与训练无关"
       },
       {
         "label": "B",
@@ -1135,7 +1135,7 @@
       },
       {
         "label": "C",
-        "text": "与训练无关"
+        "text": "智能异构计算调度，提升训练效率"
       },
       {
         "label": "D",
@@ -1143,7 +1143,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1160,23 +1160,23 @@
     "options": [
       {
         "label": "A",
-        "text": "数据合规（脱敏、授权）"
-      },
-      {
-        "label": "B",
-        "text": "数据越多越好"
-      },
-      {
-        "label": "C",
         "text": "与合规无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "无需授权"
+      },
+      {
+        "label": "C",
+        "text": "数据越多越好"
+      },
+      {
+        "label": "D",
+        "text": "数据合规（脱敏、授权）"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1193,11 +1193,11 @@
     "options": [
       {
         "label": "A",
-        "text": "灵敏运动、灵巧操作、具身智能"
+        "text": "只做语音"
       },
       {
         "label": "B",
-        "text": "只做语音"
+        "text": "灵敏运动、灵巧操作、具身智能"
       },
       {
         "label": "C",
@@ -1209,7 +1209,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1226,23 +1226,23 @@
     "options": [
       {
         "label": "A",
-        "text": "数据回传 + 再训练，形成闭环"
+        "text": "只靠人工"
       },
       {
         "label": "B",
-        "text": "一次部署不变"
-      },
-      {
-        "label": "C",
         "text": "与迭代无关"
       },
       {
+        "label": "C",
+        "text": "数据回传 + 再训练，形成闭环"
+      },
+      {
         "label": "D",
-        "text": "只靠人工"
+        "text": "一次部署不变"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1263,11 +1263,11 @@
       },
       {
         "label": "B",
-        "text": "只在云端"
+        "text": "只在端侧"
       },
       {
         "label": "C",
-        "text": "只在端侧"
+        "text": "只在云端"
       },
       {
         "label": "D",
@@ -1292,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "车云一体方案在具身智能复杂场景的可靠性"
+        "text": "只做导航"
       },
       {
         "label": "B",
-        "text": "只做娱乐"
-      },
-      {
-        "label": "C",
         "text": "与具身无关"
       },
       {
+        "label": "C",
+        "text": "只做娱乐"
+      },
+      {
         "label": "D",
-        "text": "只做导航"
+        "text": "车云一体方案在具身智能复杂场景的可靠性"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1333,11 +1333,11 @@
       },
       {
         "label": "C",
-        "text": "只用仿真"
+        "text": "忽略数据"
       },
       {
         "label": "D",
-        "text": "忽略数据"
+        "text": "只用仿真"
       }
     ],
     "answer": [
@@ -1358,23 +1358,23 @@
     "options": [
       {
         "label": "A",
-        "text": "世界建模先验能力，用于 VLA 训练"
-      },
-      {
-        "label": "B",
-        "text": "只做翻译"
-      },
-      {
-        "label": "C",
         "text": "与具身无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "只做聊天"
+      },
+      {
+        "label": "C",
+        "text": "世界建模先验能力，用于 VLA 训练"
+      },
+      {
+        "label": "D",
+        "text": "只做翻译"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1391,15 +1391,15 @@
     "options": [
       {
         "label": "A",
-        "text": "具身智能训练对国产算力的适配需求"
+        "text": "与算力无关"
       },
       {
         "label": "B",
-        "text": "只用进口卡"
+        "text": "具身智能训练对国产算力的适配需求"
       },
       {
         "label": "C",
-        "text": "与算力无关"
+        "text": "只用进口卡"
       },
       {
         "label": "D",
@@ -1407,7 +1407,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1424,23 +1424,23 @@
     "options": [
       {
         "label": "A",
-        "text": "多模态、海量、高吞吐，存储重复率高"
+        "text": "只存文本"
       },
       {
         "label": "B",
-        "text": "数据太少"
-      },
-      {
-        "label": "C",
         "text": "与存储无关"
       },
       {
+        "label": "C",
+        "text": "数据太少"
+      },
+      {
         "label": "D",
-        "text": "只存文本"
+        "text": "多模态、海量、高吞吐，存储重复率高"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1465,11 +1465,11 @@
       },
       {
         "label": "C",
-        "text": "无优化"
+        "text": "只优化网络"
       },
       {
         "label": "D",
-        "text": "只优化网络"
+        "text": "无优化"
       }
     ],
     "answer": [
@@ -1490,7 +1490,7 @@
     "options": [
       {
         "label": "A",
-        "text": "多模态数据相似检索，性能较行业平均提升 1.5 倍"
+        "text": "只做关系查询"
       },
       {
         "label": "B",
@@ -1502,11 +1502,11 @@
       },
       {
         "label": "D",
-        "text": "只做关系查询"
+        "text": "多模态数据相似检索，性能较行业平均提升 1.5 倍"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1523,11 +1523,11 @@
     "options": [
       {
         "label": "A",
-        "text": "检索/标注的准确率与召回率，直接影响数据质量"
+        "text": "只影响速度"
       },
       {
         "label": "B",
-        "text": "只做展示"
+        "text": "检索/标注的准确率与召回率，直接影响数据质量"
       },
       {
         "label": "C",
@@ -1535,11 +1535,11 @@
       },
       {
         "label": "D",
-        "text": "只影响速度"
+        "text": "只做展示"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1556,7 +1556,7 @@
     "options": [
       {
         "label": "A",
-        "text": "平均研发周期超 3 年，需整合 100+ 关键组件"
+        "text": "与周期无关"
       },
       {
         "label": "B",
@@ -1564,7 +1564,7 @@
       },
       {
         "label": "C",
-        "text": "与周期无关"
+        "text": "平均研发周期超 3 年，需整合 100+ 关键组件"
       },
       {
         "label": "D",
@@ -1572,7 +1572,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1589,23 +1589,23 @@
     "options": [
       {
         "label": "A",
-        "text": "都以数据为引擎，靠闭环持续进化能力"
-      },
-      {
-        "label": "B",
-        "text": "都用摄像头"
-      },
-      {
-        "label": "C",
         "text": "都用激光雷达"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "都以数据为引擎，靠闭环持续进化能力"
+      },
+      {
+        "label": "C",
         "text": "都做导航"
+      },
+      {
+        "label": "D",
+        "text": "都用摄像头"
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1626,15 +1626,15 @@
       },
       {
         "label": "B",
-        "text": "完全不同"
+        "text": "只关注算法"
       },
       {
         "label": "C",
-        "text": "具身无合规要求"
+        "text": "完全不同"
       },
       {
         "label": "D",
-        "text": "只关注算法"
+        "text": "具身无合规要求"
       }
     ],
     "answer": [
@@ -1655,23 +1655,23 @@
     "options": [
       {
         "label": "A",
-        "text": "减少模块间误差，泛化与上限更高"
+        "text": "成本更低"
       },
       {
         "label": "B",
-        "text": "更可解释"
-      },
-      {
-        "label": "C",
         "text": "数据需求更少"
       },
       {
+        "label": "C",
+        "text": "更可解释"
+      },
+      {
         "label": "D",
-        "text": "成本更低"
+        "text": "减少模块间误差，泛化与上限更高"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1688,15 +1688,15 @@
     "options": [
       {
         "label": "A",
-        "text": "多自由度精细控制与力反馈"
-      },
-      {
-        "label": "B",
         "text": "只做抓取"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与手无关"
+      },
+      {
+        "label": "C",
+        "text": "多自由度精细控制与力反馈"
       },
       {
         "label": "D",
@@ -1704,7 +1704,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1721,15 +1721,15 @@
     "options": [
       {
         "label": "A",
-        "text": "让机器人感知接触力、材质，提升操作精度"
-      },
-      {
-        "label": "B",
         "text": "只做视觉"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "与操作无关"
+      },
+      {
+        "label": "C",
+        "text": "让机器人感知接触力、材质，提升操作精度"
       },
       {
         "label": "D",
@@ -1737,7 +1737,7 @@
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1754,11 +1754,11 @@
     "options": [
       {
         "label": "A",
-        "text": "机械、电子、控制一体化设计机器人本体"
+        "text": "只做机械"
       },
       {
         "label": "B",
-        "text": "只做机械"
+        "text": "与本体无关"
       },
       {
         "label": "C",
@@ -1766,11 +1766,11 @@
       },
       {
         "label": "D",
-        "text": "与本体无关"
+        "text": "机械、电子、控制一体化设计机器人本体"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1791,7 +1791,7 @@
       },
       {
         "label": "B",
-        "text": "只做粗放控制"
+        "text": "只做开关"
       },
       {
         "label": "C",
@@ -1799,7 +1799,7 @@
       },
       {
         "label": "D",
-        "text": "只做开关"
+        "text": "只做粗放控制"
       }
     ],
     "answer": [
@@ -1820,11 +1820,11 @@
     "options": [
       {
         "label": "A",
-        "text": "数据成为可交易、可变现的核心资产"
+        "text": "数据无价值"
       },
       {
         "label": "B",
-        "text": "数据无价值"
+        "text": "数据成为可交易、可变现的核心资产"
       },
       {
         "label": "C",
@@ -1836,7 +1836,7 @@
       }
     ],
     "answer": [
-      "A"
+      "B"
     ],
     "type": "single",
     "chapter": 4,
@@ -1861,11 +1861,11 @@
       },
       {
         "label": "C",
-        "text": "与供给无关"
+        "text": "只做算法"
       },
       {
         "label": "D",
-        "text": "只做算法"
+        "text": "与供给无关"
       }
     ],
     "answer": [
@@ -1886,23 +1886,23 @@
     "options": [
       {
         "label": "A",
-        "text": "训练需求弹性大，需要 GPU 弹性扩缩容"
-      },
-      {
-        "label": "B",
-        "text": "只用 CPU"
-      },
-      {
-        "label": "C",
         "text": "与算力无关"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "算力需求恒定"
+      },
+      {
+        "label": "C",
+        "text": "只用 CPU"
+      },
+      {
+        "label": "D",
+        "text": "训练需求弹性大，需要 GPU 弹性扩缩容"
       }
     ],
     "answer": [
-      "A"
+      "D"
     ],
     "type": "single",
     "chapter": 4,
@@ -1919,23 +1919,23 @@
     "options": [
       {
         "label": "A",
-        "text": "技术拓展商业边界，商业推动技术发展"
-      },
-      {
-        "label": "B",
-        "text": "两者无关"
-      },
-      {
-        "label": "C",
         "text": "商业限制技术"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "技术限制商业"
+      },
+      {
+        "label": "C",
+        "text": "技术拓展商业边界，商业推动技术发展"
+      },
+      {
+        "label": "D",
+        "text": "两者无关"
       }
     ],
     "answer": [
-      "A"
+      "C"
     ],
     "type": "single",
     "chapter": 4,
@@ -1952,11 +1952,11 @@
     "options": [
       {
         "label": "A",
-        "text": "数据集采集和管理"
+        "text": "数据交付与变现"
       },
       {
         "label": "B",
-        "text": "具身大模型训练和推理"
+        "text": "数据集采集和管理"
       },
       {
         "label": "C",
@@ -1964,7 +1964,7 @@
       },
       {
         "label": "D",
-        "text": "数据交付与变现"
+        "text": "具身大模型训练和推理"
       }
     ],
     "answer": [

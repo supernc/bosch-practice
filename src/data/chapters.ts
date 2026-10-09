@@ -9,7 +9,8 @@ export const chapters: ChapterInfo[] = [
     weight: 14,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch1-compliance', name: '数据合规', wikiUrl: '' },
+      { id: 'ch1-compliance', name: '概念基础', wikiUrl: '' },
+      { id: 'sc1-compliance', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -19,7 +20,8 @@ export const chapters: ChapterInfo[] = [
     weight: 14,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch2-autonomous', name: '自动驾驶', wikiUrl: '' },
+      { id: 'ch2-autonomous', name: '概念基础', wikiUrl: '' },
+      { id: 'sc2-autonomous', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -29,7 +31,8 @@ export const chapters: ChapterInfo[] = [
     weight: 14,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch3-map', name: '地图', wikiUrl: '' },
+      { id: 'ch3-map', name: '概念基础', wikiUrl: '' },
+      { id: 'sc3-map', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -39,7 +42,8 @@ export const chapters: ChapterInfo[] = [
     weight: 14,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch4-embodied', name: '具身智能', wikiUrl: '' },
+      { id: 'ch4-embodied', name: '概念基础', wikiUrl: '' },
+      { id: 'sc4-embodied', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -49,7 +53,8 @@ export const chapters: ChapterInfo[] = [
     weight: 14,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch5-cockpit', name: '座舱', wikiUrl: '' },
+      { id: 'ch5-cockpit', name: '概念基础', wikiUrl: '' },
+      { id: 'sc5-cockpit', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -59,7 +64,8 @@ export const chapters: ChapterInfo[] = [
     weight: 15,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch6-xc', name: 'XC 跨域计算', wikiUrl: '' },
+      { id: 'ch6-xc', name: '概念基础', wikiUrl: '' },
+      { id: 'sc6-xc', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
   {
@@ -69,7 +75,8 @@ export const chapters: ChapterInfo[] = [
     weight: 15,
     wikiUrl: '',
     subChapters: [
-      { id: 'ch7-bosch-code', name: '博世代码模块', wikiUrl: '' },
+      { id: 'ch7-bosch-code', name: '概念基础', wikiUrl: '' },
+      { id: 'sc7-bosch-code', name: '业务场景题（腾讯智慧出行产品）', wikiUrl: '' },
     ],
   },
 ];

@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Star, Hash, FileText, Wrench } from 'lucide-react';
+import { Star, Hash, FileText, Wrench, Trash2, Briefcase } from 'lucide-react';
 import { Question } from '../../types';
 import OptionItem from './OptionItem';
 import AnalysisPanel from './AnalysisPanel';
 import PracticalScenario from './PracticalScenario';
 import PracticalAnalysisPanel from './PracticalAnalysisPanel';
 import Badge from '../common/Badge';
+import { ConfirmModal } from '../common/Modal';
 import { getNote, saveNote } from '../../services/storage';
 
 interface QuestionCardProps {
@@ -17,6 +18,7 @@ interface QuestionCardProps {
   showResult?: boolean;
   isFavorited?: boolean;
   onToggleFavorite?: (questionId: string) => void;
+  onDelete?: (questionId: string) => void;  // 传入时在右上角显示删除按钮
   mode?: 'exam' | 'practice';
 }
 
@@ -29,12 +31,15 @@ export default function QuestionCard({
   showResult = false,
   isFavorited = false,
   onToggleFavorite,
+  onDelete,
   mode = 'practice',
 }: QuestionCardProps) {
   const isMultiple = question.type === 'multiple';
   const isPractical = question.kind === 'practical' && !!question.practical;
+  const isScenario = question.subChapter.startsWith('sc');
   const isCorrect = showResult && checkCorrect(userAnswer, question.answer, question.type);
   const [noteText, setNoteText] = useState(() => getNote(question.id));
+  const [confirmDelete, setConfirmDelete] = useState(false);
 
   useEffect(() => {
     setNoteText(getNote(question.id));
@@ -89,24 +94,55 @@ export default function QuestionCard({
               实操模拟
             </Badge>
           )}
+          {isScenario && (
+            <Badge variant="success" size="md" className="gap-1">
+              <Briefcase size={11} className="inline -mt-0.5" />
+              业务场景
+            </Badge>
+          )}
           {isMultiple && !showResult && (
             <span className="text-[10px] text-text-muted">（可选多项）</span>
           )}
         </div>
 
-        {onToggleFavorite && (
-          <button
-            onClick={() => onToggleFavorite(question.id)}
-            className={`p-1.5 rounded-lg transition-all cursor-pointer ${
-              isFavorited
-                ? 'text-warning bg-warning/10'
-                : 'text-text-muted hover:text-warning hover:bg-warning/5'
-            }`}
-          >
-            <Star size={16} fill={isFavorited ? 'currentColor' : 'none'} />
-          </button>
-        )}
+        <div className="flex items-center gap-1 flex-shrink-0">
+          {onToggleFavorite && (
+            <button
+              onClick={() => onToggleFavorite(question.id)}
+              title={isFavorited ? '取消收藏' : '收藏'}
+              className={`p-1.5 rounded-lg transition-all cursor-pointer ${
+                isFavorited
+                  ? 'text-warning bg-warning/10'
+                  : 'text-text-muted hover:text-warning hover:bg-warning/5'
+              }`}
+            >
+              <Star size={16} fill={isFavorited ? 'currentColor' : 'none'} />
+            </button>
+          )}
+          {onDelete && (
+            <button
+              onClick={() => setConfirmDelete(true)}
+              title="删除这道题（可在「数据管理」中恢复）"
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs text-text-secondary bg-white/[0.03] border border-white/10 hover:text-danger hover:bg-danger/10 hover:border-danger/30 transition-all cursor-pointer"
+            >
+              <Trash2 size={15} />
+              <span>删除</span>
+            </button>
+          )}
+        </div>
       </div>
+
+      {onDelete && (
+        <ConfirmModal
+          isOpen={confirmDelete}
+          onClose={() => setConfirmDelete(false)}
+          onConfirm={() => { setConfirmDelete(false); onDelete(question.id); }}
+          title="删除这道题？"
+          message={`删除后该题不再出现在练习、随机、模拟考试、错题本和收藏中。如需找回，可在「数据管理 → 已删除题目」中恢复。\n\n题号：${question.id}`}
+          confirmText="确认删除"
+          variant="danger"
+        />
+      )}
 
       {/* 实操题：场景 + 拓扑 + 约束 */}
       {isPractical && question.practical && (
@@ -114,7 +150,7 @@ export default function QuestionCard({
       )}
 
       {/* Stem */}
-      <p className="text-[15px] text-text-primary leading-relaxed mb-5 font-medium">
+      <p className="text-[15px] text-text-primary leading-relaxed mb-5 font-medium whitespace-pre-line">
         {isPractical && (
           <span className="text-primary-light mr-1">问：</span>
         )}

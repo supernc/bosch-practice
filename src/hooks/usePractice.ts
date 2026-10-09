@@ -8,6 +8,7 @@ import {
   saveAnswerRecord,
   toggleFavorite as toggleFav,
   getFavorites,
+  deleteQuestion as deleteQ,
 } from '../services/storage';
 
 interface PracticeReturn {
@@ -26,6 +27,7 @@ interface PracticeReturn {
   goPrev: () => void;
   goTo: (index: number) => void;
   toggleFavorite: (questionId: string) => void;
+  deleteQuestion: (questionId: string) => void;
   reset: () => void;
 }
 
@@ -113,6 +115,20 @@ export default function usePractice(mode: 'practice' | 'random' = 'practice'): P
     setFavorites(getFavorites());
   }, []);
 
+  // 删除题目：写入已删除列表，并从当前练习队列中移除
+  const deleteQuestion = useCallback((questionId: string) => {
+    deleteQ(questionId);
+    setFavorites(getFavorites());
+    const idx = questions.findIndex(q => q.id === questionId);
+    if (idx === -1) return;
+    const next = questions.filter(q => q.id !== questionId);
+    let ci = currentIndex;
+    if (idx < ci) ci -= 1;
+    ci = Math.max(0, Math.min(ci, next.length - 1));
+    setQuestionsState(next);
+    setCurrentIndex(ci);
+  }, [questions, currentIndex]);
+
   const reset = useCallback(() => {
     setCurrentIndex(0);
     setAnswers({});
@@ -136,6 +152,7 @@ export default function usePractice(mode: 'practice' | 'random' = 'practice'): P
     goPrev,
     goTo,
     toggleFavorite,
+    deleteQuestion,
     reset,
   };
 }

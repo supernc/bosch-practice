@@ -136,6 +136,7 @@ export default function PracticePage() {
               showResult={practice.isSubmitted}
               isFavorited={practice.favorites.has(practice.currentQuestion.id)}
               onToggleFavorite={practice.toggleFavorite}
+              onDelete={practice.deleteQuestion}
             />
 
             {/* Actions */}

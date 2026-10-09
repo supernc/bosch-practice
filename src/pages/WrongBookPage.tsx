@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { getWrongQuestions, getFavorites, removeWrongQuestion, toggleFavorite as toggleFav } from '../services/storage';
+import { getWrongQuestions, getFavorites, removeWrongQuestion, toggleFavorite as toggleFav, deleteQuestion } from '../services/storage';
 import { getQuestionsByIds } from '../services/questionService';
 import { chapters } from '../data/chapters';
 import QuestionCard from '../components/question/QuestionCard';
@@ -29,6 +29,12 @@ export default function WrongBookPage() {
 
   const handleToggleFav = (qId: string) => {
     toggleFav(qId);
+    setRefreshKey(k => k + 1);
+  };
+
+  const handleDelete = (qId: string) => {
+    deleteQuestion(qId);
+    setExpandedId(null);
     setRefreshKey(k => k + 1);
   };
 
@@ -128,6 +134,7 @@ export default function WrongBookPage() {
                     showResult={true}
                     isFavorited={getFavorites().has(q.id)}
                     onToggleFavorite={handleToggleFav}
+                    onDelete={handleDelete}
                   />
                 </div>
               )}
